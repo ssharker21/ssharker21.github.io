@@ -1,5 +1,7 @@
 "use strict";
 
+var CACHE = "cache";
+
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js', { scope: '/' })
     .then(function (reg) {
