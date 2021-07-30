@@ -334,7 +334,7 @@ plot(signal, label = "Signal",
     title  = "Our faux audio signal")
 ```
 
-![svg](output_32_0.svg)
+{{< fig src="output_32_0.svg" >}}
 
 That's a pretty little plot!
 Sweet.
@@ -384,7 +384,7 @@ plot(abs.(dft), label = "DFT",
     title  = "The DFT of our signal")
 ```
 
-![svg](output_38_0.svg)
+{{< fig src="output_38_0.svg" >}}
 
 It works!
 You can see peaks at each of the three frequencies that made up the underlying data.
@@ -408,7 +408,7 @@ I wonder if we can animate our faux audio data as if it were coming in real time
 end
 ```
 
-![gif](animated.gif)
+{{< fig src="animated.gif" >}}
 
 If only we could hear it.
 
@@ -422,10 +422,7 @@ signal2 = 0.5*sin.(200*t2) + 0.2*sin.(445*t2) - 0.3*sin.(672*t2);
 buf = SampledSignals.SampleBuf(signal2, 44100)
 ```
 
-<audio controls>
-<source src="audio.wav">
-Your broswer does not support audio playback.
-</audio>
+{{< audio src="audio.wav" >}}
 
 Honestly, this is incredibly impressive.
 It's very cool to be able to write some very short code, manipulate a bunch of vectors, and then display that output in various ways.

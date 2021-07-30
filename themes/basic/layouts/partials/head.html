@@ -10,7 +10,7 @@
     {{ $mainCss := resources.Get "css/main.css" | minify | fingerprint "sha512" }}
     <link inline href="{{ $mainCss.Permalink }}" rel="stylesheet" type="text/css" integrity="{{ $mainCss.Data.Integrity }}">
 
-    {{ $highlightCss := resources.Get "css/highlight-default.css" | minify | fingerprint "sha512" }}
+    {{ $highlightCss := resources.Get "css/syntax.css" | minify | fingerprint "sha512" }}
     <link inline href="{{ $highlightCss.Permalink }}" rel="stylesheet" type="text/css" integrity="{{ $highlightCss.Data.Integrity }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

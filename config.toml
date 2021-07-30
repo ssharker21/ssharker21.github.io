@@ -7,6 +7,10 @@ theme = "basic"
 canonifyURLs = true
 copyright = "Cole Graber-Mitchell"
 enableRobotsTXT = true
+pygmentsUseClasses = true
+
+[markup.goldmark.renderer]
+    unsafe = true
 
 [sitemap]
     changefreq = "weekly"

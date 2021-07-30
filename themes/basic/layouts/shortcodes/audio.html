@@ -1,0 +1,4 @@
+<audio controls>
+<source src="{{ with .Get "src" | $.Page.Resources.GetMatch }}{{ .RelPermalink }}{{ end }}">
+Your broswer does not support audio playback.
+</audio>
