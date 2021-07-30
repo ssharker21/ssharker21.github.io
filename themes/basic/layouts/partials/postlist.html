@@ -1,0 +1,12 @@
+<h3 id="blog-posts" class="anchor">
+    <a href="#blog-posts" class="anchor"><span></span></a>
+    Blog posts
+</h3>
+
+<ul>
+    {{ range where .Site.Pages "posts" .Section }}
+        <li>{{ .Date.Format "Sept. 9, 2020" }}: <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+
+<div class="line"></div>

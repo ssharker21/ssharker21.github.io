@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+
+        <article>
+        {{- block "main" . }}{{- end }}
+        </article>
+        <div class="line"></div>
+
+        {{- partial "postlist.html" . -}}
+
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

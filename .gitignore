@@ -1,6 +1,4 @@
 .DS_Store
 *.swp
 public/
-node_modules/
 **/*.swo
-layouts/*.html

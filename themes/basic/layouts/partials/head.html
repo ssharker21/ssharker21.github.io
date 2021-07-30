@@ -1,0 +1,22 @@
+<head>
+    <meta charset="UTF-8" />
+    <title>{{ .Title }}</title>
+    <meta name="description" content="{{ .Description }}">
+    <base href="{{ .Site.BaseURL }}">
+    
+    {{ $cacheVar := (printf "var CACHE = '%s';" (now.UnixNano)) }}
+    {{ $vars := $cacheVar | resources.FromString "js/vars.js" }}
+    {{ $app := resources.Get "js/app.js" }}
+    {{ $js := slice $vars $app | resources.Concat "js/bundle.js" | minify | fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+
+    {{ $mainCss := resources.Get "css/main.css" | minify | fingerprint "sha512" }}
+    <link inline href="{{ $mainCss.Permalink }}" rel="stylesheet" type="text/css" integrity="{{ $mainCss.Data.Integrity }}">
+
+    {{ $highlightCss := resources.Get "css/highlight-default.css" | minify | fingerprint "sha512" }}
+    <link inline href="{{ $highlightCss.Permalink }}" rel="stylesheet" type="text/css" integrity="{{ $highlightCss.Data.Integrity }}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="canonical" href="{{ .Permalink }}">
+</head>

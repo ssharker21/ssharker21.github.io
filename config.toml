@@ -1,0 +1,17 @@
+# Settings
+baseURL = "https://cgm616.me/"
+languageCode = "en-US" # or en-US
+title = "cgm616"
+description = "Cole's personal website"
+theme = "basic"
+canonifyURLs = true
+copyright = "Cole Graber-Mitchell"
+enableRobotsTXT = true
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    page = "/:slug/"
