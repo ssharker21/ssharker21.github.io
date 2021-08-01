@@ -14,7 +14,8 @@ I wanted to make this website fast.
 __Really fast__.
 This post is intended to be a short writeup of my efforts.
 
-## Sending less stuff
+{{< a2 "Sending less stuff" >}}
+
 The first part of making a fast website is reducing the bytes that are sent to the browser.
 This meant keeping my pages small and my styles lightweight.
 My main handlebars layout (read: base html) is only 50 lines of html, including the header, navigation, and footer.
@@ -42,7 +43,8 @@ There is one problem with inlining resources on the index page: the browser HTTP
 Thankfully, we can get the best of both worlds!
 In order to fix this, the site installs a service worker on supported browsers to cache the stylesheet and javascript before they're needed.
 
-## Caching certain resources
+{{< a2 "Caching certain resources" >}}
+
 [Service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) are a relatively new spec, even with the fast pace of web development.
 They are simply javascript that runs in between the browser and any remote requests made by a webpage.
 They can cache resources on install and can also cache resources on the fly.
@@ -56,7 +58,8 @@ They're new, but very powerful.
 
 Copying almost wholesale from [the offline cookbook](https://jakearchibald.com/2014/offline-cookbook/), the service worker for this website only does a small subset of what is possible.
 
-### Installation: the first step
+{{< a3 "Installation: the first step" >}}
+
 Here's installation code, which preloads the cache with some resources that are needed.
 ```javascript
 self.addEventListener('install', function(event) {
@@ -96,7 +99,8 @@ Next I transform that promise into another, calling `self.skipWaiting()` to imme
 See, that's not so hard!
 Of course, at this point, the service worker hasn't actually done anything useful yet: it still can't respond to requests.
 
-### Working as a cache
+{{< a3 Working as a cache >}}
+
 To act as a cache in between requests and the Internet, the service worker needs to register to receive and process `onfetch` events.
 ```javascript
 self.addEventListener('fetch', function(event) {
@@ -158,7 +162,8 @@ You might have noticed the second argument to `promiseAny()`, which is a generic
 This'll be expanded in the future to include fallbacks for different types of media, but right now it responds with a general 'offline' page in the case that the network is not responding and the cache has nothing.
 It's nice to have this functionality so I can tell the user their exact situation instead of an obscure error about some Promise being rejected.
 
-## Reducing processing
+{{< a2 "Reducing processing" >}}
+
 The biggest speed up is probably gained by using a static site instead of a server-side blogging platform.
 The entire site is html, css, and some non-DOM-altering javascript, so it's very quick to paint once received.
 There is no php processing to be done before sending the client the files, and no client-side processing to show them.
@@ -171,7 +176,8 @@ In addition, due to using an entirely javascript-based DOM, it's way more compli
 Anyways, this website is simply a few files.
 Nothing to do before sending them to the user, so it's speedy quick.
 
-## Conclusions
+{{< a2 Conclusions >}}
+
 Making a speedy site isn't hard, but it includes some sacrifices.
 No hero images or fancy pure functions to encode my virtual DOM.
 

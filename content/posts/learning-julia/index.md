@@ -32,7 +32,7 @@ Most of the content was actually typed while trying out the code.
 
 Let's get started! 
 
-## Playing with matrices from \\(GL(2, 2)\\)
+{{< a2 "Playing with matrices from \(GL(2, 2)\)" >}}
 
 I've heard that Julia is a good language for matrix manipulation.
 Let's start our exploration by defining some matrices and printing them.
@@ -64,7 +64,7 @@ As you can see, the syntax for all of this is pretty standard.
 While I don't know what much of this means yet, it seems to be working so far.
 
 You may be asking why I chose to define these relatively simple matrices.
-\\(e\\), \\(A\\), and \\(B\\) are matrices from the \\(GL(2, 2)\\) group, which consists of all of the 2x2 matrices with entries of 1 or 0 and a determinant that isn't 0.
+The matrices \\(e\\), \\(A\\), and \\(B\\) are from the \\(GL(2, 2)\\) group, which consists of all of the 2x2 matrices with entries of 1 or 0 and a determinant that isn't 0.
 I'm in the middle of learning about \\(GL(2, 2)\\) in my math course this semester, so I thought it would be a good place to start.
 Fascinatingly, these three elements can generate the *entire* group through multiplication.
  I bet there's an easier way to do this, but here goes.
@@ -298,7 +298,7 @@ I checked the multiplications to make sure.
 However, I don't actually think that groups are the best possible showcase of Julia's capabilities.
 That was just for me to get used to the syntax.
 
-## Discrete Fourier Transform
+{{< a2 "Discrete Fourier Transform" >}}
 
 Let's try implementing a (super naive) Discrete Fourier Transform algorithm.
 About a year ago, I finished a class on Fourier analysis and we played around with the algorithms in MatLab, so I have a bit of experience, but this will still be a challenge.
