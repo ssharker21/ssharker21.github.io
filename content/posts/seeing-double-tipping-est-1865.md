@@ -1,5 +1,6 @@
 ---
 title: "Seeing Double: Tipping, est. 1865"
+slug: "seeing-double-tipping-est-1865"
 date: 2020-03-26
 ---
 

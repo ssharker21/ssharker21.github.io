@@ -1,5 +1,6 @@
 ---
 title: "How to Win in 2020"
+slug: "how-to-win-in-2020"
 date: 2019-02-26
 ---
 

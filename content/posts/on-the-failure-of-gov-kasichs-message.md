@@ -1,5 +1,6 @@
 ---
 title: "On the Failure of Gov. Kasich's Message"
+slug: "on-the-failure-of-gov-kasichs-message"
 date: 2019-02-13
 ---
 
