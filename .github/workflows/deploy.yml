@@ -20,7 +20,8 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - uses: actions/cache@v2
+      - name: Cache modules
+        uses: actions/cache@v2
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
@@ -31,11 +32,7 @@ jobs:
         run: hugo --gc --verbose --minify
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: public # The folder the action should deploy.
-          CLEAN: true
-          CLEAN_EXCLUDE: '["CNAME"]'
-        if: github.event_name != 'pull_request'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
