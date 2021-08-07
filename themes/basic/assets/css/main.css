@@ -227,3 +227,33 @@ pre.jupyter-error {
   border-color: rgb(173, 68, 68);
 }
 
+.card {
+  display: flex;
+  align-items: top;
+}
+
+.card-left {
+  flex: 1;
+  padding: 1rem;
+}
+
+.card-left img {
+  max-width: 100%;
+  border: black 1px solid;
+}
+
+.card-right {
+  flex: 4;
+  padding: 1rem;
+  text-justify: none;
+}
+
+.card-right h3 {
+  margin-top: -0.2rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.8rem;
+}
+
+.card-right p {
+  margin: 0;
+}

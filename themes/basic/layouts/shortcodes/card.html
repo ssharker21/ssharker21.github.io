@@ -1,0 +1,8 @@
+<div class="card">
+    <div class="card-left">
+        <a href="{{ .Get "url" }}"><img src="{{ .Get "img" }}"></img></a>
+    </div>
+    <div class="card-right">
+        {{ .Inner | markdownify }}
+    </div>
+</div>
