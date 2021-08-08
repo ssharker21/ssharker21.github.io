@@ -262,3 +262,8 @@ pre.jupyter-error {
 .detail-inner {
   text-align: justify;
 }
+
+details {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
