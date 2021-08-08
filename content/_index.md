@@ -1,4 +1,5 @@
 ---
+title: Home
 ---
 
 Welcome to my website! My name is Cole Graber-Mitchell (cgm616) and I'm a
