@@ -1,4 +1,5 @@
 ---
+title: Offline
 ---
 
 ## Uh oh!

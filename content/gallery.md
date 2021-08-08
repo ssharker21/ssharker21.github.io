@@ -1,4 +1,5 @@
 ---
+title: Gallery
 ---
 
 This is a (somewhat curated) gallery of things I've made or written.

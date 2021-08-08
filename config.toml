@@ -1,7 +1,7 @@
 # Settings
 baseURL = "https://cgm616.me/"
 languageCode = "en-US" # or en-US
-title = "cgm616"
+title = "cgm616.me"
 description = "Cole's personal website"
 theme = ["hugo-redirect", "basic"]
 canonifyURLs = true

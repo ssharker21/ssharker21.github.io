@@ -1,4 +1,5 @@
 ---
+title: Contact
 ---
 
 To contact me, either use one of the services on the [front page](/) or one of the methods listed below.
