@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8" />
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <title>{{ if isset . "Title" }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{ .Description }}">
     <base href="{{ .Site.BaseURL }}">
     
