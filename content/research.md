@@ -2,8 +2,6 @@
 title: Gallery
 ---
 
-This is a (somewhat curated) gallery of things I've made or written.
-
 {{< card img="gallery/lethal_injection/first_page.png" url="https://dx.doi.org/10.2139/ssrn.3829078" >}}
 ### The Fate of Lethal Injection: Decomposition of the Paradigm and Its Consequences
 

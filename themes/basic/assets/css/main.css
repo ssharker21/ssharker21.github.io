@@ -231,6 +231,7 @@ pre.jupyter-error {
   display: flex;
   align-items: top;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .card-left {
