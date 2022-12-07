@@ -1,17 +1,47 @@
 ---
-title: Gallery
+title: Research
 ---
+
+{{< card img="gallery/undergrad_thesis/first_page.png" url="http://dx.doi.org/10.2139/ssrn.4279915" >}}
+### All Rise for God: Toleration, Secularism, and the Role of Religion in Legal Adjudication
+
+_Graber-Mitchell, Nicolas._ _(2022)._
+
+{{< dropdown heading="**Abstract**" >}}
+> In the United States, religion sometimes erupts into trials, transforming cases about something else into cases about religion. For example, a juror in a corruption case may cite divine revelation, a witness in a civil case may refuse to swear a statutory oath involving a Bible, or a school may request a judge to force an ex-employee before a religious court in a labor dispute. In all of these cases, judges must decide how to proceed: should the juror continue to serve? Should the witness be allowed to take an oath of their own formulation? Should the force of law stand behind a priest's scriptural decision? Through an analysis of the history of law and religion interacting inside law's own processes, this thesis shows how over time, the American legal system has become functionally differentiated from religion. However, judges' incomplete and incorrect understandings of what this differentiation entails—in other words, how to properly enforce law's secularism—has led them to allow the subversion of law's liberal, secular norms when religion is involved. To ensure that American law remains sufficiently secular, judges must not ignore religion in the courtroom. Instead of such a procedural understanding of secularism, judges must adopt a substantive secularism that recognizes legal norms and protects them from subversion while simultaneously honoring law's normative commitments to religious toleration. 
+{{< /dropdown >}}
+
+_Available on [SSRN](http://dx.doi.org/10.2139/ssrn.4279915)._
+
+{{< /card >}}
+
+{{< card img="gallery/lethal_injection_book/cover.jpg" url="https://www.sup.org/books/title/?id=35871" >}}
+### Lethal Injection and the False Promise of Humane Execution
+
+_Sarat, Austin and Mattea Denney and Nicolas Graber-Mitchell and Greene Ko and Rose Mroczka and Lauren Pelosi._ Stanford University Press _(2022)._
+
+{{< dropdown heading="**Abstract**" >}}
+> From the beginning of the Republic, this country has struggled to reconcile its use of capital punishment with the Constitution's prohibition of cruel punishment. Death penalty proponents argue both that it is justifiable as a response to particularly heinous crimes, and that it serves to deter others from committing them in the future. However, since the earliest executions, abolitionists have fought against this state-sanctioned killing, arguing, among other things, that the methods of execution have frequently been just as gruesome as the crimes meriting their use. Lethal injection was first introduced in order to quell such objections, but, as Austin Sarat shows in this brief history, its supporters' commitment to painless and humane death has never been certain.
+>
+> This book tells the story of lethal injection's earliest iterations in the United States, starting with New York state's rejection of that execution method almost a century and half ago. Sarat recounts lethal injection's return in the late 1970s, and offers novel and insightful scrutiny of the new drug protocols that went into effect between 2010 and 2020. Drawing on rare data, he makes the case that lethal injections during this time only became more unreliable, inefficient, and more frequently botched. Beyond his stirring narrative history, Sarat mounts a comprehensive condemnation of the state-level maneuvering in response to such mishaps, whereby death penalty states adopted secrecy statutes and adjusted their execution protocols to make it harder to identify and observe lethal injection's flaws.
+>
+> What was once touted as America's most humane execution method is now its most unreliable one. What was once a model of efficiency in the grim business of state killing is now marked by mayhem. The book concludes by critically examining the place of lethal injection, and the death penalty writ large, today. 
+{{< /dropdown >}}
+
+_Available from [Stanford University Press](https://www.sup.org/books/title/?id=35871), [Amazon](https://www.amazon.com/Lethal-Injection-Promise-Humane-Execution/dp/1503633535/), and your local independent bookstore (on order)._
+
+{{< /card >}}
 
 {{< card img="gallery/lethal_injection/first_page.png" url="https://dx.doi.org/10.2139/ssrn.3829078" >}}
 ### The Fate of Lethal Injection: Decomposition of the Paradigm and Its Consequences
 
-_Sarat, Austin and Mattea Denney and Nicolas Graber-Mitchell and Greene Ko and Rose Mroczka and Lauren Pelosi._ The British Journal of American Legal Studies _11 (2022), 3-31._
+_Sarat, Austin and Mattea Denney and Nicolas Graber-Mitchell and Greene Ko and Rose Mroczka and Lauren Pelosi._ The British Journal of American Legal Studies _11, no. 1 (June 2022): 81-111._
 
 {{< dropdown heading="**Abstract**" >}}
 > This article examines the use of lethal injection from 2010-2020. That period marks the "decomposition" of the standard three drug protocol and the proliferating use of new drugs or drug combinations in American executions. That development is associated with an increase in the number and type of mishaps encountered during lethal injections. This article describes and analyzes those mishaps and the ways death penalty jurisdictions responded, and adapted, to them. It suggests that the recent history of lethal injection echoes the longer history of the death penalty. When states encountered problems with their previous methods of execution, they first attempted to address these problems by tinkering with their existing methods. When tinkering failed, they adopted allegedly more humane execution methods. When they ran into difficulty with the new methods, state actors scrambled to hide the death penalty from public view. New drugs and drug combinations may have allowed the machinery of death to keep running. New procedures may have given the lethal injection process a veneer of legitimacy. But none of these recent changes has resolved its fate or repaired its vexing problems. 
 {{< /dropdown >}}
 
-_Available on [SSRN](https://dx.doi.org/10.2139/ssrn.3829078)._
+_Available on [Sciendo](https://doi.org/10.2478/bjals-2022-0001) and [SSRN](https://dx.doi.org/10.2139/ssrn.3829078)._
 
 {{< /card >}}
 
@@ -33,7 +63,7 @@ _Available from_ [Intersect](https://ojs.stanford.edu/ojs/index.php/intersect/ar
 {{< card img="gallery/elections/first_page.png" url="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3795706" >}}
 ### Planes, Strains, and Hurricanes: Elections in the Wake of Catastrophes
 
-_Graber-Mitchell, Nicolas._ The Amherst Dialectic _1, no. 1 (2020), 10-43._
+_Graber-Mitchell, Nicolas._ The Amherst Dialectic _1, no. 1 (2020): 10-43._
 
 {{< dropdown heading="**Abstract**" >}}
 > Catastrophes often impact voting. From the coronavirus pandemic to Hurricane Katrina to 9/11, states and territories have dealt with catastrophes by canceling, replacing, postponing, and modifying elections. However, states rarely adopt preventative measures in their election statutes. By examining case studies from three different 21st century elections affected by catastrophe, I present a full account of the types of mitigatory measures that states take in response to different types of disasters. After highlighting the need for prevention and identifying how disasters act on elections, I argue that states and territories should implement universal vote-by-mail, hold elections over an entire week, and eliminate voter registration to make their elections more resilient to catastrophe. 
@@ -42,6 +72,17 @@ _Graber-Mitchell, Nicolas._ The Amherst Dialectic _1, no. 1 (2020), 10-43._
 _Available on [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3795706) and from_ [The Amherst Dialectic](https://issuu.com/thomasbrodey/docs/the-dialectic-winter-2020)_._
 
 {{< /card >}}
+
+
+
+<div class="line"></div>
+
+<center>
+
+**Note**: the following work predates my undergraduate education.
+
+</center>
+
 
 
 {{< card img="gallery/pendulum/first_page.png" url="gallery/pendulum/paper.pdf" >}}
@@ -53,7 +94,7 @@ A low-level, fairly bad mathematics paper that I wrote in high school.
 > Pendulums have long fascinated humans ever since Galileo theorized that they are isochronic with regards to their swing. While this simplification is useful in the case of small-angle pendulums due to the accuracy of the small-angle approximation, it breaks down for large-angle pendulums and can cause larger problems with the computational modelling of simple pendulums. This paper will examine the differences between the periods of small-angle and large-angle pendulums, offering derivations of the period in both models from the basic laws of nature. This paper also provides a common way of deriving elliptic integrals from physical phenomena, and the period of pendulums has been one of the major building blocks in this new, developing field. Lastly, this paper makes a number of suggestions for extensions into the study of simple pendulums that can be performed. While this paper is not intended as a rigorous mathematical proof, it is designed to illuminate the derivation of the exact periods of simple pendulums and carefully walks through the mathematics involved. 
 {{< /dropdown >}}
 
-_Available on the [arXiv](https://arxiv.org/abs/1805.00002) and [from this website](gallery/pendulum/paper.pdf)._
+_Available on the [arXiv](https://arxiv.org/abs/1805.00002) and [for download](gallery/pendulum/paper.pdf)._
 {{< /card >}}
 
 {{< card img="gallery/mutagenicity/first_page.png" url="gallery/mutagenicity/paper.pdf" >}}
@@ -63,6 +104,6 @@ Another paper from high school.
 Less bad this time.
 Involved actual lab research at the University of Minnesota.
 
-_Available on the [from this website](gallery/mutagenicity/paper.pdf)._
+_Available [for download](gallery/mutagenicity/paper.pdf)._
 {{< /card >}}
 
