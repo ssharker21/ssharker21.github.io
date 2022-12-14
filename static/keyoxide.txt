@@ -7,4 +7,3 @@ proof=dns:cgm616.me
 proof=https://home.social/@cgm616
 proof=https://gist.github.com/cgm616/ef26379677087d6f1a8f2f71e4317611
 proof=https://t.me/cgm616?proof=cgm616_keyoxide
-
