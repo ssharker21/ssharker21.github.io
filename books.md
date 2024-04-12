@@ -1,4 +1,6 @@
-| Favorite Books | Author |
+Non-exhausting list of my favorite books:
+
+| Title | Author |
 | --- | ----------- |
 | Wuthering Heights | Emily Brontë |
 | The Secret History | Donna Tartt |
