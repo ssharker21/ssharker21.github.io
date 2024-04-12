@@ -1,4 +1,4 @@
-| Book | Title |
+| Title | Author |
 | ----------- | ----------- |
 | Atonement | Ian McEwan |
 | The Virgin Suicides | Jeffrey Eugenides |
