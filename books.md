@@ -1,4 +1,4 @@
-### Non-exhaustive list of my favorite books:
+Non-exhaustive list of my favorite books:
 
 | Title | Author |
 | --- | ----------- |
