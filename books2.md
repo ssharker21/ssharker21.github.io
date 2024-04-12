@@ -77,11 +77,12 @@
 | The Cruel Prince | Holly Black |
 | The Wicked King | Holly Black |
 | The Queen of Nothing | Holly Black |
-| Header      | Title       |
-| Paragraph   | Text        |
-| Paragraph   | Text        |
-| Header      | Title       |
-| Paragraph   | Text        |
-| Paragraph   | Text        |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Circe | Madeline Miller |
+| The Count of Monte Cristo | Alexandre Dumas |
+| The Kite Runner | Khaled Hosseini |
+| The Perks of Being a Wallflower | Stephen Chbosky |
+| 1984 | George Orwell |
+| Night | Elie Wiesel |
+| The Scarlet Pimpernel | Emmuska Orczy |
+| Animal Farm | George Orwell |
+| The House on Mango Street | Sandra Cisneros |
