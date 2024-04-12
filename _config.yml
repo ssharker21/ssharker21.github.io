@@ -1,1 +1,17 @@
-theme: minima
+title: The Foxhole
+author:
+  name: Summit Sarkar
+  email: contact@summitsarkar.com
+description: >
+  Welcome to my internet home!
+minima:
+  date_format: "%b %-d, %Y"
+show_excerpts: true
+
+# Build settings
+baseurl: /minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
