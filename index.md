@@ -1,2 +1,2 @@
 ### Work in Progress
-Check out my [favorite books](summitsarkar.com)
+Check out my [favorite books](summitsarkar.com/books)
