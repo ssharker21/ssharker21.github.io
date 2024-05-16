@@ -1,8 +1,7 @@
-| Title | Author |
-| ----------- | ----------- |
-
 ### Japanese Lit:
 
+| Title | Author |
+| ----------- | ----------- |
 | Spring Snow | Yukio Mishima |
 | The Setting Sun | Osamu Dazai |
 | No Longer Human | Osamu Dazai |
@@ -10,12 +9,16 @@
 
 #### Contemporary:
 
+| Title | Author |
+| ----------- | ----------- |
 | 1Q84 | Haruki Murakami |
 | Sputnik Sweetheart | Haruki Murakami |
 | Norwegian Wood | Haruki Murakami |
 
 ### Russian Lit:
 
+| Title | Author |
+| ----------- | ----------- |
 | Crime and Punishment | Fyodor Dostoevsky |
 | The Brothers Karamazov | Fyodor Dostoevsky |
 | Notes from Underground | Fyodor Dostoevsky |
@@ -27,12 +30,16 @@
 
 ### French Lit:
 
+| Title | Author |
+| ----------- | ----------- |
 | The Stranger | Albert Camus |
 | The Count of Monte Cristo | Alexandre Dumas |
 
 
 ### American Classics:
 
+| Title | Author |
+| ----------- | ----------- |
 | The Awakening | Kate Chopin |
 | The Great Gatsby | F. Scott Fitzgerald |
 | The Sun Also Rises | Ernest Hemingway |
@@ -44,6 +51,8 @@
 
 ### BritLit:
 
+| Title | Author |
+| ----------- | ----------- |
 | Pride & Prejudice | Jane Austen |
 | Great Expectations | Charles Dickens |
 | Wuthering Heights | Emily Brontë |
@@ -52,6 +61,9 @@
 | The Picture of Dorian Gray | Oscar Wilde |
 
 ### Global Prestige Lit:
+
+| Title | Author |
+| ----------- | ----------- |
 | Siddhartha | Hernan Hesse |
 | One Hundred Years of Solitude | Gabriel García Márquez |
 | Metamorphosis and Other Stories | Franz Kafka |
@@ -65,6 +77,8 @@
 
 ### Less Recent Western Prestige Lit:
 
+| Title | Author |
+| ----------- | ----------- |
 | 1984 | George Orwell |
 | Animal Farm | George Orwell |
 | Heart of Darkness | Joseph Conrad |
@@ -78,6 +92,9 @@
 
 
 ### Recent Western Prestige Lit:
+
+| Title | Author |
+| ----------- | ----------- |
 | The Remains of the Day | Kazuo Ishiguro |
 | Never Let Me Go | Kazuo Ishiguro |
 | Atonement | Ian McEwan |
@@ -92,6 +109,8 @@
 
 ### Recent Western Almost-Prestige Lit:
 
+| Title | Author |
+| ----------- | ----------- |
 | Sea of Tranquility | Emily St. John Mandel |
 | The Cuckoo's Calling | Robert Galbraith |
 | The Perks of Being a Wallflower | Stephen Chbosky |
@@ -100,6 +119,8 @@
 
 ### Recent Western Prestige-Hipster-Lit:
 
+| Title | Author |
+| ----------- | ----------- |
 | The House in the Cerulean Sea | T.J. Klune |
 | The Idiot | Elif Batuman |
 | Eileen | Ottessa Moshfegh |
@@ -109,6 +130,8 @@
 
 #### Gateway Books:
 
+| Title | Author |
+| ----------- | ----------- |
 | The Song of Achilles | Madeline Miller |
 | Circe | Madeline Miller |
 | Daisy Jones & The Six | Taylor Jenkins Reid |
@@ -116,6 +139,8 @@
 
 #### YA Fantasy:
 
+| Title | Author |
+| ----------- | ----------- |
 | The Cruel Prince | Holly Black |
 | The Wicked King | Holly Black |
 | The Queen of Nothing | Holly Black |
@@ -126,6 +151,9 @@
 | Crooked Kingdom | Leigh Bardugo |
 
 #### Contemporary:
+
+| Title | Author |
+| ----------- | ----------- |
 | Sharp Objects | Gillian Flynn |
 | If We Were Villains | M.L. Rio |
 | Tomorrow, and Tomorrow, and Tomorrow | Gabrielle Zevin |
@@ -136,11 +164,17 @@
 | Normal People | Sally Rooney |
 
 #### Misc:
+
+| Title | Author |
+| ----------- | ----------- |
 | The Martian | Andy Weir |
 | Where the Crawdads Sing | Delia Owens |
 | Extremely Loud and & Incredibly Close | Jonathan Safran Foer |
 | The Ballads of Songbirds and Snakes | Suzanne Collins |
 
 #### Poetry and "Poetry":
+
+| Title | Author |
+| ----------- | ----------- |
 | Time is a Mother | Ocean Vuong |
 | the sun and her flowers | Rupi Kaur |
