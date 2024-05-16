@@ -7,7 +7,7 @@ And some others I've [read](books2)
 	<meta name="generator" content="Hugo 0.101.0" />
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Taichi Kato</title>
+    <title>Summit Sarkar</title>
     
     <link rel="stylesheet" href="/scss/style.min.css">
 </head>
