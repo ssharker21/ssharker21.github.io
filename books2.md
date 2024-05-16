@@ -1,88 +1,146 @@
 | Title | Author |
 | ----------- | ----------- |
-| Atonement | Ian McEwan |
-| The Virgin Suicides | Jeffrey Eugenides |
-| The Idiot | Elif Batuman |
-| Eileen | Ottessa Moshfegh |
-| The Martian | Andy Weir |
-| 1Q84 | Haruki Murakami |
-| Sharp Objects | Gillian Flynn |
-| The Remains of the Day | Kazuo Ishiguro |
+
+### Japanese Lit:
+
 | Spring Snow | Yukio Mishima |
-| Never Let Me Go | Kazuo Ishiguro |
-| The Road | Cormac McCarthy |
-| The Things They Carried | Tim O'Brien |
-| White Nights | Fyodor Dostoevsky |
-| Doctor Zhivago | Boris Pasternak |
-| Giovanni's Room | James Baldwin |
 | The Setting Sun | Osamu Dazai |
-| If We Were Villains | M.L. Rio |
-| The Trial | Franz Kafka |
-| One Hundred Years of Solitude | Gabriel García Márquez |
-| The Master and Margarita | Mikhail Bulgakov |
-| A Farewell to Arms | Ernest Hemingway |
-| Crooked Kingdom | Leigh Bardugo |
 | No Longer Human | Osamu Dazai |
-| The Age of Innocence | Edith Wharton |
-| Tomorrow, and Tomorrow, and Tomorrow | Gabrielle Zevin |
-| Anna Karenina | Leo Tolstoy |
-| Tuesdays with Morrie | Mitch Albom |
-| Siddhartha | Hernan Hesse |
-| Death of a Salesman | Arthur Miller |
-| One Flew over the Cuckoo's Nest | Ken Kesey |
-| Metamorphosis and Other Stories | Franz Kafka |
-| Emma | Jane Austen |
+| Kokoro | Natsume Sōseki |
+
+#### Contemporary:
+
+| 1Q84 | Haruki Murakami |
 | Sputnik Sweetheart | Haruki Murakami |
-| Normal People | Sally Rooney |
-| A Little Life | Hanya Yanagihara |
-| Crying in H Mart | Michelle Zauner |
-| Time is a Mother | Ocean Vuong |
-| The Stranger | Albert Camus |
+| Norwegian Wood | Haruki Murakami |
+
+### Russian Lit:
+
+| Crime and Punishment | Fyodor Dostoevsky |
+| The Brothers Karamazov | Fyodor Dostoevsky |
 | Notes from Underground | Fyodor Dostoevsky |
-| Things Fall Apart | Chinua Achebe |
-| Heart of Darkness | Joseph Conrad |
+| White Nights | Fyodor Dostoevsky |
+| Anna Karenina | Leo Tolstoy |
+| Doctor Zhivago | Boris Pasternak |
+| The Master and Margarita | Mikhail Bulgakov |
+
+
+### French Lit:
+
+| The Stranger | Albert Camus |
+| The Count of Monte Cristo | Alexandre Dumas |
+
+
+### American Classics:
+
+| The Awakening | Kate Chopin |
+| The Great Gatsby | F. Scott Fitzgerald |
+| The Sun Also Rises | Ernest Hemingway |
+| A Farewell to Arms | Ernest Hemingway |
+| The Catcher in the Rye | J.D. Salinger |
+| The Age of Innocence | Edith Wharton |
+| The Adventures of Huckleberry Finn | Mark Twain |
+| The Adventures of Tom Sawyer | Mark Twain |
+
+### BritLit:
+
+| Pride & Prejudice | Jane Austen |
+| Great Expectations | Charles Dickens |
+| Wuthering Heights | Emily Brontë |
+| Emma | Jane Austen |
 | Jane Eyre | Charlotte Brontë |
 | The Picture of Dorian Gray | Oscar Wilde |
-| On Earth We're Briefly Gorgeous | Ocean Vuong |
-| The Catcher in the Rye | J.D. Salinger |
-| Where the Crawdads Sing | Delia Owens |
-| Clockwork Princess | Cassandra Clare |
-| the sun and her flowers | Rupi Kaur |
-| Six of Crows | Leigh Bardugo |
-| Daisy Jones & The Six | Taylor Jenkins Reid |
-| The Seven Husbands of Evelyn Hugo | Taylor Jenkins Reid |
-| Crime and Punishment | Fyodor Dostoevsky |
-| Paper Towns | John Green |
-| Sea of Tranquility | Emily St. John Mandel |
+
+### Global Prestige Lit:
+| Siddhartha | Hernan Hesse |
+| One Hundred Years of Solitude | Gabriel García Márquez |
+| Metamorphosis and Other Stories | Franz Kafka |
+| The Trial | Franz Kafka |
+| Things Fall Apart | Chinua Achebe |
 | Maus I | Art Spiegelman |
 | Maus II | Art Spiegelman |
-| The Invisible Life of Addie LaRue | V.E. Schwab |
+| Night | Elie Wiesel |
+| The Scarlet Pimpernel | Emmuska Orczy |
+
+
+### Less Recent Western Prestige Lit:
+
+| 1984 | George Orwell |
+| Animal Farm | George Orwell |
+| Heart of Darkness | Joseph Conrad |
+| Giovanni's Room | James Baldwin |
+| One Flew over the Cuckoo's Nest | Ken Kesey |
+| The Things They Carried | Tim O'Brien |
 | Dune | Frank Herbert |
 | Dune Messiah | Frank Herbert |
-| Extremely Loud and & Incredibly Close | Jonathan Safran Foer |
-| The Silent Patient | Alex Michaelides |
-| Great Expectations | Charles Dickens |
-| The Adventures of Huckleberry Finn | Mark Twain |
+| Tuesdays with Morrie | Mitch Albom |
+| Death of a Salesman | Arthur Miller |
+
+
+### Recent Western Prestige Lit:
+| The Remains of the Day | Kazuo Ishiguro |
+| Never Let Me Go | Kazuo Ishiguro |
+| Atonement | Ian McEwan |
+| The Virgin Suicides | Jeffrey Eugenides |
+| The Kite Runner | Khaled Hosseini |
+| A Thousand Splendid Suns | Khaled Hosseini |
+| On Earth We're Briefly Gorgeous | Ocean Vuong |
+| The Road | Cormac McCarthy |
+| A Little Life | Hanya Yanagihara |
+| The Secret History | Donna Tartt|
+
+
+### Recent Western Almost-Prestige Lit:
+
+| Sea of Tranquility | Emily St. John Mandel |
 | The Cuckoo's Calling | Robert Galbraith |
-| The Adventures of Tom Sawyer | Mark Twain |
+| The Perks of Being a Wallflower | Stephen Chbosky |
+| The House on Mango Street | Sandra Cisneros |
+
+
+### Recent Western Prestige-Hipster-Lit:
+
 | The House in the Cerulean Sea | T.J. Klune |
-| The Fault in Our Stars | John Green |
-| The Ballads of Songbirds and Snakes | Suzanne Collins |
-| Clockwork Prince | Cassandra Clare |
-| The Great Gatsby | F. Scott Fitzgerald |
-| The Awakening | Kate Chopin |
-| Clockwork Angel | Cassandra Clare |
-| Pride & Prejudice | Jane Austen |
+| The Idiot | Elif Batuman |
+| Eileen | Ottessa Moshfegh |
+
+
+### BookTok:
+
+#### Gateway Books:
+
 | The Song of Achilles | Madeline Miller |
+| Circe | Madeline Miller |
+| Daisy Jones & The Six | Taylor Jenkins Reid |
+| The Seven Husbands of Evelyn Hugo | Taylor Jenkins Reid |
+
+#### YA Fantasy:
+
 | The Cruel Prince | Holly Black |
 | The Wicked King | Holly Black |
 | The Queen of Nothing | Holly Black |
-| Circe | Madeline Miller |
-| The Count of Monte Cristo | Alexandre Dumas |
-| The Kite Runner | Khaled Hosseini |
-| The Perks of Being a Wallflower | Stephen Chbosky |
-| 1984 | George Orwell |
-| Night | Elie Wiesel |
-| The Scarlet Pimpernel | Emmuska Orczy |
-| Animal Farm | George Orwell |
-| The House on Mango Street | Sandra Cisneros |
+| Clockwork Angel | Cassandra Clare |
+| Clockwork Prince | Cassandra Clare |
+| Clockwork Princess | Cassandra Clare |
+| Six of Crows | Leigh Bardugo |
+| Crooked Kingdom | Leigh Bardugo |
+
+#### Contemporary:
+| Sharp Objects | Gillian Flynn |
+| If We Were Villains | M.L. Rio |
+| Tomorrow, and Tomorrow, and Tomorrow | Gabrielle Zevin |
+| The Fault in Our Stars | John Green |
+| Paper Towns | John Green |
+| Crying in H Mart | Michelle Zauner |
+| The Silent Patient | Alex Michaelides |
+| Normal People | Sally Rooney |
+
+#### Misc:
+| The Martian | Andy Weir |
+| Where the Crawdads Sing | Delia Owens |
+| Extremely Loud and & Incredibly Close | Jonathan Safran Foer |
+| The Ballads of Songbirds and Snakes | Suzanne Collins |
+
+#### Poetry and "Poetry":
+| Time is a Mother | Ocean Vuong |
+| the sun and her flowers | Rupi Kaur |
