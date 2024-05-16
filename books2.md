@@ -1,3 +1,5 @@
+## Books by Category:
+
 ### Japanese Lit:
 
 | Title | Author |
