@@ -1,11 +1,11 @@
 # Settings
-baseURL = "https://cgm616.me/"
+baseURL = "https:// ssharker21.github.io/"
 languageCode = "en-US" # or en-US
-title = "cgm616.me"
-description = "Cole's personal website"
+title = "summitsarkar.com"
+description = "Summit's personal website"
 theme = ["hugo-redirect", "basic"]
 canonifyURLs = true
-copyright = "Cole Graber-Mitchell"
+copyright = "Summit Sarkar"
 enableRobotsTXT = true
 pygmentsUseClasses = true
 
