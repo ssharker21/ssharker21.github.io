@@ -21,7 +21,7 @@ _Available [for download](gallery/ftc/paper.pdf)._
 {{< card img="gallery/fyse/first_page.png" url="gallery/fyse/paper.pdf" >}}
 ###  Islam & Violence Against Women
 
-Studied the unique relationship between Islam and interpersonal Violence. Covers societal norms and human rights abuses, including rape and honor killings.
+Studied the unique relationship between Islam and interpersonal Violence. Covered societal norms and human rights abuses, including rape and honor killings.
 
 _Available [for download](gallery/fyse/paper.pdf)._
 {{< /card >}}
