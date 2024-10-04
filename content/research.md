@@ -2,16 +2,13 @@
 title: Research
 ---
 
-{{< card img="gallery/undergrad_thesis/first_page.png" url="http://dx.doi.org/10.2139/ssrn.4279915" >}}
-### All Rise for God: Toleration, Secularism, and the Role of Religion in Legal Adjudication
+{{< card img="gallery/cir/first_page.png" url="gallery/cir/paper.pdf" >}}
+###  Center for Individual Rights: 35th Anniversary Retrospective
 
-_Graber-Mitchell, Nicolas._ _(2022)._
+Covering some of the most important legal cases from a public-interest law firm pertaining free speech, equal protection, and federalism.
 
-{{< dropdown heading="**Abstract**" >}}
-> In the United States, religion sometimes erupts into trials, transforming cases about something else into cases about religion. For example, a juror in a corruption case may cite divine revelation, a witness in a civil case may refuse to swear a statutory oath involving a Bible, or a school may request a judge to force an ex-employee before a religious court in a labor dispute. In all of these cases, judges must decide how to proceed: should the juror continue to serve? Should the witness be allowed to take an oath of their own formulation? Should the force of law stand behind a priest's scriptural decision? Through an analysis of the history of law and religion interacting inside law's own processes, this thesis shows how over time, the American legal system has become functionally differentiated from religion. However, judges' incomplete and incorrect understandings of what this differentiation entails—in other words, how to properly enforce law's secularism—has led them to allow the subversion of law's liberal, secular norms when religion is involved. To ensure that American law remains sufficiently secular, judges must not ignore religion in the courtroom. Instead of such a procedural understanding of secularism, judges must adopt a substantive secularism that recognizes legal norms and protects them from subversion while simultaneously honoring law's normative commitments to religious toleration. 
-{{< /dropdown >}}
-
-_Available on [SSRN](http://dx.doi.org/10.2139/ssrn.4279915)._
+_Available [for download](gallery/mutagenicity/paper.pdf)._
+{{< /card >}}
 
 {{< /card >}}
 
