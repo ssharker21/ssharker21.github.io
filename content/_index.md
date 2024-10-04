@@ -9,7 +9,7 @@ I'm originally from Queens, NY but later moved to Ellicott City, MD.
 
 I'm interested in domestic and foreign policy; my hobbies include reading great literature and following sports including Formula1, soccer, and college football.
 
-Right now, I'm analyzing the 2017 Tax Cuts and Jobs Act as a Forge Fellow at the Roosevelt Network. In addition, I am a Gregory S. Call Academic Intern for [Prof. Jonathan Obert](https://www.amherst.edu/people/facstaff/jobert), working on his forthcoming book *Arming the Body Politic: The Economic Origins of American Gun Rights*. I am also an Articles Editor for the [Amherst College Law Review](https://amherstlawreview.wordpress.com/).
+Right now, I'm analyzing the 2017 Tax Cuts and Jobs Act as a Forge Fellow at the Roosevelt Network. In addition, I am a Teaching Assistant for ECON-300: Microeconomics as well as a Gregory S. Call Academic Intern for [Prof. Jonathan Obert](https://www.amherst.edu/people/facstaff/jobert), working on his forthcoming book *Arming the Body Politic: The Economic Origins of American Gun Rights*. I am also an Articles Editor for the [Amherst College Law Review](https://amherstlawreview.wordpress.com/).
 
 This summer, I worked at the [Center for Individual Rights](https://en.wikipedia.org/wiki/Center_for_Individual_Rights), publishing research concerning Constitutional Law.
 
