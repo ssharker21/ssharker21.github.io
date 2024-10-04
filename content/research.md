@@ -5,7 +5,7 @@ title: Research
 {{< card img="gallery/cir/first_page.png" url="gallery/cir/paper.pdf" >}}
 ###  Center for Individual Rights: 35th Anniversary Retrospective
 
-Covering some of the most important legal cases from a public-interest law firm pertaining free speech, equal protection, and federalism.
+Covered some of the most important legal cases from a public-interest law firm pertaining free speech, equal protection, and federalism.
 
 _Available [for download](gallery/cir/paper.pdf)._
 {{< /card >}}
@@ -13,9 +13,17 @@ _Available [for download](gallery/cir/paper.pdf)._
 {{< card img="gallery/ftc/first_page.png" url="gallery/ftc/paper.pdf" >}}
 ###  Policing Corporations: An Analysis of Big Tech
 
-Tracing the recent shift in the government's antitrust strategy following the appointment of FTC Chair Lina Khan.
+Traced the recent shift in the government's antitrust strategy following the appointment of FTC Chair Lina Khan.
 
 _Available [for download](gallery/ftc/paper.pdf)._
+{{< /card >}}
+
+{{< card img="gallery/fyse/first_page.png" url="gallery/fyse/paper.pdf" >}}
+###  Islam & Violence Against Women
+
+Studied the unique relationship between Islam and interpersonal Violence. Covers societal norms and human rights abuses, including rape and honor killings.
+
+_Available [for download](gallery/fyse/paper.pdf)._
 {{< /card >}}
 
 <div class="line"></div>
