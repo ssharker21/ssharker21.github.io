@@ -37,7 +37,7 @@ _Available [for download](gallery/fyse/paper.pdf)._
 {{< card img="gallery/rus-econ/first_page.png" url="gallery/rus-econ/paper.pdf" >}}
 ###  A History of Russian Economics & Modern Applications
 
-A paper from high school. Submitted as writing sample for Williams College application.
+A paper from high school. Submitted as writing sample for my Williams College application.
 
 _Available [for download](gallery/rus-econ/paper.pdf)._
 {{< /card >}}
