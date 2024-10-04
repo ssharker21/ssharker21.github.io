@@ -7,7 +7,7 @@ title: Research
 
 Covering some of the most important legal cases from a public-interest law firm pertaining free speech, equal protection, and federalism.
 
-_Available [for download](gallery/mutagenicity/paper.pdf)._
+_Available [for download](gallery/cir/paper.pdf)._
 {{< /card >}}
 
 {{< /card >}}
