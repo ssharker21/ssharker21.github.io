@@ -10,8 +10,6 @@ Covering some of the most important legal cases from a public-interest law firm 
 _Available [for download](gallery/cir/paper.pdf)._
 {{< /card >}}
 
-{{< /card >}}
-
 {{< card img="gallery/lethal_injection_book/cover.jpg" url="https://www.sup.org/books/title/?id=35871" >}}
 ### Lethal Injection and the False Promise of Humane Execution
 
