@@ -34,13 +34,11 @@ _Available [for download](gallery/fyse/paper.pdf)._
 
 </center>
 
-{{< card img="gallery/mutagenicity/first_page.png" url="gallery/mutagenicity/paper.pdf" >}}
-###  The application of an Ames fluctuation assay to determine the mutagenicity of freshwater sediment in Minnesota
+{{< card img="gallery/rus-econ/first_page.png" url="gallery/rus-econ/paper.pdf" >}}
+###  A History of Russian Economics & Modern Applications
 
-Another paper from high school.
-Less bad this time.
-Involved actual lab research at the University of Minnesota.
+A paper from high school. Submitted as writing sample for Williams College application.
 
-_Available [for download](gallery/mutagenicity/paper.pdf)._
+_Available [for download](gallery/rus-econ/paper.pdf)._
 {{< /card >}}
 
