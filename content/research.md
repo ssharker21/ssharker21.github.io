@@ -1,6 +1,13 @@
 ---
 title: Research
 ---
+{{< card img="gallery/econed/first_page.png" url="gallery/econed/paper.pdf" >}}
+###  Short-Run Effects of Boston's HBAP on Academic Outcomes
+
+Utilized a triple-difference econometric methodology to estimate the effects of a novel school assignment policy on standardized exam scores in Boston.
+
+_Available [for download](gallery/econed/paper.pdf)._
+{{< /card >}}
 
 {{< card img="gallery/cir/first_page.png" url="gallery/cir/paper.pdf" >}}
 ###  Center for Individual Rights: 35th Anniversary Retrospective
