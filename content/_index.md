@@ -5,6 +5,7 @@ title: Home
 My name is Summit Sarkar.
 
 I've studied Economics at Amherst College and PPE at the University of Oxford. I dream of being an attorney one day.
+
 I'm originally from Queens, NY but Howard County, MD is now home.
 
 I'm interested in domestic and foreign policy; my hobbies include reading great literature and following sports across the world.
