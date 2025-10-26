@@ -25,14 +25,6 @@ Traced the recent shift in the government's antitrust strategy following the app
 _Available [for download](gallery/ftc/paper.pdf)._
 {{< /card >}}
 
-{{< card img="gallery/fyse/first_page.png" url="gallery/fyse/paper.pdf" >}}
-###  Islam & Violence Against Women
-
-Studied the unique relationship between Islam and interpersonal Violence. Covered societal norms and human rights abuses, including rape and honor killings.
-
-_Available [for download](gallery/fyse/paper.pdf)._
-{{< /card >}}
-
 <div class="line"></div>
 
 <center>
