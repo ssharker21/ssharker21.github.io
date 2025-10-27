@@ -8,7 +8,7 @@ I've studied Economics at Amherst College and PPE at the University of Oxford.
 
 I'm interested in domestic and foreign policy; my hobbies include reading great literature and following sports across the world.
 
-Most recently, I've work as an Undergraduate Legal Intern at the [Competitive Enterprise Institute](https://cei.org/) and a Research Associate at [The Federalist Society](https://fedsoc.org/).
+Most recently, I've worked as an Undergraduate Legal Intern at the [Competitive Enterprise Institute](https://cei.org/) and as a Research Associate at [The Federalist Society](https://fedsoc.org/).
 
 Formerly, I worked at the [Center for Individual Rights](https://en.wikipedia.org/wiki/Center_for_Individual_Rights), conducting research concerning Constitutional Law.
 
