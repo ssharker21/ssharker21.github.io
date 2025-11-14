@@ -14,9 +14,9 @@ Formerly, I worked at the [Center for Individual Rights](https://en.wikipedia.or
 
 At Amherst, I've held various teaching and research assistant positions across economics and international relations. I also serve as an Articles Editor at the [Amherst College Law Review](https://amherstlawreview.wordpress.com/).
 
+To see my historical commitments, go to [my history page](/history).
 To see my academic work, go to [my research page](/research).
 
 {{< a2 "Other places you can find me" >}}
 
-- [LinkedIn](https://www.linkedin.com/in/summit-sarkar/), for my resume and work experience
 - [GitHub](https://github.com/ssharker21), to see most of my programming projects
