@@ -1,0 +1,39 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+
+<article class="intro">{{ content | safe }}</article>
+
+{% endblock %}
+
+
+{% raw %}
+<!--
+{{ define "main" }}
+
+
+
+{{- with index site.Menus "index" }}
+<div class="promo">
+    {{- range . }}
+    <div class="promo-card">
+        <div class="inner">
+            {{- with .Params.side }}
+            <div class="card-side"><img src="{{ . }}"/></div>
+            {{- end }}
+            <div>
+                <h2>{{ .Name }}</h2>
+                <p>{{ .Params.text }}</p>
+                <a href="{{ .URL }}">{{ .Params.more }}</a>
+            </div>
+        </div>
+    </div>
+    {{- end }}
+</div>
+{{- end }}
+
+
+{{ end }}
+
+-->
+{% endraw %}

@@ -1,0 +1,11 @@
+{%- macro metadata(params) -%}
+  <ul>
+    <!-- TODO: fix dates -->
+    <li>
+      <span class="article-metadata-name">Updated:</span> {{ params.lastmod }}
+    </li>            
+    <li>
+      <span class="article-metadata-name">Published:</span> {{ params.date }}
+    </li>
+    </ul>
+{%- endmacro -%}

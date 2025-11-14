@@ -1,0 +1,11 @@
+<!-- TODO: fix breadcrumbs -->
+<nav aria-label="breadcrumb" class="breadcrumb">
+  <ol>
+    {% set navPages = collections.all | eleventyNavigationBreadcrumb(page.title, { allowMissing: true }) %}
+    {%- for item in navPages -%}
+      <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {%- endfor -%}
+  </ol>
+</nav>

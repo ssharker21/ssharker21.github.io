@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/cgm616
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cgm616.me
+  * I am cgm616 (https://keybase.io/cgm616) on keybase.
+  * I have a public key ASADHV3qrMWJcYvGNgKyXXSpWDY7oTeKeGDfxL9aAmilkQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013930faf2fccf71718f5b7e3b06ecda9ddb361be3235875721c927b6853b177040a",
+      "host": "keybase.io",
+      "kid": "0120031d5deaacc589718bc63602b25d74a958363ba1378a7860dfc4bf5a0268a5910a",
+      "uid": "ab317faf6c7345e0a1aa4faab3ea4019",
+      "username": "cgm616"
+    },
+    "merkle_root": {
+      "ctime": 1503417106,
+      "hash": "03cf79a06f28b9a9c7f9ba110cc033e11608d56f9dd64b49a258cd2e352da7f2b9b7f3ada233b626764e7b1a9e91118ad7a69eb80e0c310e4dd2b74c2019cb79",
+      "hash_meta": "2ea9ba9fa5b295c251c1b52c74cfeecee4aea906b5a252db7de888d17defd997",
+      "seqno": 1342193
+    },
+    "service": {
+      "hostname": "cgm616.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.28"
+  },
+  "ctime": 1503417112,
+  "expire_in": 504576000,
+  "prev": "400cc524f598bbb55e3ae0413a57028c493bbcf9750ad31bc539226810de42e2",
+  "seqno": 61,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAx1d6qzFiXGLxjYCsl10qVg2O6E3inhg38S/WgJopZEKp3BheWxvYWTFA0B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMzkzMGZhZjJmY2NmNzE3MThmNWI3ZTNiMDZlY2RhOWRkYjM2MWJlMzIzNTg3NTcyMWM5MjdiNjg1M2IxNzcwNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDMxZDVkZWFhY2M1ODk3MThiYzYzNjAyYjI1ZDc0YTk1ODM2M2JhMTM3OGE3ODYwZGZjNGJmNWEwMjY4YTU5MTBhIiwidWlkIjoiYWIzMTdmYWY2YzczNDVlMGExYWE0ZmFhYjNlYTQwMTkiLCJ1c2VybmFtZSI6ImNnbTYxNiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwMzQxNzEwNiwiaGFzaCI6IjAzY2Y3OWEwNmYyOGI5YTljN2Y5YmExMTBjYzAzM2UxMTYwOGQ1NmY5ZGQ2NGI0OWEyNThjZDJlMzUyZGE3ZjJiOWI3ZjNhZGEyMzNiNjI2NzY0ZTdiMWE5ZTkxMTE4YWQ3YTY5ZWI4MGUwYzMxMGU0ZGQyYjc0YzIwMTljYjc5IiwiaGFzaF9tZXRhIjoiMmVhOWJhOWZhNWIyOTVjMjUxYzFiNTJjNzRjZmVlY2VlNGFlYTkwNmI1YTI1MmRiN2RlODg4ZDE3ZGVmZDk5NyIsInNlcW5vIjoxMzQyMTkzfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNnbTYxNi5tZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI4In0sImN0aW1lIjoxNTAzNDE3MTEyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjQwMGNjNTI0ZjU5OGJiYjU1ZTNhZTA0MTNhNTcwMjhjNDkzYmJjZjk3NTBhZDMxYmM1MzkyMjY4MTBkZTQyZTIiLCJzZXFubyI6NjEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAeFXjgR6hW6xFXxQNDBEGOI0NC2uiP30+oEqzp39Wy7UqMrMcsBKHeUVaVDE4Z29mY3nh0wvpq+W+hGRV0n9ACahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKWu5gmRe+aWkA7Esk2bUv6HrTGYvjh8w9K7UtFNQM4to3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cgm616
+
+==================================================================
