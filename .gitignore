@@ -1,5 +1,0 @@
-.DS_Store
-*.swp
-public/
-**/*.swo
-.hugo_build.lock
