@@ -1,0 +1,9 @@
+This is a signature profile for use with Keyoxide.
+It proves that I am who I say I am: that the owner of the PGP key 3B0B0AE59E36A85C0981193240CAAC85E9C1ED60 is also the owner of this website, and vice-versa; and similarly with all of the other proofs below.
+
+Use [Keyoxide](https://keyoxide.org/sig) to verify these proofs.
+
+proof=dns:cgm616.me
+proof=https://home.social/@cgm616
+proof=https://gist.github.com/cgm616/ef26379677087d6f1a8f2f71e4317611
+proof=https://t.me/cgm616?proof=cgm616_keyoxide

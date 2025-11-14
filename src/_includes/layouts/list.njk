@@ -1,0 +1,37 @@
+---
+eleventyImport:
+  collections: ["writing"]
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+
+{% include "../components/breadcrumbs.njk" %}
+
+<main>
+<article id="top">
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+    <hr />
+    <ul class="content-list-c">
+        {%- from "../components/utils.njk" import metadata %}
+        {%- for post in collections.writing -%}
+            <li>
+                <h2><a href="{{ post.page.url }}">{{ post.data.title }}</a></h2>
+                <div class="content-list-meta">
+                    {{ metadata({date: post.page.date, lastmod: post.data.lastmod }) }}
+                </div>
+            </li>
+        {%- endfor -%}
+    </ul>
+</article>
+
+{% include "../components/blurb.njk" %}
+<a href="{{ permalink }}/#top" class="to-top">Back to top</a>
+
+</main>
+
+
+{% endblock %}
+
