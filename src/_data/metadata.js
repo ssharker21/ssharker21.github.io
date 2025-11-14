@@ -1,12 +1,12 @@
 module.exports = function (configData) {
     let metadata = {
-        "title": "CGM",
-        "url": "https://colegm.com",
+        "title": "summitsarkar",
+        "url": "https://summitsarkar.com",
         "language": "en",
-        "description": "Cole's personal website",
+        "description": "Summit's personal website",
         "author": {
-            "name": "Cole Graber-Mitchell",
-            "email": "website@colegm.com"
+            "name": "Summit Sarkar",
+            "email": "contact@summitsarkar.com"
         },
         "feedUrl": "https://colegm.com/feed.xml"
     };
