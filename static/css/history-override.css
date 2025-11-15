@@ -12,7 +12,7 @@ body {
   color: #000000 !important;
 }
 
-/* Constrain the page container */
+/* Constrain the page container but allow full width usage */
 .page {
   max-width: 100% !important;
   margin: 0 auto !important;
@@ -20,7 +20,7 @@ body {
   background-color: transparent !important;
 }
 
-/* Override large padding classes but keep small ones like pb-px */
+/* Remove excessive padding but keep some breathing room */
 div.p-6,
 div[class*="p-8"],
 div[class*="p-9"],
@@ -28,7 +28,7 @@ div[class*="p-16"] {
   padding: 0 !important;
 }
 
-/* Constrain all max-widths */
+/* Allow full width usage - don't constrain max-widths */
 div[class*="max-w-"] {
   max-width: 100% !important;
 }
@@ -44,15 +44,16 @@ main {
   margin: 0 !important;
 }
 
-/* Adjust column layout - force single column on normal screens */
-div[class*="col-count"] {
-  column-count: 1 !important;
+/* Enable 2-column layout to use full width - adjust breakpoint for site's width */
+div[class*="col-count-2"] {
+  column-count: 2 !important;
+  column-gap: 1.5rem !important;
 }
 
-/* Only use 2 columns on very wide screens (wider than site's max-width) */
-@media (min-width: 1200px) {
+/* Single column on smaller screens */
+@media (max-width: 640px) {
   div[class*="col-count-2"] {
-    column-count: 2 !important;
+    column-count: 1 !important;
   }
 }
 
@@ -61,17 +62,25 @@ div[class*="h-letter"] {
   height: auto !important;
 }
 
-/* Adjust spacing to be more reasonable */
+/* Adjust spacing to be more compact and use space better */
 .mb-8 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.2rem !important;
 }
 
 .mt-8 {
-  margin-top: 1.5rem !important;
+  margin-top: 1.2rem !important;
 }
 
 .mb-4 {
+  margin-bottom: 0.8rem !important;
+}
+
+.mb-4\.5 {
   margin-bottom: 1rem !important;
+}
+
+.mt-2\.1 {
+  margin-top: 0.4rem !important;
 }
 
 /* Keep the nice typography but adjust to site's font */
@@ -109,5 +118,15 @@ div[class*="h-letter"] {
 .text-gray-700,
 .text-gray-750 {
   color: #333 !important;
+}
+
+/* Make sections more compact */
+section {
+  margin-bottom: 1rem !important;
+}
+
+/* Adjust header spacing */
+header.flex {
+  margin-bottom: 1rem !important;
 }
 
