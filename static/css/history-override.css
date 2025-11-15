@@ -12,55 +12,46 @@ body {
   color: #000000 !important;
 }
 
-/* Constrain the page container but allow full width usage */
-.page {
+/* AGGRESSIVE OVERRIDES - Target the exact page container */
+main.font-firago.hyphens-manual > div,
+main > div.p-6,
+main > div.mx-auto,
+main > div.page,
+main > div.max-w-2xl,
+div.p-6.mx-auto.page.max-w-2xl,
+div[class*="max-w-2xl"],
+div[class*="max-w-letter"] {
   max-width: 100% !important;
   width: 100% !important;
-  margin: 0 auto !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   padding: 0 !important;
   background-color: transparent !important;
 }
 
-/* Remove excessive padding but keep some breathing room */
+/* Force all nested containers to full width */
+main.font-firago.hyphens-manual > div > div,
+main > div > div[class*="col-"],
+div[class*="col-count"],
+div[class*="col-gap"],
+div[class*="col-fill"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  column-count: 1 !important;
+}
+
+/* Remove all padding classes */
 div.p-6,
 div[class*="p-8"],
 div[class*="p-9"],
-div[class*="p-16"] {
+div[class*="p-16"],
+div.xsm\:p-8,
+div.sm\:p-9,
+div.md\:p-16 {
   padding: 0 !important;
 }
 
-/* Force full width usage - remove ALL max-width constraints */
-div[class*="max-w-"],
-.max-w-2xl,
-.max-w-letter,
-[class*="max-w-letter"],
-div.page,
-div[class*="page"],
-.mx-auto {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-/* Ensure all containers use full width */
-div[class*="col-"],
-div[class*="col-gap"],
-section,
-main > div {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-/* Target the specific page div */
-div.p-6.mx-auto.page {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-/* Adjust font sizes to be more reasonable */
+/* Adjust font sizes */
 html {
   font-size: 1.1rem !important;
 }
@@ -72,19 +63,14 @@ main {
   margin: 0 !important;
 }
 
-/* Force single column to use full width */
-div[class*="col-count"] {
-  column-count: 1 !important;
-  width: 100% !important;
-}
-
 /* Remove height constraints */
 div[class*="h-letter"] {
   height: auto !important;
 }
 
-/* Adjust spacing to be more compact and use space better */
-.mb-8 {
+/* Adjust spacing to be more compact */
+.mb-8,
+header.flex.mb-8 {
   margin-bottom: 1.2rem !important;
 }
 
@@ -144,6 +130,7 @@ div[class*="h-letter"] {
 /* Make sections more compact */
 section {
   margin-bottom: 1rem !important;
+  width: 100% !important;
 }
 
 /* Adjust header spacing */
@@ -151,3 +138,29 @@ header.flex {
   margin-bottom: 1rem !important;
 }
 
+/* Override any responsive max-widths */
+@media (min-width: 500px) {
+  div[class*="max-w"] {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 640px) {
+  div[class*="max-w"] {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 833px) {
+  div[class*="max-w"],
+  div[class*="md:max-w"] {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  
+  div[class*="md:col-count-2"] {
+    column-count: 1 !important;
+  }
+}

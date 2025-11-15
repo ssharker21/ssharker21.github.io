@@ -12,6 +12,70 @@
   <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
   <link href="/css/build.css" rel="stylesheet">
   <link href="/css/history-override.css" rel="stylesheet">
+  <style>
+    /* Inline overrides to force full width - MUST work after Hugo build */
+    body {
+      margin: 1rem auto !important;
+      max-width: 45rem !important;
+      padding: 0 0.62rem !important;
+      font-family: "Palatino Linotype", Palatino, serif !important;
+      font-size: 1.1rem !important;
+      line-height: 1.6rem !important;
+      background-color: #FEFEFA !important;
+      color: #000000 !important;
+    }
+    
+    /* Target the page container with maximum specificity */
+    main > div,
+    main.font-firago > div,
+    main.hyphens-manual > div,
+    div.p-6,
+    div.mx-auto,
+    div.page,
+    div.max-w-2xl,
+    div[class*="max-w-letter"] {
+      max-width: 100% !important;
+      width: 100% !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding: 0 !important;
+    }
+    
+    /* Force single column full width */
+    main > div > div,
+    div[class*="col-count"],
+    div[class*="col-gap"],
+    div[class*="col-fill"] {
+      width: 100% !important;
+      max-width: 100% !important;
+      column-count: 1 !important;
+    }
+    
+    /* All sections full width */
+    section {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    
+    /* Remove any responsive constraints */
+    @media (min-width: 640px) {
+      div[class*="max-w"] {
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+    }
+    
+    @media (min-width: 833px) {
+      div[class*="max-w"],
+      div[class*="md:max-w"] {
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+      div[class*="md:col-count"] {
+        column-count: 1 !important;
+      }
+    }
+  </style>
   <title>Summit Sarkar — Resume</title>
 </head>
 
