@@ -1,0 +1,113 @@
+/* Override universal-resume CSS to work within site's natural limits */
+
+/* Reset body to match site's styling */
+body {
+  margin: 1rem auto !important;
+  max-width: 45rem !important;
+  padding: 0 0.62rem !important;
+  font-family: "Palatino Linotype", Palatino, serif !important;
+  font-size: 1.1rem !important;
+  line-height: 1.6rem !important;
+  background-color: #FEFEFA !important;
+  color: #000000 !important;
+}
+
+/* Constrain the page container */
+.page {
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+/* Override large padding classes but keep small ones like pb-px */
+div.p-6,
+div[class*="p-8"],
+div[class*="p-9"],
+div[class*="p-16"] {
+  padding: 0 !important;
+}
+
+/* Constrain all max-widths */
+div[class*="max-w-"] {
+  max-width: 100% !important;
+}
+
+/* Adjust font sizes to be more reasonable */
+html {
+  font-size: 1.1rem !important;
+}
+
+/* Keep the resume styling but within constraints */
+main {
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+/* Adjust column layout - force single column on normal screens */
+div[class*="col-count"] {
+  column-count: 1 !important;
+}
+
+/* Only use 2 columns on very wide screens (wider than site's max-width) */
+@media (min-width: 1200px) {
+  div[class*="col-count-2"] {
+    column-count: 2 !important;
+  }
+}
+
+/* Remove height constraints */
+div[class*="h-letter"] {
+  height: auto !important;
+}
+
+/* Adjust spacing to be more reasonable */
+.mb-8 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mt-8 {
+  margin-top: 1.5rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1rem !important;
+}
+
+/* Keep the nice typography but adjust to site's font */
+.font-firago {
+  font-family: "Palatino Linotype", Palatino, serif !important;
+}
+
+/* Adjust text sizes to be more reasonable */
+.text-2xl {
+  font-size: 1.5rem !important;
+  line-height: 1.8rem !important;
+}
+
+.text-lg {
+  font-size: 1.2rem !important;
+}
+
+.text-md {
+  font-size: 1.0625rem !important;
+}
+
+.text-sm2 {
+  font-size: 1rem !important;
+}
+
+/* Keep the nice gray colors but ensure readability */
+.text-gray-550 {
+  color: #666 !important;
+}
+
+.text-gray-650 {
+  color: #555 !important;
+}
+
+.text-gray-700,
+.text-gray-750 {
+  color: #333 !important;
+}
+
