@@ -1,10 +1,10 @@
 body {
   margin: 1rem auto;
-  max-width: 40rem;
+  max-width: 45rem;
   padding: 0 0.62rem;
   font-family: "Palatino Linotype", Palatino, serif;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-size: 1.0rem;
+  line-height: 1.5rem;
   background-color: #FEFEFA;
   color: #000000;
 }
