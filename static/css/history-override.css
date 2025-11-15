@@ -15,6 +15,7 @@ body {
 /* Constrain the page container but allow full width usage */
 .page {
   max-width: 100% !important;
+  width: 100% !important;
   margin: 0 auto !important;
   padding: 0 !important;
   background-color: transparent !important;
@@ -28,9 +29,35 @@ div[class*="p-16"] {
   padding: 0 !important;
 }
 
-/* Allow full width usage - don't constrain max-widths */
-div[class*="max-w-"] {
+/* Force full width usage - remove ALL max-width constraints */
+div[class*="max-w-"],
+.max-w-2xl,
+.max-w-letter,
+[class*="max-w-letter"],
+div.page,
+div[class*="page"],
+.mx-auto {
   max-width: 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Ensure all containers use full width */
+div[class*="col-"],
+div[class*="col-gap"],
+section,
+main > div {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Target the specific page div */
+div.p-6.mx-auto.page {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /* Adjust font sizes to be more reasonable */
@@ -38,23 +65,17 @@ html {
   font-size: 1.1rem !important;
 }
 
-/* Keep the resume styling but within constraints */
+/* Keep the resume styling but within constraints - use full width */
 main {
   max-width: 100% !important;
+  width: 100% !important;
   margin: 0 !important;
 }
 
-/* Enable 2-column layout to use full width - adjust breakpoint for site's width */
-div[class*="col-count-2"] {
-  column-count: 2 !important;
-  column-gap: 1.5rem !important;
-}
-
-/* Single column on smaller screens */
-@media (max-width: 640px) {
-  div[class*="col-count-2"] {
-    column-count: 1 !important;
-  }
+/* Force single column to use full width */
+div[class*="col-count"] {
+  column-count: 1 !important;
+  width: 100% !important;
 }
 
 /* Remove height constraints */
