@@ -75,7 +75,7 @@ header.flex.mb-8 {
 }
 
 .mt-8 {
-  margin-top: 0.8rem !important;
+  margin-top: 1.2rem !important;
 }
 
 .mb-4 {
@@ -83,7 +83,7 @@ header.flex.mb-8 {
 }
 
 .mb-4\.5 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .mt-2\.1 {
@@ -135,7 +135,7 @@ section {
 
 /* Adjust header spacing */
 header.flex {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
 /* Override any responsive max-widths */
