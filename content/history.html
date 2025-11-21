@@ -14,7 +14,7 @@
   <link href="/css/build.css" rel="stylesheet">
   <link href="/css/history-override.css" rel="stylesheet">
   <style>
-    /* Inline overrides to force full width - MUST work after Hugo build */
+    /* Match site's body styling exactly - same size as other pages */
     body {
       margin: 1rem auto !important;
       max-width: 45rem !important;
@@ -24,6 +24,25 @@
       line-height: 1.6rem !important;
       background-color: #FEFEFA !important;
       color: #000000 !important;
+    }
+    
+    /* Override universal-resume font sizes to match site exactly - make it smaller */
+    html {
+      font-size: 100% !important;
+    }
+    
+    /* Force all text to match site's base size */
+    .text-2xl, .text-lg, .text-md, h2, h3 {
+      font-size: 1.1rem !important;
+      line-height: 1.4rem !important;
+    }
+    
+    section header h3 {
+      font-size: 1.1rem !important;
+    }
+    
+    section header p {
+      font-size: 1.0rem !important;
     }
     
     /* Target the page container with maximum specificity */
@@ -86,15 +105,15 @@
     section header h3 {
       margin-bottom: 0 !important;
       margin-top: 0 !important;
-      font-size: 1.05rem !important;
-      line-height: 1.4 !important;
+      font-size: 1.1rem !important;
+      line-height: 1.4rem !important;
     }
     
     section header p {
       margin-top: 0.25rem !important;
       margin-bottom: 0.5rem !important;
-      font-size: 0.95rem !important;
-      line-height: 1.3 !important;
+      font-size: 1.0rem !important;
+      line-height: 1.6rem !important;
     }
     
     /* Ensure all entries have consistent two-line layout */
@@ -135,9 +154,14 @@
       margin-top: 1rem !important;
     }
     
-    /* Hide the resume-specific header elements */
-    main > div > header.flex.items-center {
-      display: none !important;
+    /* Ensure no duplicate headers or footers */
+    body > header:first-of-type {
+      display: block !important;
+    }
+    
+    /* Make sure footer is only shown once */
+    body > footer:last-of-type {
+      display: block !important;
     }
   </style>
   <title>Summit Sarkar — Resume</title>
