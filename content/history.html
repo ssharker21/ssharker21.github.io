@@ -10,7 +10,7 @@
   <base href="https://summitsarkar.com/">
   <!-- Use theme's main CSS instead of universal-resume CSS -->
   <!-- Use theme's CSS first, then override with resume styles -->
-  <link href="/css/main.css" rel="stylesheet">
+  <!-- Use theme's CSS first, then override with resume styles -->
   <link href="/css/build.css" rel="stylesheet">
   <link href="/css/history-override.css" rel="stylesheet">
   <style>
@@ -25,30 +25,34 @@
       background-color: #FEFEFA !important;
       color: #000000 !important;
     }
-    
+
     /* Override universal-resume font sizes to match site exactly - make it smaller */
     html {
       font-size: 100% !important;
     }
-    
+
     /* Force all text to match site's base size */
-    .text-2xl, .text-lg, .text-md, h2, h3 {
+    .text-2xl,
+    .text-lg,
+    .text-md,
+    h2,
+    h3 {
       font-size: 1.1rem !important;
       line-height: 1.4rem !important;
     }
-    
+
     section header h3 {
       font-size: 1.1rem !important;
     }
-    
+
     section header p {
       font-size: 1.0rem !important;
     }
-    
+
     /* Target the page container with maximum specificity */
-    main > div,
-    main.font-firago > div,
-    main.hyphens-manual > div,
+    main>div,
+    main.font-firago>div,
+    main.hyphens-manual>div,
     div.p-6,
     div.mx-auto,
     div.page,
@@ -60,9 +64,9 @@
       margin-right: 0 !important;
       padding: 0 !important;
     }
-    
+
     /* Force single column full width */
-    main > div > div,
+    main>div>div,
     div[class*="col-count"],
     div[class*="col-gap"],
     div[class*="col-fill"] {
@@ -70,13 +74,13 @@
       max-width: 100% !important;
       column-count: 1 !important;
     }
-    
+
     /* All sections full width */
     section {
       width: 100% !important;
       max-width: 100% !important;
     }
-    
+
     /* Remove any responsive constraints */
     @media (min-width: 640px) {
       div[class*="max-w"] {
@@ -84,68 +88,70 @@
         width: 100% !important;
       }
     }
-    
+
     @media (min-width: 833px) {
+
       div[class*="max-w"],
       div[class*="md:max-w"] {
         max-width: 100% !important;
         width: 100% !important;
       }
+
       div[class*="md:col-count"] {
         column-count: 1 !important;
       }
     }
-    
+
     /* Consistent resume-style formatting - always two lines */
     section header {
       display: flex;
       flex-direction: column;
     }
-    
+
     section header h3 {
       margin-bottom: 0 !important;
       margin-top: 0 !important;
       font-size: 1.1rem !important;
       line-height: 1.4rem !important;
     }
-    
+
     section header p {
       margin-top: 0.25rem !important;
       margin-bottom: 0.5rem !important;
       font-size: 1.0rem !important;
       line-height: 1.6rem !important;
     }
-    
+
     /* Ensure all entries have consistent two-line layout */
     section.mb-4\.5 header {
       margin-bottom: 0.5rem !important;
     }
-    
+
     /* Prevent inline layout that might cause wrapping issues */
     section header h3,
     section header p {
       display: block !important;
       width: 100% !important;
     }
-    
+
     /* Match site's navigation styling - purple links */
     .nav-list a {
       color: #500bff !important;
       text-decoration: none !important;
     }
-    
+
     .nav-list a:hover {
       background-color: #500bff !important;
       color: #FEFEFA !important;
     }
-    
+
     /* Match site's header styling */
     header {
       display: flex !important;
       flex-wrap: wrap !important;
       justify-content: space-between !important;
     }
-    
+
     .nav-list {
       font-family: "Courier New", Courier, monospace !important;
       list-style-type: none !important;
@@ -153,14 +159,14 @@
       text-align: right !important;
       margin-top: 1rem !important;
     }
-    
+
     /* Ensure no duplicate headers or footers */
-    body > header:first-of-type {
+    body>header:first-of-type {
       display: block !important;
     }
-    
+
     /* Make sure footer is only shown once */
-    body > footer:last-of-type {
+    body>footer:last-of-type {
       display: block !important;
     }
   </style>
@@ -169,212 +175,215 @@
 
 <!-- Content starts here - Hugo adds header/footer via baseof.html template -->
 <div>
-    <main class="font-firago hyphens-manual">
+  <main class="font-firago hyphens-manual">
 
-      <!-- Column -->
-      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
+    <!-- Column -->
+    <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
 
-        <section class="mt-8 first:mt-0">
+      <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
+        <!-- To keep in the same column -->
+        <div class="break-inside-avoid">
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EDUCATION
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Amherst College
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  2023 - 2027 | BA in Economics & Political Science
-                </p>
-              </header>
-            </section>
-
-          </div>
+          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+            EDUCATION
+          </h2>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                New College, University of Oxford
+                Amherst College
               </h3>
               <p class="leading-normal text-md text-gray-650">
-                2025 - 2026 | Visiting Student in Politics & Economics
+                2023 - 2027 | BA in Economics & Political Science
               </p>
             </header>
           </section>
 
+        </div>
 
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+              New College, University of Oxford
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              2025 - 2026 | Visiting Student in Politics & Economics
+            </p>
+          </header>
         </section>
 
-        <section class="mt-8 first:mt-0">
 
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
+      </section>
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EXPERIENCE
-            </h2>
+      <section class="mt-8 first:mt-0">
 
-          </div>
+        <!-- To keep in the same column -->
+        <div class="break-inside-avoid">
 
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Competitive Enterprise Institute
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                June 2025 – Aug. 2026 | Undergraduate Legal Intern
-              </p>
-            </header>
-            <ul class="">
+          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+            EXPERIENCE
+          </h2>
 
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Co-authored comment to the Federal Labor Relations Authority (FLRA) re: Admin. False Claims Act (AFCA)
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Wrote an internal report on state AI regulatory policies in California, Colorado, and Utah
-              </li>
-            </ul>
-          </section>
+        </div>
 
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Federalist Society
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                May 2025 – June 2025 | Research Associate
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Analyzed 700+ Minnesota newspaper articles between 1857-1898 supporting state constitutional interpretation
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Wrote 110+ paragraph reports connecting each article to relevant ballot measures, originalism, and textualism in FedSoc database
-              </li>
-            </ul>
-          </section>
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+              Competitive Enterprise Institute
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              June 2025 – Aug. 2026 | Undergraduate Legal Intern
+            </p>
+          </header>
+          <ul class="">
 
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Center for Individual Rights
-              </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  May 2024 – Aug. 2024 | Undergraduate Research Intern
-                </p>
-            </header>
-            <ul class="">
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Performed constitutional law research using Westlaw across 17 institutional cases, from trial to Supreme Court
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Published research reaching 1,000+ donors and allies via website and print magazine
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Aggregated media, leading the 35th anniversary event attended by 100+ and documentary viewed by 2,000+
-              </li>
-            </ul>
-          </section>
-
+            <li class="mt-2.1 text-md text-gray-700 leading-normal">
+              <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+              Co-authored comment to the Federal Labor Relations Authority (FLRA) re: Admin. False Claims Act (AFCA)
+            </li>
+            <li class="mt-2.1 text-md text-gray-700 leading-normal">
+              <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+              Wrote an internal report on state AI regulatory policies in California, Colorado, and Utah
+            </li>
+          </ul>
         </section>
 
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              ACADEMIC EXPERIENCE
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Law Review, Amherst College
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Sep. 2023 – Present | Executive Editor
-                </p>
-              </header>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Economics Department, Amherst College
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Feb. 2025 – May 2025 | RA (Prof. Mengqi Wang)
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                International Relations Lab, Amherst College
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Feb. 2025 – May 2025 | RA (Prof. Eleonora Mattiacci)
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Economics Department, Amherst College
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Sep. 2024 – Dec. 2024 | TA (ECON-300)
-              </p>
-          </section>
-
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+              Federalist Society
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              May 2025 – June 2025 | Research Associate
+            </p>
+          </header>
+          <ul class="">
+            <li class="mt-2.1 text-md text-gray-700 leading-normal">
+              <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+              Analyzed 700+ Minnesota newspaper articles between 1857-1898 supporting state constitutional
+              interpretation
+            </li>
+            <li class="mt-2.1 text-md text-gray-700 leading-normal">
+              <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+              Wrote 110+ paragraph reports connecting each article to relevant ballot measures, originalism, and
+              textualism in FedSoc database
+            </li>
+          </ul>
         </section>
 
-        <section class="mt-8 first:mt-0">
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+              Center for Individual Rights
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              May 2024 – Aug. 2024 | Undergraduate Research Intern
+            </p>
+          </header>
+          <ul class="">
+            <li class="mt-2.1 text-md text-gray-700 leading-normal">
+              <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+              Performed constitutional law research using Westlaw across 17 institutional cases, from trial to Supreme
+              Court
+            </li>
+            <li class="mt-2.1 text-md text-gray-700 leading-normal">
+              <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+              Published research reaching 1,000+ donors and allies via website and print magazine
+            </li>
+            <li class="mt-2.1 text-md text-gray-700 leading-normal">
+              <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+              Aggregated media, leading the 35th anniversary event attended by 100+ and documentary viewed by 2,000+
+            </li>
+          </ul>
+        </section>
 
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
+      </section>
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              SOCIAL AFFILIATIONS
-            </h2>
+      <section class="mt-8 first:mt-0">
 
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Amherst College
-                </h3>
-              </header>
-              <div class="my-3.2 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Cricket Club
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Debate Society (ADS)
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Men’s Club Basketball
-                </ul>
-              </div>
-            </section>
+        <!-- To keep in the same column -->
+        <div class="break-inside-avoid">
+
+          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+            ACADEMIC EXPERIENCE
+          </h2>
+
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Law Review, Amherst College
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                Sep. 2023 – Present | Executive Editor
+              </p>
+            </header>
+          </section>
+
+        </div>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+              Economics Department, Amherst College
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Feb. 2025 – May 2025 | RA (Prof. Mengqi Wang)
+            </p>
+          </header>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+              International Relations Lab, Amherst College
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Feb. 2025 – May 2025 | RA (Prof. Eleonora Mattiacci)
+            </p>
+          </header>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+              Economics Department, Amherst College
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Sep. 2024 – Dec. 2024 | TA (ECON-300)
+            </p>
+        </section>
+
+      </section>
+
+      <section class="mt-8 first:mt-0">
+
+        <!-- To keep in the same column -->
+        <div class="break-inside-avoid">
+
+          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+            SOCIAL AFFILIATIONS
+          </h2>
+
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                Amherst College
+              </h3>
+            </header>
+            <div class="my-3.2 last:pb-1.5">
+              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Cricket Club
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Debate Society (ADS)
+                </li>
+                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Men’s Club Basketball
+              </ul>
+            </div>
+          </section>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
@@ -408,17 +417,17 @@
             </div>
           </section>
 
-        </section>
-
-          </div>
-
-        </section>
-
-      </div>
-      <!-- end Column -->
+      </section>
 
     </div>
-    <!-- end Page -->
 
-    </main>
-  </div>
+    </section>
+
+</div>
+<!-- end Column -->
+
+</div>
+<!-- end Page -->
+
+</main>
+</div>
