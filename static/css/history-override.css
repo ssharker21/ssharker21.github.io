@@ -1,7 +1,7 @@
 /* Override universal-resume CSS to work within site's natural limits */
 
-/* Reset body to match site's styling */
-body {
+/* Reset body to match site's styling - REMOVED to avoid conflicts with theme */
+/* body {
   margin: 1rem auto !important;
   max-width: 45rem !important;
   padding: 0 0.62rem !important;
@@ -10,7 +10,7 @@ body {
   line-height: 1.6rem !important;
   background-color: #FEFEFA !important;
   color: #000000 !important;
-}
+} */
 
 /* AGGRESSIVE OVERRIDES - Target the exact page container */
 main.font-firago.hyphens-manual > div,
@@ -51,10 +51,10 @@ div.md\:p-16 {
   padding: 0 !important;
 }
 
-/* Adjust font sizes */
-html {
+/* Adjust font sizes - REMOVED to avoid affecting root rem values */
+/* html {
   font-size: 1.1rem !important;
-}
+} */
 
 /* Keep the resume styling but within constraints - use full width */
 main {

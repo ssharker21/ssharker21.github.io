@@ -1,171 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Student">
-  <meta name="keywords" content="resume,cv,Summit Sarkar">
-  <meta name="author" content="Summit Sarkar">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base href="https://summitsarkar.com/">
-  <!-- Use theme's main CSS instead of universal-resume CSS -->
-  <!-- Use theme's CSS first, then override with resume styles -->
-  <link href="/css/main.css" rel="stylesheet">
-  <link href="/css/build.css" rel="stylesheet">
-  <link href="/css/history-override.css" rel="stylesheet">
-  <style>
-    /* Match site's body styling exactly - same size as other pages */
-    body {
-      margin: 1rem auto !important;
-      max-width: 45rem !important;
-      padding: 0 0.62rem !important;
-      font-family: "Palatino Linotype", Palatino, serif !important;
-      font-size: 1.1rem !important;
-      line-height: 1.6rem !important;
-      background-color: #FEFEFA !important;
-      color: #000000 !important;
-    }
-    
-    /* Override universal-resume font sizes to match site exactly - make it smaller */
-    html {
-      font-size: 100% !important;
-    }
-    
-    /* Force all text to match site's base size */
-    .text-2xl, .text-lg, .text-md, h2, h3 {
-      font-size: 1.1rem !important;
-      line-height: 1.4rem !important;
-    }
-    
-    section header h3 {
-      font-size: 1.1rem !important;
-    }
-    
-    section header p {
-      font-size: 1.0rem !important;
-    }
-    
-    /* Target the page container with maximum specificity */
-    main > div,
-    main.font-firago > div,
-    main.hyphens-manual > div,
-    div.p-6,
-    div.mx-auto,
-    div.page,
-    div.max-w-2xl,
-    div[class*="max-w-letter"] {
-      max-width: 100% !important;
-      width: 100% !important;
-      margin-left: 0 !important;
-      margin-right: 0 !important;
-      padding: 0 !important;
-    }
-    
-    /* Force single column full width */
-    main > div > div,
-    div[class*="col-count"],
-    div[class*="col-gap"],
-    div[class*="col-fill"] {
-      width: 100% !important;
-      max-width: 100% !important;
-      column-count: 1 !important;
-    }
-    
-    /* All sections full width */
-    section {
-      width: 100% !important;
-      max-width: 100% !important;
-    }
-    
-    /* Remove any responsive constraints */
-    @media (min-width: 640px) {
-      div[class*="max-w"] {
-        max-width: 100% !important;
-        width: 100% !important;
-      }
-    }
-    
-    @media (min-width: 833px) {
-      div[class*="max-w"],
-      div[class*="md:max-w"] {
-        max-width: 100% !important;
-        width: 100% !important;
-      }
-      div[class*="md:col-count"] {
-        column-count: 1 !important;
-      }
-    }
-    
-    /* Consistent resume-style formatting - always two lines */
-    section header {
-      display: flex;
-      flex-direction: column;
-    }
-    
-    section header h3 {
-      margin-bottom: 0 !important;
-      margin-top: 0 !important;
-      font-size: 1.1rem !important;
-      line-height: 1.4rem !important;
-    }
-    
-    section header p {
-      margin-top: 0.25rem !important;
-      margin-bottom: 0.5rem !important;
-      font-size: 1.0rem !important;
-      line-height: 1.6rem !important;
-    }
-    
-    /* Ensure all entries have consistent two-line layout */
-    section.mb-4\.5 header {
-      margin-bottom: 0.5rem !important;
-    }
-    
-    /* Prevent inline layout that might cause wrapping issues */
-    section header h3,
-    section header p {
-      display: block !important;
-      width: 100% !important;
-    }
-    
-    /* Match site's navigation styling - purple links */
-    .nav-list a {
-      color: #500bff !important;
-      text-decoration: none !important;
-    }
-    
-    .nav-list a:hover {
-      background-color: #500bff !important;
-      color: #FEFEFA !important;
-    }
-    
-    /* Match site's header styling */
-    header {
-      display: flex !important;
-      flex-wrap: wrap !important;
-      justify-content: space-between !important;
-    }
-    
-    .nav-list {
-      font-family: "Courier New", Courier, monospace !important;
-      list-style-type: none !important;
-      line-height: 1.8rem !important;
-      text-align: right !important;
-      margin-top: 1rem !important;
-    }
-    
-    /* Ensure no duplicate headers or footers */
-    body > header:first-of-type {
-      display: block !important;
-    }
-    
-    /* Make sure footer is only shown once */
-    body > footer:last-of-type {
-      display: block !important;
-    }
-  </style>
-  <title>Summit Sarkar — Resume</title>
-</head>
+---
+title: "History"
+---
+<link href="/css/build.css" rel="stylesheet">
+<link href="/css/history-override.css" rel="stylesheet">
 
 <!-- Content starts here - Hugo adds header/footer via baseof.html template -->
 <div>
@@ -372,6 +209,7 @@
                   </li>
                   <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                     Men’s Club Basketball
+                  </li>
                 </ul>
               </div>
             </section>
@@ -404,6 +242,7 @@
                 </li>
                 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                   Stubbs Society
+                </li>
               </ul>
             </div>
           </section>
