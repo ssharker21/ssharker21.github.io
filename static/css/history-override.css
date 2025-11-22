@@ -1,8 +1,9 @@
 /* Reset body to match site's styling */
-/* Allow body to inherit main.css defaults (45rem, centered) */
+/* Explicitly enforce main.css defaults to override build.css resets */
 body {
-  /* max-width: none !important; <-- REMOVED to match site width */
-  /* margin: 0 !important;       <-- REMOVED to match site margin */
+  max-width: 45rem !important;
+  margin: 1rem auto !important;
+  padding: 0 0.62rem !important;
   background-color: #FEFEFA !important;
 }
 
