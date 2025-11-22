@@ -4,7 +4,7 @@ title: Home
 
 My name is Summit Sarkar.
 
-I've studied Economics at Amherst College and PPE at the New College, Oxford.
+I've studied Economics at Amherst College and PPE at New College, Oxford.
 
 I'm interested in domestic and foreign policy; my hobbies include reading great literature and following sports across the world.
 
