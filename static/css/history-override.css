@@ -12,12 +12,18 @@ html {
   font-size: 100% !important;
 }
 
-/* Remove header constraints - will inherit body width */
-/* header {
+/* Constrain header to match other pages */
+header {
   max-width: 45rem !important;
   margin: 1rem auto !important;
   padding: 0 0.62rem !important;
-} */
+}
+
+/* Force resume section headers to stack (Institution above Date) */
+section header {
+  display: block !important;
+  width: 100% !important;
+}
 
 /* Remove main constraints - will inherit body width */
 /* main {
