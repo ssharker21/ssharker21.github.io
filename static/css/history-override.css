@@ -1,37 +1,46 @@
-/* Override universal-resume CSS to work within site's natural limits */
-
 /* Reset body to match site's styling - REMOVED to avoid conflicts with theme */
-/* body {
-  margin: 1rem auto !important;
-  max-width: 45rem !important;
-  padding: 0 0.62rem !important;
-  font-family: "Palatino Linotype", Palatino, serif !important;
-  font-size: 1.1rem !important;
-  line-height: 1.6rem !important;
+/* Override main.css body max-width to allow wider resume content */
+body {
+  max-width: none !important;
+  margin: 0 !important;
   background-color: #FEFEFA !important;
-  color: #000000 !important;
-} */
+}
+
+/* Constrain header to match other pages */
+header {
+  max-width: 45rem !important;
+  margin: 1rem auto !important;
+  padding: 0 0.62rem !important;
+}
+
+/* Constrain resume content to a reasonable width and center it */
+main {
+  max-width: 66.4rem !important;
+  /* Matches md:max-w-letter from build.css */
+  margin: 1rem auto !important;
+  padding: 0 0.62rem !important;
+}
 
 /* AGGRESSIVE OVERRIDES - Target the exact page container */
-main.font-firago.hyphens-manual > div,
-main > div.p-6,
-main > div.mx-auto,
-main > div.page,
-main > div.max-w-2xl,
+main.font-firago.hyphens-manual>div,
+main>div.p-6,
+main>div.mx-auto,
+main>div.page,
+main>div.max-w-2xl,
 div.p-6.mx-auto.page.max-w-2xl,
 div[class*="max-w-2xl"],
 div[class*="max-w-letter"] {
   max-width: 100% !important;
   width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  /* margin-left: 0 !important;  <-- Removed to allow centering */
+  /* margin-right: 0 !important; <-- Removed to allow centering */
   padding: 0 !important;
   background-color: transparent !important;
 }
 
 /* Force all nested containers to full width */
-main.font-firago.hyphens-manual > div > div,
-main > div > div[class*="col-"],
+main.font-firago.hyphens-manual>div>div,
+main>div>div[class*="col-"],
 div[class*="col-count"],
 div[class*="col-gap"],
 div[class*="col-fill"] {
@@ -57,11 +66,11 @@ div.md\:p-16 {
 } */
 
 /* Keep the resume styling but within constraints - use full width */
-main {
+/* main {
   max-width: 100% !important;
   width: 100% !important;
   margin: 0 !important;
-}
+} */
 
 /* Remove height constraints */
 div[class*="h-letter"] {
@@ -154,12 +163,13 @@ header.flex {
 }
 
 @media (min-width: 833px) {
+
   div[class*="max-w"],
   div[class*="md:max-w"] {
     max-width: 100% !important;
     width: 100% !important;
   }
-  
+
   div[class*="md:col-count-2"] {
     column-count: 1 !important;
   }
