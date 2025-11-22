@@ -1,25 +1,32 @@
-/* Reset body to match site's styling - REMOVED to avoid conflicts with theme */
-/* Override main.css body max-width to allow wider resume content */
+/* Reset body to match site's styling */
+/* Allow body to inherit main.css defaults (45rem, centered) */
 body {
-  max-width: none !important;
-  margin: 0 !important;
+  /* max-width: none !important; <-- REMOVED to match site width */
+  /* margin: 0 !important;       <-- REMOVED to match site margin */
   background-color: #FEFEFA !important;
 }
 
-/* Constrain header to match other pages */
-header {
+/* Override build.css fluid typography to match site's rem scale */
+html {
+  font-size: 100% !important;
+}
+
+/* Remove header constraints - will inherit body width */
+/* header {
   max-width: 45rem !important;
   margin: 1rem auto !important;
   padding: 0 0.62rem !important;
-}
+} */
 
-/* Constrain resume content to a reasonable width and center it */
-main {
+/* Remove main constraints - will inherit body width */
+/* main {
   max-width: 66.4rem !important;
   /* Matches md:max-w-letter from build.css */
-  margin: 1rem auto !important;
-  padding: 0 0.62rem !important;
+margin: 1rem auto !important;
+padding: 0 0.62rem !important;
 }
+
+*/
 
 /* AGGRESSIVE OVERRIDES - Target the exact page container */
 main.font-firago.hyphens-manual>div,
