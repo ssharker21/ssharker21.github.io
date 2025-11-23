@@ -279,3 +279,33 @@ details {
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
 }
+
+/* Blog Post Styles */
+.blog-post-header h1.title {
+  margin-bottom: 0.2rem;
+  /* Reduce space between title and date */
+}
+
+.blog-post-header h1.title a {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  color: #000000;
+  /* Keep title black but underlined */
+}
+
+.blog-post-header h1.title a:hover {
+  color: #500bff;
+  /* Hover color consistent with other links */
+}
+
+.blog-post-header .date {
+  font-size: 1rem;
+  color: #7c7c7c;
+  margin-bottom: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.blog-post-content h1:first-child {
+  display: none;
+}
