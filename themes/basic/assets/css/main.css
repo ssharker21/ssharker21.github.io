@@ -42,14 +42,16 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .nav-list {
   font-family: "Courier New", Courier, monospace;
   list-style-type: none;
   line-height: 1.8rem;
-  text-align: right;
   margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .nav-list a {
