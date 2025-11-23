@@ -18,4 +18,5 @@ pygmentsUseClasses = true
 
 [permalinks]
     posts = "/:year/:month/:slug/"
+    blog = "/blog/:year/:month/:slug/"
     page = "/:slug/"
