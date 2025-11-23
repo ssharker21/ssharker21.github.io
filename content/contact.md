@@ -2,6 +2,6 @@
 title: Contact
 ---
 
-To contact me, either use one of the services on the [front page](/) or via email.
+Below is my email if you wish to contact me.
 
 - Email: `contact@summitsarkar.com`
