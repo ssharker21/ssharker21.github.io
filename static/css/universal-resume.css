@@ -148,6 +148,13 @@ body {
   min-width: 2.31rem;
 }
 
+/* Blog styles */
+.post-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
 /* Print styles */
 @media print {
   @page {
