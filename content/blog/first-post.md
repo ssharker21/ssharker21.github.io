@@ -6,8 +6,6 @@ draft: false
 
 # Small Intro
 
-November 23rd, 2025
-
 ## How I got here
 
 My site is mostly a product of an Amherst alum's work. Some time ago, I stumbled upon Cole Graber-Mitchell ('22) on LinkedIn. His *old* website was attractively minimal without seeming Weebly/Wordpress-like. After cloning his Github repository, I spent a fair chunk of time modifying it for my use. Before, I did so manually (with my beginner's coding knowledge), and recently, I've offloaded this work to Cursor/Antigravity. On CGM's *new* site, he has a requirement to not train AI on his work. And I haven't, by disabling telemetry and all.
