@@ -286,17 +286,16 @@ details {
   /* Reduce space between title and date */
 }
 
+/* Style for linked titles (Blog Index) */
 .blog-post-header h1.title a {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 2px;
   color: #000000;
-  /* Keep title black but underlined */
 }
 
 .blog-post-header h1.title a:hover {
   color: #500bff;
-  /* Hover color consistent with other links */
 }
 
 .blog-post-header .date {
