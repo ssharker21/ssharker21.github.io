@@ -1,0 +1,45 @@
+{{ define "main" }}
+<article class="photographs-page">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+
+    <div class="photo-grid">
+        {{ range .Resources.ByType "image" }}
+        <div class="photo-item">
+            <img src="{{ .RelPermalink }}" alt="{{ .Name }}" class="grid-image" onclick="openLightbox(this)">
+        </div>
+        {{ end }}
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close-btn" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script>
+        function openLightbox(img) {
+            var lightbox = document.getElementById("lightbox");
+            var lightboxImg = document.getElementById("lightbox-img");
+            lightbox.style.display = "flex";
+            lightboxImg.src = img.src;
+            document.body.style.overflow = "hidden"; // Prevent scrolling
+        }
+
+        function closeLightbox() {
+            var lightbox = document.getElementById("lightbox");
+            lightbox.style.display = "none";
+            document.body.style.overflow = "auto"; // Restore scrolling
+        }
+
+        // Close on escape key
+        document.addEventListener('keydown', function (event) {
+            if (event.key === "Escape") {
+                closeLightbox();
+            }
+        });
+    </script>
+</article>
+{{ end }}
