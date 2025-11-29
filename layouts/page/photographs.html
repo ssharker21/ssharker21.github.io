@@ -1,7 +1,7 @@
 {{ define "main" }}
-<article class="photographs-page">
-    <h1 class="post-title">{{ .Title }}</h1>
-    <div class="post-content">
+<article class="photographs-page max-w-letter mx-auto p-6">
+    <h1 class="post-title text-2xl font-bold mb-4">{{ .Title }}</h1>
+    <div class="post-content mb-8">
         {{ .Content }}
     </div>
 
@@ -12,34 +12,38 @@
         </div>
         {{ end }}
     </div>
+</article>
 
-    <!-- Lightbox Modal -->
-    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-        <span class="close-btn" onclick="closeLightbox()">&times;</span>
-        <img class="lightbox-content" id="lightbox-img">
-    </div>
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close-btn" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
 
-    <script>
-        function openLightbox(img) {
-            var lightbox = document.getElementById("lightbox");
-            var lightboxImg = document.getElementById("lightbox-img");
+<script>
+    function openLightbox(img) {
+        var lightbox = document.getElementById("lightbox");
+        var lightboxImg = document.getElementById("lightbox-img");
+        if (lightbox && lightboxImg) {
             lightbox.style.display = "flex";
             lightboxImg.src = img.src;
             document.body.style.overflow = "hidden"; // Prevent scrolling
         }
+    }
 
-        function closeLightbox() {
-            var lightbox = document.getElementById("lightbox");
+    function closeLightbox() {
+        var lightbox = document.getElementById("lightbox");
+        if (lightbox) {
             lightbox.style.display = "none";
             document.body.style.overflow = "auto"; // Restore scrolling
         }
+    }
 
-        // Close on escape key
-        document.addEventListener('keydown', function (event) {
-            if (event.key === "Escape") {
-                closeLightbox();
-            }
-        });
-    </script>
-</article>
+    // Close on escape key
+    document.addEventListener('keydown', function (event) {
+        if (event.key === "Escape") {
+            closeLightbox();
+        }
+    });
+</script>
 {{ end }}
