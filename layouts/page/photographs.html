@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="photographs-page max-w-letter mx-auto p-6">
+<article class="photographs-page max-w-2xl mx-auto p-6">
     <h1 class="post-title text-2xl font-bold mb-4">{{ .Title }}</h1>
     <div class="post-content mb-8">
         {{ .Content }}
@@ -8,7 +8,10 @@
     <div class="photo-grid">
         {{ range .Resources.ByType "image" }}
         <div class="photo-item">
-            <img src="{{ .RelPermalink }}" alt="{{ .Name }}" class="grid-image" onclick="openLightbox(this)">
+            <button class="image-button" onclick="openLightbox('{{ .RelPermalink }}')"
+                aria-label="View full size image">
+                <img src="{{ .RelPermalink }}" alt="{{ .Name }}" class="grid-image">
+            </button>
         </div>
         {{ end }}
     </div>
@@ -21,12 +24,12 @@
 </div>
 
 <script>
-    function openLightbox(img) {
+    function openLightbox(src) {
         var lightbox = document.getElementById("lightbox");
         var lightboxImg = document.getElementById("lightbox-img");
         if (lightbox && lightboxImg) {
             lightbox.style.display = "flex";
-            lightboxImg.src = img.src;
+            lightboxImg.src = src;
             document.body.style.overflow = "hidden"; // Prevent scrolling
         }
     }
