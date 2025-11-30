@@ -4,18 +4,13 @@ title: Home
 
 My name is Summit Sarkar.
 
-I've studied Economics at Amherst College and PPE at New College, Oxford.
+I'm a junior in college at the moment.
 
-I'm interested in domestic and foreign policy; my hobbies include reading great literature and following sports across the world.
-
-Most recently, I've worked as an Undergraduate Legal Intern at the [Competitive Enterprise Institute](https://cei.org/) and as a Research Associate at [The Federalist Society](https://fedsoc.org/).
-
-Formerly, I worked at the [Center for Individual Rights](https://en.wikipedia.org/wiki/Center_for_Individual_Rights), conducting research concerning Constitutional Law.
-
-At Amherst, I've held various teaching and research assistant positions across economics and international relations. I also serve as an Articles Editor at the [Amherst College Law Review](https://amherstlawreview.wordpress.com/).
+I'm trying to be more conscious about the time I spend online. This website will be the one-stop shop for many things about me.
 
 To see my historical commitments, go to [my history page](/history).
 To see my academic work, go to [my research page](/research).
+I also have a [blog](/blog) and a page for my [photographs](/photographs).
 
 {{< a2 "Other places you can find me" >}}
 
