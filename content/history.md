@@ -64,7 +64,7 @@ EXPERIENCE
 Competitive Enterprise Institute
 </h3>
 <p class="leading-normal text-md text-gray-650">
-June 2025 – Aug. 2026 | Undergraduate Legal Intern
+June 2025 – Aug. 2025 | Undergraduate Legal Intern
 </p>
 </header>
 
