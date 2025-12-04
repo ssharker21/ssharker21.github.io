@@ -200,6 +200,9 @@ Conservative Reading Group
 Cross-Country Club (OUCCC)
 </li>
 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+Diplomatic Society
+</li>
+<li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
 Middle East Security Society (MESS)
 </li>
 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
