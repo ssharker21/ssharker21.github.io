@@ -22,6 +22,21 @@ json_path = 'data/books.json'
 
 books = []
 
+# Load existing covers if available
+existing_covers = {}
+if os.path.exists(json_path):
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            existing_books = json.load(f)
+            for b in existing_books:
+                # Create a key based on title and author (or ISBN if unique enough, but title/author is safer for matching back)
+                # Actually, let's use a composite key or just try to match by title/author
+                key = (b.get('title'), b.get('author'))
+                if b.get('cover_image'):
+                    existing_covers[key] = b.get('cover_image')
+    except Exception as e:
+        print(f"Warning: Could not load existing covers: {e}")
+
 with open(csv_path, 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
@@ -38,9 +53,12 @@ with open(csv_path, 'r', encoding='utf-8') as f:
         if not date_read:
             continue
 
+        title = row.get('Title')
+        author = row.get('Author')
+        
         book = {
-            'title': row.get('Title'),
-            'author': row.get('Author'),
+            'title': title,
+            'author': author,
             'isbn': clean_isbn(row.get('ISBN')),
             'isbn13': clean_isbn(row.get('ISBN13')),
             'my_rating': row.get('My Rating'),
@@ -53,8 +71,13 @@ with open(csv_path, 'r', encoding='utf-8') as f:
             'date_read': date_read,
             'date_added': date_added,
             'shelves': row.get('Bookshelves'),
-            'review': row.get('My Review')
+            'review': "" # Clear review as requested
         }
+        
+        # Restore cover image if it exists
+        if (title, author) in existing_covers:
+            book['cover_image'] = existing_covers[(title, author)]
+            
         books.append(book)
 
 # Sort by Date Read (descending), then Date Added (descending)

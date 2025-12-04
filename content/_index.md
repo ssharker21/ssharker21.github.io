@@ -8,7 +8,7 @@ I'm a junior in college at the moment.
 
 I'm trying to be more conscious about the time I spend online. This website will be the one-stop shop for many things about me.
 
-I have a [blog](/blog) and a page for my [photographs](/photographs). I also have a [library](/library) of books I've read.
+I have a [blog](/blog) and a page for my [photographs](/photographs). I also have a [bookshelf](/bookshelf) of books I've read.
 
 {{< a2 "Other places you can find me" >}}
 

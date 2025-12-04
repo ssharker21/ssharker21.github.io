@@ -1,7 +1,7 @@
 {{ define "main" }}
-<div class="library-container">
+<div class="bookshelf-container">
     <h1>{{ .Title }}</h1>
-    <div class="library-years">
+    <div class="bookshelf-years">
         {{ $currentYear := "" }}
         {{ range .Site.Data.books }}
         {{ $year := "" }}
@@ -13,13 +13,13 @@
 
         {{ if ne $year $currentYear }}
         {{ if ne $currentYear "" }}
-    </div><!-- end library-grid -->
+    </div><!-- end bookshelf-grid -->
     </details>
     {{ end }}
     {{ $currentYear = $year }}
     <details class="year-group">
         <summary class="year-header">{{ $year }}</summary>
-        <div class="library-grid">
+        <div class="bookshelf-grid">
             {{ end }}
 
             <div class="book-card">
@@ -61,14 +61,14 @@
             {{ end }}
 
             {{ if ne $currentYear "" }}
-        </div><!-- end library-grid -->
+        </div><!-- end bookshelf-grid -->
     </details>
     {{ end }}
 </div>
 </div>
 
 <style>
-    .library-container {
+    .bookshelf-container {
         max-width: 800px;
         margin: 0 auto;
         padding: 20px;
@@ -105,7 +105,7 @@
         content: '-';
     }
 
-    .library-grid {
+    .bookshelf-grid {
         display: flex;
         flex-direction: column;
         gap: 2rem;
