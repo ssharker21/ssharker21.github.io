@@ -1,0 +1,131 @@
+{{ define "main" }}
+<div class="library-container">
+    <h1>{{ .Title }}</h1>
+    <div class="library-grid">
+        {{ range .Site.Data.books }}
+        <div class="book-card">
+            <div class="book-cover">
+                {{ if .isbn }}
+                <img src="https://covers.openlibrary.org/b/isbn/{{ .isbn }}-M.jpg" alt="{{ .title }} cover"
+                    loading="lazy">
+                {{ else if .isbn13 }}
+                <img src="https://covers.openlibrary.org/b/isbn/{{ .isbn13 }}-M.jpg" alt="{{ .title }} cover"
+                    loading="lazy">
+                {{ else }}
+                <div class="no-cover">No Cover</div>
+                {{ end }}
+            </div>
+            <div class="book-details">
+                <h2 class="book-title">{{ .title }}</h2>
+                <div class="book-author">by {{ .author }}</div>
+                <div class="book-meta">
+                    {{ if .date_read }}
+                    <span class="date-read">Read: {{ .date_read }}</span>
+                    {{ else if .date_added }}
+                    <span class="date-added">Added: {{ .date_added }}</span>
+                    {{ end }}
+                </div>
+                <div class="book-rating">
+                    {{ $rating := int .my_rating }}
+                    {{ range seq $rating }}★{{ end }}
+                    {{ range seq (sub 5 $rating) }}☆{{ end }}
+                </div>
+                {{ if .review }}
+                <div class="book-review">
+                    {{ .review | safeHTML }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+    .library-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .library-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .book-card {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .book-cover {
+        flex-shrink: 0;
+        width: 100px;
+    }
+
+    .book-cover img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .no-cover {
+        width: 100px;
+        height: 150px;
+        background: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #888;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .book-details {
+        flex-grow: 1;
+    }
+
+    .book-title {
+        margin: 0 0 5px 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .book-author {
+        color: #666;
+        margin-bottom: 10px;
+        font-style: italic;
+    }
+
+    .book-meta {
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 10px;
+    }
+
+    .book-rating {
+        color: #f4c542;
+        margin-bottom: 10px;
+    }
+
+    .book-review {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        color: #333;
+    }
+
+    @media (max-width: 600px) {
+        .book-card {
+            flex-direction: column;
+        }
+
+        .book-cover {
+            width: 120px;
+            margin: 0 auto;
+        }
+    }
+</style>
+{{ end }}
