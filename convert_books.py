@@ -35,6 +35,9 @@ with open(csv_path, 'r', encoding='utf-8') as f:
         # Only include if we have a date to sort by, or maybe just put them at the end?
         # Goodreads export usually has everything.
         
+        if not date_read:
+            continue
+
         book = {
             'title': row.get('Title'),
             'author': row.get('Author'),
