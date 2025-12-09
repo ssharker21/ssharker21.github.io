@@ -6,7 +6,7 @@ My name is Summit Sarkar.
 
 I'm a junior in college at the moment.
 
-I'm trying to be more conscious about the time I spend online. This website will be the one-stop shop for many things about me.
+I'm trying to be more deliberate with my time online. This website will be the one-stop shop for many things about me.
 
 I have a [blog](/blog) and a page for my [photographs](/photographs). I also have a [list](/bookshelf) of books I've read.
 
