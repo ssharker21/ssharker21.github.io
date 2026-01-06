@@ -12,6 +12,9 @@ Being a year-long visiting student is strange. If I were here for just one semes
 
 I came to Oxford on October 5th with low expectations. I knew that the work would be extremely difficult, and the fact that I was merely a single-year visitor ordained that any potential friendship would be fleeting—born from convenience. And being a mediocre Amherst student, surely I would be a minnow at New College, inarguably among the greatest constituent colleges here. Thus, instead of falling in love with people, I first fell in love with the architecture and nature, regularly walking north past Hertford, Wadham, Trinity, Reuben, and Keble, before cutting through the University Parks to reach LMH and Wolfson, meandering through North Oxford and turning back for home. Before I had something like a friend, I tried to really feel and absorb this gorgeous world around me.
 
+
+<img src="/images/michaelmas_sunset.jpg" alt="Oxford Sunset" style="width: 100%; height: auto;">
+
 ### Tutes
 
 Then the term heated up. I was afraid my Public Economics tutes would go poorly, as my outline was ripped apart in the very first tute. My partners were much more capable than me, one of them being a Chinese international with a stunning, graduate-level grasp on mathematical economics (I often nodded along pretending to understand the depth of his mathematical analysis during presentations) and the other being this Union bigwig who worked at Lazard M&A last summer. I feared my (DPhil) tutor would be this serious, strict German, but he ended up being quite helpful and kind.
