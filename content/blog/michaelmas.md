@@ -29,7 +29,8 @@ Cross-Country Club is great too. The first run, dodging vines and slipping throu
 I have also had some fun times, staying up to 3 or 4 AM, watching Game 6 and Game 7 of the World Series at St. Anne's College, walking back delirious with sleep. I've eaten at some restaurants, attended some formals, and watched films at the cinema with acquaintances. But I think the people I most smiled with were second-years at New College, most of them being my PPE classmates from Micro. These PPEists are Northerners, from Leeds and Manchester. They're funny and knowledgable and unpretentious—a breath of fresh air compared to what I was used to. I'd wager they're from working-class backgrounds, just like me. I get the feeling that they actually enjoy their subjects and don't have the sickly, superficial, networking vibe. I really appreciate such authenticity. But having low expectations is important, because measuring friendships against the yardstick of "lifelong" is a recipe for disappointment.
 
 
-![Michaelmas Group](/images/michaelmas_group.jpg)
+
+<img src="/images/michaelmas_group.jpg" alt="Michaelmas Group" style="width: 100%; height: auto;">
 
 ### Conclusion
 
