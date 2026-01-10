@@ -8,7 +8,7 @@ title: Research
 <div class="card-right">
 <h3>Public Economics Papers</h3>
 <details>
-<summary>Click to view my four 2500-word tutorial essays, under the supervision of DPhil candidate Gerwin Kiessling.</summary>
+<summary>Click the dropdown to view my four 2500-word tutorial essays, under the supervision of DPhil candidate Gerwin Kiessling.</summary>
 <br>
 
 #### Public Economics: Week 2
