@@ -24,7 +24,7 @@ _Available [for download](gallery/cir/paper.pdf)._
 <div class="card-right">
 <h3>Public Economics Papers</h3>
 <details>
-<summary>Click to view 4 short essays</summary>
+<summary>Click to view my four 2500-word tutorial essays, under the supervision of DPhil candidate Gerwin Kiessling.</summary>
 <br>
 
 {{< card img="gallery/public_econ/week_2.png" url="gallery/public_econ/week_2.pdf" >}}
