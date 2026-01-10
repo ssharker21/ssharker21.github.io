@@ -17,6 +17,43 @@ Covered some of the most important legal cases from a public-interest law firm p
 _Available [for download](gallery/cir/paper.pdf)._
 {{< /card >}}
 
+<details>
+<summary>Public Economics Papers</summary>
+
+{{< card img="gallery/public_econ/week_2.png" url="gallery/public_econ/week_2.pdf" >}}
+### Public Economics: Week 2
+
+An analysis of public economics concepts covered in week 2.
+
+_Available [for download](gallery/public_econ/week_2.pdf)._
+{{< /card >}}
+
+{{< card img="gallery/public_econ/week_3.png" url="gallery/public_econ/week_3.pdf" >}}
+### Public Economics: Week 3
+
+An analysis of public economics concepts covered in week 3.
+
+_Available [for download](gallery/public_econ/week_3.pdf)._
+{{< /card >}}
+
+{{< card img="gallery/public_econ/week_4.png" url="gallery/public_econ/week_4.pdf" >}}
+### Public Economics: Week 4
+
+An analysis of public economics concepts covered in week 4.
+
+_Available [for download](gallery/public_econ/week_4.pdf)._
+{{< /card >}}
+
+{{< card img="gallery/public_econ/week_8.png" url="gallery/public_econ/week_8.pdf" >}}
+### Public Economics: Week 8
+
+An analysis of public economics concepts covered in week 8.
+
+_Available [for download](gallery/public_econ/week_8.pdf)._
+{{< /card >}}
+
+</details>
+
 <div class="line"></div>
 
 <center>
