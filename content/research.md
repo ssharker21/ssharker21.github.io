@@ -17,14 +17,6 @@ Covered some of the most important legal cases from a public-interest law firm p
 _Available [for download](gallery/cir/paper.pdf)._
 {{< /card >}}
 
-{{< card img="gallery/ftc/first_page.png" url="gallery/ftc/paper.pdf" >}}
-###  Policing Corporations: An Analysis of Big Tech
-
-Traced the recent shift in the government's antitrust strategy following the appointment of FTC Chair Lina Khan.
-
-_Available [for download](gallery/ftc/paper.pdf)._
-{{< /card >}}
-
 <div class="line"></div>
 
 <center>
