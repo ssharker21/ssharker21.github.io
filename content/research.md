@@ -11,7 +11,7 @@ title: Research
 <summary>Click the dropdown to view my four 2500-word tutorial essays, under the supervision of DPhil candidate Gerwin Kiessling.</summary>
 <br>
 
-#### Public Economics: Week 2
+#### Week 2
 
 "In the UK, household heating is taxed at 5%, while most other consumer goods are taxed at 20%. Discuss whether this is a good policy."
 
@@ -19,7 +19,7 @@ _Available [for download](gallery/public_econ/week_2.pdf)._
 
 <br>
 
-#### Public Economics: Week 3
+#### Week 3
 
 "The government has decided to simplify the tax system through imposing a single marginal tax rate and providing the same lump sum benefits to all. Explain how to determine the optimal tax rate."
 
@@ -27,7 +27,7 @@ _Available [for download](gallery/public_econ/week_3.pdf)._
 
 <br>
 
-#### Public Economics: Week 4
+#### Week 4
 
 "Discuss the challenges introduced by non-compliance when evaluating the desirability of a particular tax policy."
 
@@ -35,7 +35,7 @@ _Available [for download](gallery/public_econ/week_4.pdf)._
 
 <br>
 
-#### Public Economics: Week 8
+#### Week 8
 
 "Should incentives to induce individuals to return to work be means tested? Should the incentives be time limited?"
 
