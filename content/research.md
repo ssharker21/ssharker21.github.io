@@ -18,14 +18,14 @@ _Available [for download](gallery/cir/paper.pdf)._
 {{< /card >}}
 
 <div class="card">
-    <div class="card-left">
-        <a href="gallery/public_econ/week_2.pdf"><img src="gallery/public_econ/week_2.png"></img></a>
-    </div>
-    <div class="card-right">
-        <h3>Public Economics Papers</h3>
-        <details>
-            <summary>Click to view 4 short essays</summary>
-            <br>
+<div class="card-left">
+<a href="gallery/public_econ/week_2.pdf"><img src="gallery/public_econ/week_2.png"></img></a>
+</div>
+<div class="card-right">
+<h3>Public Economics Papers</h3>
+<details>
+<summary>Click to view 4 short essays</summary>
+<br>
 
 {{< card img="gallery/public_econ/week_2.png" url="gallery/public_econ/week_2.pdf" >}}
 ### Public Economics: Week 2
@@ -59,8 +59,8 @@ _Available [for download](gallery/public_econ/week_4.pdf)._
 _Available [for download](gallery/public_econ/week_8.pdf)._
 {{< /card >}}
 
-        </details>
-    </div>
+</details>
+</div>
 </div>
 
 <div class="line"></div>
