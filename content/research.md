@@ -23,7 +23,7 @@ _Available [for download](gallery/cir/paper.pdf)._
 {{< card img="gallery/public_econ/week_2.png" url="gallery/public_econ/week_2.pdf" >}}
 ### Public Economics: Week 2
 
-An analysis of public economics concepts covered in week 2.
+"In the UK, household heating is taxed at 5%, while most other consumer goods are taxed at 20%. Discuss whether this is a good policy."
 
 _Available [for download](gallery/public_econ/week_2.pdf)._
 {{< /card >}}
@@ -31,7 +31,7 @@ _Available [for download](gallery/public_econ/week_2.pdf)._
 {{< card img="gallery/public_econ/week_3.png" url="gallery/public_econ/week_3.pdf" >}}
 ### Public Economics: Week 3
 
-An analysis of public economics concepts covered in week 3.
+"The government has decided to simplify the tax system through imposing a single marginal tax rate and providing the same lump sum benefits to all. Explain how to determine the optimal tax rate."
 
 _Available [for download](gallery/public_econ/week_3.pdf)._
 {{< /card >}}
@@ -39,7 +39,7 @@ _Available [for download](gallery/public_econ/week_3.pdf)._
 {{< card img="gallery/public_econ/week_4.png" url="gallery/public_econ/week_4.pdf" >}}
 ### Public Economics: Week 4
 
-An analysis of public economics concepts covered in week 4.
+"Discuss the challenges introduced by non-compliance when evaluating the desirability of a particular tax policy."
 
 _Available [for download](gallery/public_econ/week_4.pdf)._
 {{< /card >}}
@@ -47,7 +47,7 @@ _Available [for download](gallery/public_econ/week_4.pdf)._
 {{< card img="gallery/public_econ/week_8.png" url="gallery/public_econ/week_8.pdf" >}}
 ### Public Economics: Week 8
 
-An analysis of public economics concepts covered in week 8.
+"Should incentives to induce individuals to return to work be means tested? Should the incentives be time limited?"
 
 _Available [for download](gallery/public_econ/week_8.pdf)._
 {{< /card >}}
