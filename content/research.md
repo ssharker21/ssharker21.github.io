@@ -19,7 +19,7 @@ _Available [for download](gallery/cir/paper.pdf)._
 
 <div class="card">
 <div class="card-left">
-<a href="gallery/public_econ/week_8.pdf"><img src="gallery/public_econ/week_8.png"></img></a>
+<img src="gallery/public_econ/week_8.png"></img>
 </div>
 <div class="card-right">
 <h3>Public Economics Papers</h3>
