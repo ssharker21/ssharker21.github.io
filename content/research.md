@@ -17,8 +17,11 @@ Covered some of the most important legal cases from a public-interest law firm p
 _Available [for download](gallery/cir/paper.pdf)._
 {{< /card >}}
 
-<details style="margin: 1rem 0;">
-<summary><h3 style="display: inline">Public Economics Papers</h3></summary>
+{{% card img="gallery/public_econ/week_2.png" url="gallery/public_econ/week_2.pdf" %}}
+### Public Economics Papers
+
+<details>
+<summary>Click to view 4 short essays</summary>
 
 {{< card img="gallery/public_econ/week_2.png" url="gallery/public_econ/week_2.pdf" >}}
 ### Public Economics: Week 2
@@ -53,6 +56,7 @@ _Available [for download](gallery/public_econ/week_8.pdf)._
 {{< /card >}}
 
 </details>
+{{% /card %}}
 
 <div class="line"></div>
 
