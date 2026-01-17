@@ -6,7 +6,7 @@ draft: false
 
 ### Setup
 
-I place a very heavy premium on lengthy friendships. I am fairly certain that this bias inhibits me from making new friends. Alas, I don't do superficial. So allow me to present an arbitrary criterion for close friendships: I talked to them at least weekly (almost always exceeding this threshold) for at least 40 weeks in 2025.
+I place a very heavy premium on lengthy friendships. Presumably, this bias inhibits me from making new friends. Alas, I don't do superficial. So allow me to present an arbitrary criterion for close friendships: I talked to them at least weekly (almost always exceeding this threshold) for at least 40 weeks in 2025.
 
 Only six individuals meet this criterion, and I've known them for 20, 9, 9, 6, 5, and 4 years, respectively. The graveyard of my former close friendships is also littered with similarly lengthy tenures, each 4-8 years long.
 
