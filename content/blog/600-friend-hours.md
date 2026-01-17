@@ -46,7 +46,7 @@ The remaining days were less eventful. We spent much of our time sleeping in, ly
 
 And unfortunately, New College was locked up, so there was neither JCR relaxing as before nor library studying as promised. We day-tripped to the Cotswolds, which was a bit underwhelming since we lacked a car. We attempted thrifting in Cowley but came up short, and we tried going out but found Oxford mostly dead in the new year without students. We ate at a Chinese restaurant back in town with a friend from Notre Dame. (The food was excellent for the price.) K and I returned to Lamb & Flag one final time for good measure. Then, we finally parted ways.
 
-In the first few days following K's departure, my room felt so empty and quiet–I had almost forgotten what being alone felt like. I'm really glad I took so much away from these experiences, something I promised myself I would strive for in my previous blog post. I hope that I'm refreshed and ready to tackle Hilary Term at full capacity.
+In the first few days following K's departure, my room felt so empty and quiet–I had almost forgotten what being alone felt like. I'm really glad I took so much away from these experiences, something I promised myself I would strive for in a previous blog post. I hope that I'm refreshed and ready to tackle Hilary Term at full capacity.
 
 ### Appendix
 
