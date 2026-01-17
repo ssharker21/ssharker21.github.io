@@ -58,7 +58,6 @@ In the first few days following K's departure, my room felt so empty and quietâ€
 4. **St Christopher's Inn Edinburgh - Original** - 5/10. Bad vibes. Though it was super close to the train station, there wasn't much mingling or a social atmosphere. At least the beds had curtains. Some guy in our room spoke on his phone all night and moaned in the morning as he brushed his teeth. Very weird. Also, bad etiquette from our neighbors in the room who spoke loudly, turned on the main light, and slammed doors at 11pm.
 
 **Spoons:**
-
 1. **Oxford** - The Four Candles
 2. **Fulham** - Walham Green
 3. **Belfast** - The Bridge House
