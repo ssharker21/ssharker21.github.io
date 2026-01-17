@@ -38,7 +38,7 @@ James Joyce's city was alright: Trinity College Dublin was pretty, but our hoste
 
 During one of the puking instances, I was conscious enough to rush, just in time, to the nearest grate on the road before unleashing the stream. A long line of drivers, bemused and repulsed, stopped at the traffic light watching me puke. I was too nauseous to care at the time, but it makes me blush thinking about it now–I wonder if this will tip them towards voting Reform. I eventually felt better as I closed out the evening with a burger and hot chocolate from the York Spoons, reading an ebook on my phone alone before catching the high-speed CrossCountry back to London. We then walked from King's Cross to Marylebone, making our connection to Oxford.
 
-### Back to Oxford
+### The End
 
 The remaining days were less eventful. We spent much of our time sleeping in, lying in bed scrolling, and watching football. Unfortunately, New College was locked up, so there was no JCR relaxing or library studying. We day-tripped to the Cotswolds, which was a bit underwhelming since we lacked a car. We attempted thrifting in Cowley but came up short, and we tried going out but found Oxford mostly dead in the new year without students. We ate at a Chinese restaurant back in town with a friend from Notre Dame. (The food was excellent for the price.) K and I returned to Lamb & Flag one final time for good measure. Eventually, we finally parted ways.
 
