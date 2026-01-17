@@ -54,7 +54,4 @@ In the first few days after K left, my room felt so empty and quiet–I had almo
 4. **St Christopher's Inn Edinburgh - Original**, 5/10. Bad vibes. Though it was super close to the train station, there wasn't much mingling or a social atmosphere. At least the beds had curtains. Some guy in our room spoke on his phone all night and moaned in the morning as he brushed his teeth. Very weird. Also, bad etiquette from our neighbors in the room who spoke loudly, turned on the main light, and slammed doors at 11pm.
 
 **Spoons:**
-Oxford - The Four Candles
-Fulham - Walham Green
-Belfast - The Bridge House
-York - The Punch Bowl
+Oxford - The Four Candles; Fulham - Walham Green; Belfast - The Bridge House; York - The Punch Bowl
