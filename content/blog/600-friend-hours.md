@@ -42,7 +42,7 @@ During one of the puking instances, I was conscious enough to rush, just in time
 
 The remaining days were less eventful. We spent much of our time sleeping in, lying in bed scrolling, and watching football. Unfortunately, New College was locked up, so there was no JCR relaxing or library studying. We day-tripped to the Cotswolds, which was a bit underwhelming since we lacked a car. We attempted thrifting in Cowley but came up short, and we tried going out but found Oxford mostly dead in the new year without students. We ate at a Chinese restaurant back in town with a friend from Notre Dame. (The food was excellent for the price.) K and I returned to Lamb & Flag one final time for good measure. Eventually, we finally parted ways.
 
-In the first few days after K left, my room felt so empty and quiet–I had almost forgotten what being alone felt like. I'm really glad I enjoyed these experiences, something I promised myself I would strive for in my last blog post. I hope that I'm refreshed and ready to tackle Hilary Term at full capacity.
+In the first few days following K's departure, my room felt so empty and quiet–I had almost forgotten what being alone felt like. I'm really glad I enjoyed these experiences, something I promised myself I would strive for in my last blog post. I hope that I'm refreshed and ready to tackle Hilary Term at full capacity.
 
 ### Appendix
 
