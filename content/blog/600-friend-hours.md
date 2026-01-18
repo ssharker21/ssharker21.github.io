@@ -22,7 +22,7 @@ Bath was pretty enough. I mindlessly meandered along the banks of the Avon alone
 
 I miss the train rides we took together. The trains were so speedy and comfortable–riding Amtrak will never feel the same again. The expansive windows allowed full view of the English countryside hurtling by. The grass was so vividly green, with sheep dotting the landscape. Picturesque country estates loomed in the distance, surely worth millions of quid.
 
-The £4 Greggs coffee and sausage bakes jump-started our foggy brains on the morning train before we eavesdropped on the outlandish conversations of our raucously drunk neighbors on their midday benders on the Great Western. It was our barely concealed, shaking laughter that kept us awake. Later, our neighbors' crumpled Stellas left behind served as a persistent reminder of what we witnessed as we passed one station after another.
+The £4 Greggs coffee and sausage bakes jump-started our foggy brains on the morning train before we eavesdropped on the outlandish conversations of our raucously drunk neighbors on their midday benders on the Great Western. It was our barely concealed, shaking laughter that *kept* us awake. Later, our neighbors' crumpled Stellas left behind served as a persistent reminder of what we witnessed as we passed one town after another.
 
 ### Britain's Lessons
 
