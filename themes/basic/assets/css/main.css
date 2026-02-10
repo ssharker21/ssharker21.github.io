@@ -281,20 +281,37 @@ details {
 }
 
 /* Blog Post Styles */
-.blog-post-header h1.title {
+.blog-post-header h1.title,
+.blog-post-header h3.title {
   margin-bottom: 0.2rem;
   /* Reduce space between title and date */
 }
 
+.category-header {
+  font-size: 1.4rem;
+  font-style: italic;
+  border-bottom: 1px solid #7c7c7c;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog-post-header h3.title {
+  font-variant: small-caps;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
+
 /* Style for linked titles (Blog Index) */
-.blog-post-header h1.title a {
+.blog-post-header h1.title a,
+.blog-post-header h3.title a {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 2px;
   color: #000000;
 }
 
-.blog-post-header h1.title a:hover {
+.blog-post-header h1.title a:hover,
+.blog-post-header h3.title a:hover {
   color: #500bff;
 }
 
