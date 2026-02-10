@@ -2,6 +2,7 @@
 title: "Small Intro"
 date: 2025-11-23
 draft: false
+category: "notes"
 ---
 
 # Small Intro

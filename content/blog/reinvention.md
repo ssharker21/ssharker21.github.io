@@ -2,6 +2,7 @@
 title: "Reinvention?"
 date: 2025-12-17
 draft: false
+category: "reflections"
 ---
 
 There was a time before college when I was proud of my tastes across literature, music, television, and cinema. It was remarkably simple to invent myself for the very first time, as I was convinced that with the proper cultural consumption bundle, I could better understand myself and thereby the world. I mourned how my parents failed to confer upon me a cultural inheritance that I'd envied others take for granted—instead I had to navigate the wilderness as my own man.

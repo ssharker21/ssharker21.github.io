@@ -2,6 +2,7 @@
 title: "600 Friend-Hours"
 date: 2026-01-17
 draft: false
+category: "notes"
 ---
 
 ### Setup
