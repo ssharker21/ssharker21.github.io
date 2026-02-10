@@ -290,7 +290,6 @@ details {
 .category-header {
   font-size: 1.4rem;
   font-style: italic;
-  border-bottom: 1px solid #7c7c7c;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -298,7 +297,7 @@ details {
 .blog-post-header h3.title {
   font-variant: small-caps;
   line-height: 1.8rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* Style for linked titles (Blog Index) */
