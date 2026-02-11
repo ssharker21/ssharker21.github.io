@@ -33,7 +33,7 @@
     "date_added": "2026-01-16",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=ByyFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/the_privileged_poor__how_elite_colleges_are_failing_disadvantaged_students.jpg"
   },
   {
     "title": "The Loneliness of Sonia and Sunny",
@@ -51,7 +51,7 @@
     "date_added": "2026-01-10",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=QLpNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/the_loneliness_of_sonia_and_sunny.jpg"
   },
   {
     "title": "Flesh",
@@ -69,7 +69,7 @@
     "date_added": "2025-12-26",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=MGdMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/flesh.jpg"
   },
   {
     "title": "Sunrise on the Reaping (The Hunger Games, #0.5)",
@@ -87,7 +87,7 @@
     "date_added": "2025-12-14",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=7NDJ0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/sunrise_on_the_reaping__the_hunger_games___0_5_.jpg"
   },
   {
     "title": "The Namesake",
@@ -195,7 +195,7 @@
     "date_added": "2025-07-07",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=w7ntzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/demon_copperhead.jpg"
   },
   {
     "title": "The White Album",
@@ -213,7 +213,7 @@
     "date_added": "2025-07-04",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=KFCEPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/the_white_album.jpg"
   },
   {
     "title": "The Year of Magical Thinking",
@@ -321,7 +321,7 @@
     "date_added": "2025-04-10",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=koCHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/regime_change__toward_a_postliberal_future.jpg"
   },
   {
     "title": "War for Eternity: Inside Bannon's Far-Right Circle of Global Powerbrokers",
@@ -392,7 +392,7 @@
     "date_added": "2025-03-17",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=LgOJCgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/submission.jpg"
   },
   {
     "title": "Why Liberalism Failed",
@@ -464,7 +464,7 @@
     "date_added": "2025-02-26",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=DvKGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/mean_girl__ayn_rand_and_the_culture_of_greed.jpg"
   },
   {
     "title": "Birchers: How the John Birch Society Radicalized the American Right",
@@ -571,7 +571,7 @@
     "date_added": "2024-09-04",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=K6GrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/three_summers.jpg"
   },
   {
     "title": "A Personal Matter",
@@ -589,7 +589,7 @@
     "date_added": "2024-09-02",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=SXwDgmiPx6QC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/a_personal_matter.jpg"
   },
   {
     "title": "For Whom the Bell Tolls",
@@ -750,7 +750,7 @@
     "date_added": "2024-04-03",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=-4z2XfD2cXUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/the_city___the_city.jpg"
   },
   {
     "title": "Atonement",
@@ -768,7 +768,7 @@
     "date_added": "2024-03-09",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=-UqNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/atonement.jpg"
   },
   {
     "title": "A Critical Theory of Police Power: The Fabrication of the Social Order",
@@ -876,7 +876,7 @@
     "date_added": "2024-01-16",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=UveMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/1q84__1q84__1_3_.jpg"
   },
   {
     "title": "Sharp Objects",
@@ -894,7 +894,7 @@
     "date_added": "2024-01-02",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=prGlMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/sharp_objects.jpg"
   },
   {
     "title": "The Remains of the Day",
@@ -912,7 +912,7 @@
     "date_added": "2023-12-19",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=MSurBex2xcUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/the_remains_of_the_day.jpg"
   },
   {
     "title": "Spring Snow (The Sea of Fertility, #1)",
@@ -930,7 +930,7 @@
     "date_added": "2023-12-18",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=5UCaclLlkk8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/spring_snow__the_sea_of_fertility___1_.jpg"
   },
   {
     "title": "Lysistrata and Other Plays",
@@ -948,7 +948,7 @@
     "date_added": "2023-12-04",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=T0DgaOqVi0AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/lysistrata_and_other_plays.jpg"
   },
   {
     "title": "Gang Leader for a Day: A Rogue Sociologist Takes to the Streets",
@@ -966,7 +966,7 @@
     "date_added": "2023-12-02",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=WCdS9x3gAbcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/gang_leader_for_a_day__a_rogue_sociologist_takes_to_the_streets.jpg"
   },
   {
     "title": "Never Let Me Go",
@@ -1092,7 +1092,7 @@
     "date_added": "2023-11-16",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=o3TWngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/are_prisons_obsolete_.jpg"
   },
   {
     "title": "White Nights",
@@ -1253,7 +1253,7 @@
     "date_added": "2023-08-12",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=BgOOBiD9NPoC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/the_trial.jpg"
   },
   {
     "title": "One Hundred Years of Solitude",
@@ -1289,7 +1289,7 @@
     "date_added": "2023-07-29",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=UlXhCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/the_master_and_margarita.jpg"
   },
   {
     "title": "Nicomachean Ethics",
@@ -1307,7 +1307,7 @@
     "date_added": "2023-07-24",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=3JuePlN_03cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/nicomachean_ethics.jpg"
   },
   {
     "title": "A Farewell to Arms",
@@ -1360,7 +1360,7 @@
     "date_added": "2023-07-11",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=SHvzzuCnuv8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/thinking__fast_and_slow.jpg"
   },
   {
     "title": "The Myth of Sisyphus and Other Essays",
@@ -1378,7 +1378,7 @@
     "date_added": "2023-07-02",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=9kQSjiUX1RIC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/the_myth_of_sisyphus_and_other_essays.jpg"
   },
   {
     "title": "People We Meet on Vacation",
@@ -1432,7 +1432,7 @@
     "date_added": "2021-07-15",
     "shelves": "favorites, classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=9U8oAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/the_secret_history.jpg"
   },
   {
     "title": "The Age of Innocence",
@@ -1504,7 +1504,7 @@
     "date_added": "2023-05-07",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=brSidvTKfcQC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/meditations.jpg"
   },
   {
     "title": "The Power of Geography: Ten Maps That Reveal the Future of Our World",
@@ -1522,7 +1522,7 @@
     "date_added": "2023-05-05",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=HgkDzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/the_power_of_geography__ten_maps_that_reveal_the_future_of_our_world.jpg"
   },
   {
     "title": "Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson",
@@ -1558,7 +1558,7 @@
     "date_added": "2023-04-29",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=NopPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/siddhartha.jpg"
   },
   {
     "title": "The Russian Revolution: A New History",
@@ -1612,7 +1612,7 @@
     "date_added": "2023-03-11",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=xX0xEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/defence_of_socrates__euthyphro__and_crito.jpg"
   },
   {
     "title": "Death of a Salesman",
@@ -1702,7 +1702,7 @@
     "date_added": "2023-02-15",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=--_eXhJE0noC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/sputnik_sweetheart.jpg"
   },
   {
     "title": "Norwegian Wood",
@@ -1989,7 +1989,7 @@
     "date_added": "2022-08-04",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=biBRxQmHPLIC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/the_odyssey.jpg"
   },
   {
     "title": "Where the Crawdads Sing",
@@ -2025,7 +2025,7 @@
     "date_added": "2021-06-17",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=UdnSAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/the_catcher_in_the_rye.jpg"
   },
   {
     "title": "Clockwork Princess (The Infernal Devices, #3)",
@@ -2133,7 +2133,7 @@
     "date_added": "2022-06-28",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=hlExDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/crime_and_punishment.jpg"
   },
   {
     "title": "Paper Towns",
@@ -2151,7 +2151,7 @@
     "date_added": "2021-07-23",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=uEGLDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/paper_towns.jpg"
   },
   {
     "title": "Sea of Tranquility",
@@ -2223,7 +2223,7 @@
     "date_added": "2022-06-16",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=uryWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/dune_messiah__dune__2_.jpg"
   },
   {
     "title": "Dune (Dune #1)",
@@ -2259,7 +2259,7 @@
     "date_added": "2022-06-09",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=okiAAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/maus_i__a_survivor_s_tale__my_father_bleeds_history__maus___1_.jpg"
   },
   {
     "title": "The Sun Also Rises",
@@ -2295,7 +2295,7 @@
     "date_added": "2022-05-20",
     "shelves": "",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=FHEy-iv2Y5IC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/extremely_loud___incredibly_close.jpg"
   },
   {
     "title": "The Silent Patient",
@@ -2331,7 +2331,7 @@
     "date_added": "2022-05-23",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=HByVN01euAAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/great_expectations.jpg"
   },
   {
     "title": "The Adventures of Huckleberry Finn (Adventures of Tom and Huck, #2)",
@@ -2384,7 +2384,7 @@
     "date_added": "2022-05-01",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=8AXw9GY3DJgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/the_adventures_of_tom_sawyer.jpg"
   },
   {
     "title": "The House in the Cerulean Sea (Cerulean Chronicles, #1)",
@@ -2562,7 +2562,7 @@
     "date_added": "2021-07-28",
     "shelves": "classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=oSjb8mHu-ScC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/pride___prejudice.jpg"
   },
   {
     "title": "The Song of Achilles",
@@ -2580,7 +2580,7 @@
     "date_added": "2021-08-25",
     "shelves": "summer-2021",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=kakyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/the_song_of_achilles.jpg"
   },
   {
     "title": "The Wicked King (The Folk of the Air, #2)",
@@ -2634,7 +2634,7 @@
     "date_added": "2021-07-19",
     "shelves": "summer-2021",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=2dV3swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "cover_image": "/images/covers/the_cruel_prince__the_folk_of_the_air___1_.jpg"
   },
   {
     "title": "Circe",
@@ -2688,7 +2688,7 @@
     "date_added": "2021-06-17",
     "shelves": "summer-2021, classics",
     "review": "",
-    "cover_image": "https://books.google.com/books/content?id=kLZg3grRVZsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "cover_image": "/images/covers/the_count_of_monte_cristo.jpg"
   },
   {
     "title": "Chemistry",
