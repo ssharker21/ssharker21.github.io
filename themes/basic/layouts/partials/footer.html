@@ -2,3 +2,12 @@
 <footer>
   (c) 2024-2026 Summit Sarkar.
 </footer>
+<script>
+    // Fix for footnotes when base tag is present (caused by <base> in head)
+    document.querySelectorAll('a[href^="#fn:"], a[href^="#fnref:"]').forEach(anchor => {
+        const href = anchor.getAttribute('href');
+        if (href && href.startsWith('#')) {
+             anchor.href = window.location.pathname + window.location.search + href;
+        }
+    });
+</script>
