@@ -24,7 +24,7 @@ Mentioned in passing was a Michael Oakeshott quote:
 
 I am really growing to resonate with this quote in a way I never did before.
 
-Finally, I would be remiss to ignore the other kind of friend–the type that primarily sustains rather than transforms. Being sustained is so important–otherwise the peaks and the troughs of daily life are almost unbearable. I am almost equally grateful for these people in life, because maybe they transform me in subtler increments over years, beyond my recognition because I so take them for granted. 
+Finally, I would be remiss if I ignored the other kind of friend–the one that primarily sustains rather than transforms. Being sustained is so important–otherwise the peaks and the troughs of daily life are almost unbearable. I am almost equally grateful for these people in life, because maybe they transform me in subtler increments over years, beyond my recognition because I so take them for granted. 
 
 Indeed, these friends reflect my [conservatism](https://wp.aleteia.org/wp-content/uploads/sites/2/2014/02/on_being_conservative.pdf):
 > "the familiar to the unknown, to prefer the tried to the untried, fact to mystery, the actual to the possible, the limited to the unbounded, the near to the distant, the sufficient to the superabundant, the convenient to the perfect, present laughter to utopian bliss."
