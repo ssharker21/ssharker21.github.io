@@ -325,3 +325,16 @@ details {
 .blog-post-content h1:first-child {
   display: none;
 }
+
+.footnotes {
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
+
+sup {
+  line-height: 0;
+  font-size: 0.75rem;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
