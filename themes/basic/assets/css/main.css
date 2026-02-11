@@ -325,3 +325,24 @@ details {
 .blog-post-content h1:first-child {
   display: none;
 }
+
+/* Footnote Styles */
+sup {
+  line-height: 0;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+.footnotes {
+  font-size: 0.9rem; /* Smaller than body 1.1rem */
+  margin-top: 2rem;
+}
+
+.footnotes ol {
+  padding-left: 1.5rem; 
+}
+
+.footnotes li {
+  margin-bottom: 0.3rem; /* Tighter spacing */
+}
