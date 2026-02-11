@@ -29,7 +29,7 @@ Finally, I would be remiss if I ignored the other kind of friend–the one that 
 Indeed, these friends reflect my [conservatism](https://wp.aleteia.org/wp-content/uploads/sites/2/2014/02/on_being_conservative.pdf):
 > "the familiar to the unknown, to prefer the tried to the untried, fact to mystery, the actual to the possible, the limited to the unbounded, the near to the distant, the sufficient to the superabundant, the convenient to the perfect, present laughter to utopian bliss."
 
-So far, I've found that transformation and permanence are mutually exclusive–the only people who have transformed me are not with me for long. Supposedly, there exist [Alices](https://www.henrikkarlsson.xyz/p/looking-for-alice) in this world, but I'll believe it when I see it. Until then, I am quite content with what I have.
+So far, I've found that transformation and permanence are mutually exclusive–the only people who have transformed me are not with me for long. Supposedly, there exist [Alices](https://www.henrikkarlsson.xyz/p/looking-for-alice) in this world, but I'll believe it when I see it. Until then, I'll remain content with what I have.
 
 [^1]: I don't make it easy for them: distant and a little hostile–unable to divulge even the slightest bits of my life.
 [^2]: Needless to say, they are also brighter than I am.
