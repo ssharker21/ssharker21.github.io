@@ -212,6 +212,9 @@ Middle East Security Society (MESS)
 New College Basketball Club
 </li>
 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+New College Poker Society (NCPS)
+</li>
+<li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
 Strategic Studies Group (SSG)
 </li>
 <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
