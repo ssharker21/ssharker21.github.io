@@ -1,6 +1,14 @@
 ---
 title: Research
 ---
+
+### Interactive Word Document Example
+*Replace `YOUR_DOCUMENT_ID` with the ID from your Google Docs link (e.g. `1aBcD...`). Don't forget to set the sharing settings to "Anyone with the link can view".*
+
+{{< gdoc id="1bG1xYwYc_HN7F3t2woUlG0g4B7YZzatN" >}}
+
+<br>
+
 <div class="card">
 <div class="card-left">
 <img src="gallery/public_econ/week_8.png"></img>
