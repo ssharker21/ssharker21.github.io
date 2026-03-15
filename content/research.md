@@ -41,8 +41,6 @@ _Read the interactive essay [here](/papers/cw_week6/)._
 </div>
 </div>
 
-<br>
-
 <div class="card">
 <div class="card-left">
 <img src="gallery/public_econ/week_8.png"></img>
