@@ -18,7 +18,7 @@ _Read the interactive essay [here](/papers/cw_week2/)._
 <br>
 
 #### Week 3
-"Détente was both promoted and undermined by domestic political considerations.’ Discuss."<br>
+"Détente was both promoted and undermined by domestic political considerations. Discuss."<br>
 _Read the interactive essay [here](/papers/cw_week3/)._
 <br>
 
