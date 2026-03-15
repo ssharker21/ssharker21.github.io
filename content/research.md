@@ -3,7 +3,10 @@ title: Research
 ---
 
 <div class="card">
-<div class="card-right" style="flex: 1; padding: 20px;">
+<div class="card-left">
+<img src="gallery/cold_war_ir/first_page.png"></img>
+</div>
+<div class="card-right">
 <h3>Cold War International Relations</h3>
 <details>
 <summary>Click the dropdown to view my five interactive tutorial essays on Cold War International Relations. They feature an interactive reading experience for tutor comments.</summary>
