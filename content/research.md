@@ -2,10 +2,46 @@
 title: Research
 ---
 
-### Interactive Word Document Example
-*Replace `YOUR_DOCUMENT_ID` with the ID from your Google Docs link (e.g. `1aBcD...`). Don't forget to set the sharing settings to "Anyone with the link can view".*
+<div class="card">
+<div class="card-right" style="flex: 1; padding: 20px;">
+<h3>Cold War International Relations</h3>
+<details>
+<summary>Click the dropdown to view my interactive tutorial essays on Cold War International Relations. Hover over highlighted text to read the comments.</summary>
+<br>
 
-{{< gdoc id="1bG1xYwYc_HN7F3t2woUlG0g4B7YZzatN" >}}
+#### Week 2
+
+_Available as an interactive document below._
+<iframe loading="lazy" src="/gallery/cold_war_ir/week_2_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+<br>
+
+#### Week 3
+
+_Available as an interactive document below._
+<iframe loading="lazy" src="/gallery/cold_war_ir/week_3_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+<br>
+
+#### Week 4
+
+_Available as an interactive document below._
+<iframe loading="lazy" src="/gallery/cold_war_ir/week_4_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+<br>
+
+#### Week 5
+
+_Available as an interactive document below._
+<iframe loading="lazy" src="/gallery/cold_war_ir/week_5_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+<br>
+
+#### Week 6
+
+_Available as an interactive document below._
+<iframe loading="lazy" src="/gallery/cold_war_ir/week_6_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+<br>
+
+</details>
+</div>
+</div>
 
 <br>
 
