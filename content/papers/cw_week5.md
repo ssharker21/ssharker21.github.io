@@ -5,104 +5,104 @@ layout: single
 ---
 
 <style>
+.docx-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.docx-document {
+    flex: 2;
+    font-family: inherit;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+.docx-document p {
+    margin-bottom: 1rem;
+}
+
+.docx-sidebar {
+    flex: 1;
+    position: sticky;
+    top: 2rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.docx-highlight {
+    background-color: transparent;
+    border-bottom: 2px solid #500bff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 0 2px;
+}
+
+.docx-highlight:hover, .docx-highlight.active {
+    background-color: rgba(80, 11, 255, 0.15);
+}
+
+.docx-comment-card {
+    background-color: #FEFEFA;
+    border: 1px solid #7c7c7c;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.docx-comment-card.active {
+    opacity: 1;
+    border-color: #500bff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.docx-comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #7c7c7c;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.2rem;
+}
+
+.docx-comment-author {
+    font-weight: bold;
+    color: #000;
+    font-style: normal;
+}
+
+.docx-comment-body {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    font-family: inherit;
+}
+
+@media (max-width: 768px) {
     .docx-container {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        margin-top: 2rem;
-        align-items: flex-start;
+        flex-direction: column;
     }
-
-    .docx-document {
-        flex: 2;
-        font-family: inherit;
-        font-size: 1.1rem;
-        line-height: 1.6rem;
-        text-align: justify;
-    }
-    
-    .docx-document p {
-        margin-bottom: 1rem;
-    }
-
     .docx-sidebar {
-        flex: 1;
-        position: sticky;
-        top: 2rem;
-        max-height: 80vh;
-        overflow-y: auto;
-        padding-right: 1rem;
+        position: static;
+        max-height: none;
+        border-top: 2px solid #7c7c7c;
+        padding-top: 2rem;
+        margin-top: 2rem;
     }
-
-    .docx-highlight {
-        background-color: transparent;
-        border-bottom: 2px solid #500bff;
-        cursor: pointer;
-        transition: background-color 0.2s ease;
-        padding: 0 2px;
-    }
-
-    .docx-highlight:hover, .docx-highlight.active {
-        background-color: rgba(80, 11, 255, 0.15);
-    }
-
-    .docx-comment-card {
-        background-color: #FEFEFA;
-        border: 1px solid #7c7c7c;
-        border-radius: 4px;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        opacity: 0.6;
-        transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
-        cursor: pointer;
-    }
-
-    .docx-comment-card.active {
-        opacity: 1;
-        border-color: #500bff;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .docx-comment-header {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 0.5rem;
-        font-size: 0.9rem;
-        font-style: italic;
-        color: #7c7c7c;
-        border-bottom: 1px solid #e0e0e0;
-        padding-bottom: 0.2rem;
-    }
-
-    .docx-comment-author {
-        font-weight: bold;
-        color: #000;
-        font-style: normal;
-    }
-
-    .docx-comment-body {
-        font-size: 0.95rem;
-        line-height: 1.4rem;
-        font-family: inherit;
-    }
-    
-    @media (max-width: 768px) {
-        .docx-container {
-            flex-direction: column;
-        }
-        .docx-sidebar {
-            position: static;
-            max-height: none;
-            border-top: 2px solid #7c7c7c;
-            padding-top: 2rem;
-            margin-top: 2rem;
-        }
-    }
+}
 </style>
 
 <div class="docx-container">
-    <div class="docx-document">
-        <p><b>Where should one look for the roots of Chinese foreign policy, 1949-91?</b></p>
+<div class="docx-document">
+<p><b>Where should one look for the roots of Chinese foreign policy, 1949-91?</b></p>
 <p></p>
 <p>As other researchers have remarked, China’s Cold War can be equally described as Mao Zedong’s Cold War. The US and the USSR had numerous leaders during the Cold War, but Mao was paramount in China for nearly two-thirds of the 1949-91 period, when China’s Cold War was most belligerent. This essay will focus primarily on the Mao period (specifically the Sino-Soviet relationship), rather than seeking comprehensiveness. This essay is generally organized in chronological order.</p>
 <p></p>
@@ -168,167 +168,144 @@ layout: single
 <p>Mitter, Rana, ‘China and the Cold War’, In: Richard H. Immerman and Petra Goedde (eds.) The Oxford Handbook of the Cold War (Oxford: Oxford University Press, 2013)</p>
 <p>Roberts, Priscilla, Levine, Steven I., et al. ‘FORUM: Mao, Khrushchev, and China’s Split with the USSR: Perspectives on The Sino-Soviet Split’ Journal of Cold War Studies, 12(1), 2010, pp.120-160</p>
 
-    </div>
-    <div class="docx-sidebar">
-        
-        <div class="docx-comment-card" id="comment-0">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                These three roots seem rather to run into one another, no? Not that this is necessarily an analytical failure on your party – it's maybe a feature of the historical record itself. That is, Mao's own ideology becomes hard to separate from his own megalomania from the late 1950s on – Lorenz Lüthi also struggles to separate the ideology from Mao's cult of personality...
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-1">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                To finish the intro I would just briefly say where you're going (i.e. that you think root 1 trumps the others)
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-2">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Shared values were not paramount? Not sure what you mean by this.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-3">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Excellent summary!
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-4">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good. I agree, but your phrasing is a little ambivalent here – was this about the consolidation of Mao's domestic control or the Party's domestic control over the country? I would say that the Korean War was more about the latter – about the Communist Party shoring up the revolution against the landowning class and the potential threat of the KMT – though Party control, at this stage, is obviously a precondition for Mao's domestic control. Later on, of course, Mao will turn against the Party with his demand to 'bombard the headquarters!'
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-5">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                It also gets at a subtle difference in their conceptions of world revolution: for the Chinese, anti-imperialism came first.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-6">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                They could be read in two directions, right: there was Soviet big-power chauvinism, on the one hand, but then there was the precedent that a successful challenge to Communist control would have set. By spooking Mao,  1956 revolts were arguably a big influence on the Hundred Flowers Campaign and the subsequent crackdown, the Anti-Rightist Campaign that set a precedent for the Cultural Revolution.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-7">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Excellent.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-8">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Was he really forced into the Great Leap Forward? My understanding is that the Chinese economy was doing relatively well – it just wasn't developing as quickly as Mao would have liked.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-9">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Mao was pretty wrong, no? The Second Taiwan Strait crisis was a serious nuclear flashpoint – one strangely neglected in the West's popular historical memory today.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-10">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Indeed – the Cultural Revolution was profoundly counterproductive, in that China's external revolutionary role was all but completely curtailed by the crises it caused at home.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-11">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Alternatively, we could see the ideological split between Maoism and Soviet-style Communism as the root cause: if the 'social imperialism' of the Soviet Union was the greater threat to China and Mao's revolution, a tactical alliance with the US became rational
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-12">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                This is a very rich historical essay, Summit – well done. I don't have much to fault, except that you might have considered the relations between the different roots in a little more detail at the end: I found it somewhat difficult, at times, to remember the difference between the first three roots, so closely are they related (i.e. a slight to Mao was a slight on China which was to slight the whole purpose of the revolution: to overcome the century of humiliation and put China back on its feet.) Pěter Vámos, in the forum on Lüthi's book, offers an interesting interpretation: he says that "Lüthi identifies almost all major factors (including Chinese domestic economic problems and leadership struggles, sovereignty issues, the unequal nature of Sino-Soviet relations, and Mao’s leadership aims) that contributed to Mao’s
+</div>
+<div class="docx-sidebar">
+<div class="docx-comment-card" id="comment-0">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+These three roots seem rather to run into one another, no? Not that this is necessarily an analytical failure on your party – it's maybe a feature of the historical record itself. That is, Mao's own ideology becomes hard to separate from his own megalomania from the late 1950s on – Lorenz Lüthi also struggles to separate the ideology from Mao's cult of personality...
+</div>
+</div><div class="docx-comment-card" id="comment-1">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+To finish the intro I would just briefly say where you're going (i.e. that you think root 1 trumps the others)
+</div>
+</div><div class="docx-comment-card" id="comment-2">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Shared values were not paramount? Not sure what you mean by this.
+</div>
+</div><div class="docx-comment-card" id="comment-3">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Excellent summary!
+</div>
+</div><div class="docx-comment-card" id="comment-4">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good. I agree, but your phrasing is a little ambivalent here – was this about the consolidation of Mao's domestic control or the Party's domestic control over the country? I would say that the Korean War was more about the latter – about the Communist Party shoring up the revolution against the landowning class and the potential threat of the KMT – though Party control, at this stage, is obviously a precondition for Mao's domestic control. Later on, of course, Mao will turn against the Party with his demand to 'bombard the headquarters!'
+</div>
+</div><div class="docx-comment-card" id="comment-5">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+It also gets at a subtle difference in their conceptions of world revolution: for the Chinese, anti-imperialism came first.
+</div>
+</div><div class="docx-comment-card" id="comment-6">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+They could be read in two directions, right: there was Soviet big-power chauvinism, on the one hand, but then there was the precedent that a successful challenge to Communist control would have set. By spooking Mao,  1956 revolts were arguably a big influence on the Hundred Flowers Campaign and the subsequent crackdown, the Anti-Rightist Campaign that set a precedent for the Cultural Revolution.
+</div>
+</div><div class="docx-comment-card" id="comment-7">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Excellent.
+</div>
+</div><div class="docx-comment-card" id="comment-8">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Was he really forced into the Great Leap Forward? My understanding is that the Chinese economy was doing relatively well – it just wasn't developing as quickly as Mao would have liked.
+</div>
+</div><div class="docx-comment-card" id="comment-9">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Mao was pretty wrong, no? The Second Taiwan Strait crisis was a serious nuclear flashpoint – one strangely neglected in the West's popular historical memory today.
+</div>
+</div><div class="docx-comment-card" id="comment-10">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Indeed – the Cultural Revolution was profoundly counterproductive, in that China's external revolutionary role was all but completely curtailed by the crises it caused at home.
+</div>
+</div><div class="docx-comment-card" id="comment-11">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Alternatively, we could see the ideological split between Maoism and Soviet-style Communism as the root cause: if the 'social imperialism' of the Soviet Union was the greater threat to China and Mao's revolution, a tactical alliance with the US became rational
+</div>
+</div><div class="docx-comment-card" id="comment-12">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+This is a very rich historical essay, Summit – well done. I don't have much to fault, except that you might have considered the relations between the different roots in a little more detail at the end: I found it somewhat difficult, at times, to remember the difference between the first three roots, so closely are they related (i.e. a slight to Mao was a slight on China which was to slight the whole purpose of the revolution: to overcome the century of humiliation and put China back on its feet.) Pěter Vámos, in the forum on Lüthi's book, offers an interesting interpretation: he says that "Lüthi identifies almost all major factors (including Chinese domestic economic problems and leadership struggles, sovereignty issues, the unequal nature of Sino-Soviet relations, and Mao’s leadership aims) that contributed to Mao’s
 ideological radicalization, but turns reasoning upside down and claims that changes in ideology were in and of themselves the cause of the split". I'd say that the relationship runs both ways, but it's an interesting revisionist take.
-            </div>
-        </div>
-        
-    </div>
+</div>
+</div>
+</div>
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const highlights = document.querySelectorAll('.docx-highlight');
-        const cards = document.querySelectorAll('.docx-comment-card');
+document.addEventListener('DOMContentLoaded', () => {
+    const highlights = document.querySelectorAll('.docx-highlight');
+    const cards = document.querySelectorAll('.docx-comment-card');
 
-        function toggleComment(commentId) {
-            const wasActive = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`).classList.contains('active');
-            
-            // Remove active class from all
-            highlights.forEach(h => h.classList.remove('active'));
-            cards.forEach(c => c.classList.remove('active'));
+    function toggleComment(commentId) {
+        const docxHighlight = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`);
+        if (!docxHighlight) return;
+        
+        const wasActive = docxHighlight.classList.contains('active');
+        
+        // Remove active class from all
+        highlights.forEach(h => h.classList.remove('active'));
+        cards.forEach(c => c.classList.remove('active'));
 
-            if (!wasActive) {
-                // Add active to targeted
-                const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
-                const targetCard = document.getElementById(`comment-${commentId}`);
+        if (!wasActive) {
+            // Add active to targeted
+            const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
+            const targetCard = document.getElementById(`comment-${commentId}`);
 
-                targetHighlights.forEach(h => h.classList.add('active'));
-                if (targetCard) {
-                    targetCard.classList.add('active');
-                }
+            targetHighlights.forEach(h => h.classList.add('active'));
+            if (targetCard) {
+                targetCard.classList.add('active');
             }
         }
+    }
 
-        highlights.forEach(highlight => {
-            highlight.addEventListener('click', (e) => {
-                e.preventDefault();
-                const cId = highlight.getAttribute('data-comment-id');
-                toggleComment(cId);
-            });
-        });
-        
-        cards.forEach(card => {
-            card.addEventListener('click', () => {
-                const cId = card.id.replace('comment-', '');
-                toggleComment(cId);
-            });
+    highlights.forEach(highlight => {
+        highlight.addEventListener('click', (e) => {
+            e.preventDefault();
+            const cId = highlight.getAttribute('data-comment-id');
+            toggleComment(cId);
         });
     });
+    
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const cId = card.id.replace('comment-', '');
+            toggleComment(cId);
+        });
+    });
+});
 </script>

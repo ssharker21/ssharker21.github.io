@@ -5,104 +5,104 @@ layout: single
 ---
 
 <style>
+.docx-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.docx-document {
+    flex: 2;
+    font-family: inherit;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+.docx-document p {
+    margin-bottom: 1rem;
+}
+
+.docx-sidebar {
+    flex: 1;
+    position: sticky;
+    top: 2rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.docx-highlight {
+    background-color: transparent;
+    border-bottom: 2px solid #500bff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 0 2px;
+}
+
+.docx-highlight:hover, .docx-highlight.active {
+    background-color: rgba(80, 11, 255, 0.15);
+}
+
+.docx-comment-card {
+    background-color: #FEFEFA;
+    border: 1px solid #7c7c7c;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.docx-comment-card.active {
+    opacity: 1;
+    border-color: #500bff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.docx-comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #7c7c7c;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.2rem;
+}
+
+.docx-comment-author {
+    font-weight: bold;
+    color: #000;
+    font-style: normal;
+}
+
+.docx-comment-body {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    font-family: inherit;
+}
+
+@media (max-width: 768px) {
     .docx-container {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        margin-top: 2rem;
-        align-items: flex-start;
+        flex-direction: column;
     }
-
-    .docx-document {
-        flex: 2;
-        font-family: inherit;
-        font-size: 1.1rem;
-        line-height: 1.6rem;
-        text-align: justify;
-    }
-    
-    .docx-document p {
-        margin-bottom: 1rem;
-    }
-
     .docx-sidebar {
-        flex: 1;
-        position: sticky;
-        top: 2rem;
-        max-height: 80vh;
-        overflow-y: auto;
-        padding-right: 1rem;
+        position: static;
+        max-height: none;
+        border-top: 2px solid #7c7c7c;
+        padding-top: 2rem;
+        margin-top: 2rem;
     }
-
-    .docx-highlight {
-        background-color: transparent;
-        border-bottom: 2px solid #500bff;
-        cursor: pointer;
-        transition: background-color 0.2s ease;
-        padding: 0 2px;
-    }
-
-    .docx-highlight:hover, .docx-highlight.active {
-        background-color: rgba(80, 11, 255, 0.15);
-    }
-
-    .docx-comment-card {
-        background-color: #FEFEFA;
-        border: 1px solid #7c7c7c;
-        border-radius: 4px;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        opacity: 0.6;
-        transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
-        cursor: pointer;
-    }
-
-    .docx-comment-card.active {
-        opacity: 1;
-        border-color: #500bff;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .docx-comment-header {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 0.5rem;
-        font-size: 0.9rem;
-        font-style: italic;
-        color: #7c7c7c;
-        border-bottom: 1px solid #e0e0e0;
-        padding-bottom: 0.2rem;
-    }
-
-    .docx-comment-author {
-        font-weight: bold;
-        color: #000;
-        font-style: normal;
-    }
-
-    .docx-comment-body {
-        font-size: 0.95rem;
-        line-height: 1.4rem;
-        font-family: inherit;
-    }
-    
-    @media (max-width: 768px) {
-        .docx-container {
-            flex-direction: column;
-        }
-        .docx-sidebar {
-            position: static;
-            max-height: none;
-            border-top: 2px solid #7c7c7c;
-            padding-top: 2rem;
-            margin-top: 2rem;
-        }
-    }
+}
 </style>
 
 <div class="docx-container">
-    <div class="docx-document">
-        <p><b>What factors led to the end of the Cold War?</b></p>
+<div class="docx-document">
+<p><b>What factors led to the end of the Cold War?</b></p>
 <p></p>
 <p>The Cold War ending when it did was not inevitable. While transnational effects and structural global changes may have slightly influenced Gorbachev to end the Cold War, it was his own set of experiences, beliefs, and skills that compelled him to orchestrate this tremendous change. In this essay, I delineate factors, starting from commonly-understood ones and concluding with more abstract ones. I begin by understanding America’s role in the Cold War’s conclusion, then describe global economic changes, then ideology and soft power, before ending with Gorbachev’s own nature. Only the last factor was decisive in ending the Cold War. <span class="docx-highlight" data-comment-id="0">All the other factors have weaker links that make them less explanatory.</span></p>
 <p></p>
@@ -147,194 +147,165 @@ layout: single
 <p>Taubman, William, <i>Gorbachev</i>, 2017</p>
 <p>Zubok, Vladislav, <i>A Failed Empire: The Soviet Union in the Cold War from Stalin to Gorbachev</i>, 2007</p>
 
-    </div>
-    <div class="docx-sidebar">
-        
-        <div class="docx-comment-card" id="comment-0">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good introduction!
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-1">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Excellent – and generally good to start by rebutting a common but unconvincing answer to the question
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-2">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good – although Reagan's refusal to make concessions on SDI did, of course, result in the collapse the arms control summit at Reykjavík in 1986; the success of the INF Treaty a year later came after the Soviet Politburo essentially decided to abandon the issue.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-3">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                We can also return to that old chestnut of Cold War politics – that western leaders with a staunchly anti-communist record (Nixon, Reagan) were, paradoxically, better placed to compromise with the USSR than those vulnerable on their right flank (Kennedy, Bush Sr.) 
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-4">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                The contrast between Reagan and Bush Sr. is interesting in this regard
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-5">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Fritz Bartel has a great account of this in The End of Cold War and the Rise of Neoliberalism
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-6">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Excellent
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-7">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Many of these leaders, of course, did not want to believe Gorbachev – since the Brezhnev Doctrine was the only thing keeping them in power.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-8">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Zubok suggests that doing political reform before and alongside economic reform was a mistake – that the USSR might have survived had it pursued market liberalisation (akin to the CCP) without democratisation. Worth noting that Gorbachev was always more interested in political/constitutional questions than the economy, which he left to Ryzhkov at first.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-9">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                I'm not sure it has anything to do with peasant brutalisation per se (the Chinese peasantry had been through plenty) so much as the amount of peasants in each economy. That is to say, China in the 1980s still had a huge peasantry, while the USSR's economy was already heavily industrialised. Massive economic lift-off typically comes from urbanisation, industrialisation, and proletarianisation as peasants become (much more productive) urban workers; China still had all of this to come.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-10">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Perhaps we might say that the USSR was structurally unable to hold onto the satellite states (the Politburo had decided that it would not invade Poland as early as 1981) but not doomed to total collapse; a retrenchment was no doubt possible
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-11">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                The ideological battle was arguably lost as soon as consumption became the main measure of success.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-12">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-13">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                His genuine identification with Lenin also made him speed up reforms that were having catastrophic economic effects; this is a prominent theme in Zubok's Collapse. After living through the stagnation of the Brezhnev years, he could not bear any more half-hearted, half-finished reforms.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-14">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Excellent
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-15">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                This is a great essay Summit, well done! Your writing is improving week by week. 
+</div>
+<div class="docx-sidebar">
+<div class="docx-comment-card" id="comment-0">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good introduction!
+</div>
+</div><div class="docx-comment-card" id="comment-1">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Excellent – and generally good to start by rebutting a common but unconvincing answer to the question
+</div>
+</div><div class="docx-comment-card" id="comment-2">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good – although Reagan's refusal to make concessions on SDI did, of course, result in the collapse the arms control summit at Reykjavík in 1986; the success of the INF Treaty a year later came after the Soviet Politburo essentially decided to abandon the issue.
+</div>
+</div><div class="docx-comment-card" id="comment-3">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+We can also return to that old chestnut of Cold War politics – that western leaders with a staunchly anti-communist record (Nixon, Reagan) were, paradoxically, better placed to compromise with the USSR than those vulnerable on their right flank (Kennedy, Bush Sr.)
+</div>
+</div><div class="docx-comment-card" id="comment-4">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+The contrast between Reagan and Bush Sr. is interesting in this regard
+</div>
+</div><div class="docx-comment-card" id="comment-5">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Fritz Bartel has a great account of this in The End of Cold War and the Rise of Neoliberalism
+</div>
+</div><div class="docx-comment-card" id="comment-6">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Excellent
+</div>
+</div><div class="docx-comment-card" id="comment-7">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Many of these leaders, of course, did not want to believe Gorbachev – since the Brezhnev Doctrine was the only thing keeping them in power.
+</div>
+</div><div class="docx-comment-card" id="comment-8">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Zubok suggests that doing political reform before and alongside economic reform was a mistake – that the USSR might have survived had it pursued market liberalisation (akin to the CCP) without democratisation. Worth noting that Gorbachev was always more interested in political/constitutional questions than the economy, which he left to Ryzhkov at first.
+</div>
+</div><div class="docx-comment-card" id="comment-9">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+I'm not sure it has anything to do with peasant brutalisation per se (the Chinese peasantry had been through plenty) so much as the amount of peasants in each economy. That is to say, China in the 1980s still had a huge peasantry, while the USSR's economy was already heavily industrialised. Massive economic lift-off typically comes from urbanisation, industrialisation, and proletarianisation as peasants become (much more productive) urban workers; China still had all of this to come.
+</div>
+</div><div class="docx-comment-card" id="comment-10">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Perhaps we might say that the USSR was structurally unable to hold onto the satellite states (the Politburo had decided that it would not invade Poland as early as 1981) but not doomed to total collapse; a retrenchment was no doubt possible
+</div>
+</div><div class="docx-comment-card" id="comment-11">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+The ideological battle was arguably lost as soon as consumption became the main measure of success.
+</div>
+</div><div class="docx-comment-card" id="comment-12">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good
+</div>
+</div><div class="docx-comment-card" id="comment-13">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+His genuine identification with Lenin also made him speed up reforms that were having catastrophic economic effects; this is a prominent theme in Zubok's Collapse. After living through the stagnation of the Brezhnev years, he could not bear any more half-hearted, half-finished reforms.
+</div>
+</div><div class="docx-comment-card" id="comment-14">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Excellent
+</div>
+</div><div class="docx-comment-card" id="comment-15">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+This is a great essay Summit, well done! Your writing is improving week by week. 
 I don't have much to add except to ask the counterfactual question could another leader have held the Soviet bloc together? In Collapse, Zubok suggests that Andropov-style authoritarianism and radical market liberalisation would have been a “much more logical path” for the Soviet system; Gorbachev (whose grasp of economics was poor) put the “cart before the horse” in pushing for constitutional change before market liberalisation (which was carried out ineffectually in any case). But it's also important, of course, to remember that Gorbachev did not spring from nowhere; he was a product of the Soviet system. If he promoted suicidal liberalisation he was a product of the Khrushchev Thaw; if he was too sanguine about the USSR's capacity to survive the dissolution of the Party's monopoly on power, it was, in an odd way, because he was a true believer. Combined with his extraordinary pacifist ideals – his 'new thinking' arguably resembles nothing so much as Russell and Einstein's famous contributions to the Pugwash Conferences – and we get an almost totally unprecedented surrender of power.
-            </div>
-        </div>
-        
-    </div>
+</div>
+</div>
+</div>
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const highlights = document.querySelectorAll('.docx-highlight');
-        const cards = document.querySelectorAll('.docx-comment-card');
+document.addEventListener('DOMContentLoaded', () => {
+    const highlights = document.querySelectorAll('.docx-highlight');
+    const cards = document.querySelectorAll('.docx-comment-card');
 
-        function toggleComment(commentId) {
-            const wasActive = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`).classList.contains('active');
-            
-            // Remove active class from all
-            highlights.forEach(h => h.classList.remove('active'));
-            cards.forEach(c => c.classList.remove('active'));
+    function toggleComment(commentId) {
+        const docxHighlight = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`);
+        if (!docxHighlight) return;
+        
+        const wasActive = docxHighlight.classList.contains('active');
+        
+        // Remove active class from all
+        highlights.forEach(h => h.classList.remove('active'));
+        cards.forEach(c => c.classList.remove('active'));
 
-            if (!wasActive) {
-                // Add active to targeted
-                const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
-                const targetCard = document.getElementById(`comment-${commentId}`);
+        if (!wasActive) {
+            // Add active to targeted
+            const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
+            const targetCard = document.getElementById(`comment-${commentId}`);
 
-                targetHighlights.forEach(h => h.classList.add('active'));
-                if (targetCard) {
-                    targetCard.classList.add('active');
-                }
+            targetHighlights.forEach(h => h.classList.add('active'));
+            if (targetCard) {
+                targetCard.classList.add('active');
             }
         }
+    }
 
-        highlights.forEach(highlight => {
-            highlight.addEventListener('click', (e) => {
-                e.preventDefault();
-                const cId = highlight.getAttribute('data-comment-id');
-                toggleComment(cId);
-            });
-        });
-        
-        cards.forEach(card => {
-            card.addEventListener('click', () => {
-                const cId = card.id.replace('comment-', '');
-                toggleComment(cId);
-            });
+    highlights.forEach(highlight => {
+        highlight.addEventListener('click', (e) => {
+            e.preventDefault();
+            const cId = highlight.getAttribute('data-comment-id');
+            toggleComment(cId);
         });
     });
+    
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const cId = card.id.replace('comment-', '');
+            toggleComment(cId);
+        });
+    });
+});
 </script>

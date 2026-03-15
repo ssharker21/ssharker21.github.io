@@ -5,104 +5,104 @@ layout: single
 ---
 
 <style>
+.docx-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.docx-document {
+    flex: 2;
+    font-family: inherit;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+.docx-document p {
+    margin-bottom: 1rem;
+}
+
+.docx-sidebar {
+    flex: 1;
+    position: sticky;
+    top: 2rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.docx-highlight {
+    background-color: transparent;
+    border-bottom: 2px solid #500bff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 0 2px;
+}
+
+.docx-highlight:hover, .docx-highlight.active {
+    background-color: rgba(80, 11, 255, 0.15);
+}
+
+.docx-comment-card {
+    background-color: #FEFEFA;
+    border: 1px solid #7c7c7c;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.docx-comment-card.active {
+    opacity: 1;
+    border-color: #500bff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.docx-comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #7c7c7c;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.2rem;
+}
+
+.docx-comment-author {
+    font-weight: bold;
+    color: #000;
+    font-style: normal;
+}
+
+.docx-comment-body {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    font-family: inherit;
+}
+
+@media (max-width: 768px) {
     .docx-container {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        margin-top: 2rem;
-        align-items: flex-start;
+        flex-direction: column;
     }
-
-    .docx-document {
-        flex: 2;
-        font-family: inherit;
-        font-size: 1.1rem;
-        line-height: 1.6rem;
-        text-align: justify;
-    }
-    
-    .docx-document p {
-        margin-bottom: 1rem;
-    }
-
     .docx-sidebar {
-        flex: 1;
-        position: sticky;
-        top: 2rem;
-        max-height: 80vh;
-        overflow-y: auto;
-        padding-right: 1rem;
+        position: static;
+        max-height: none;
+        border-top: 2px solid #7c7c7c;
+        padding-top: 2rem;
+        margin-top: 2rem;
     }
-
-    .docx-highlight {
-        background-color: transparent;
-        border-bottom: 2px solid #500bff;
-        cursor: pointer;
-        transition: background-color 0.2s ease;
-        padding: 0 2px;
-    }
-
-    .docx-highlight:hover, .docx-highlight.active {
-        background-color: rgba(80, 11, 255, 0.15);
-    }
-
-    .docx-comment-card {
-        background-color: #FEFEFA;
-        border: 1px solid #7c7c7c;
-        border-radius: 4px;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        opacity: 0.6;
-        transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
-        cursor: pointer;
-    }
-
-    .docx-comment-card.active {
-        opacity: 1;
-        border-color: #500bff;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .docx-comment-header {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 0.5rem;
-        font-size: 0.9rem;
-        font-style: italic;
-        color: #7c7c7c;
-        border-bottom: 1px solid #e0e0e0;
-        padding-bottom: 0.2rem;
-    }
-
-    .docx-comment-author {
-        font-weight: bold;
-        color: #000;
-        font-style: normal;
-    }
-
-    .docx-comment-body {
-        font-size: 0.95rem;
-        line-height: 1.4rem;
-        font-family: inherit;
-    }
-    
-    @media (max-width: 768px) {
-        .docx-container {
-            flex-direction: column;
-        }
-        .docx-sidebar {
-            position: static;
-            max-height: none;
-            border-top: 2px solid #7c7c7c;
-            padding-top: 2rem;
-            margin-top: 2rem;
-        }
-    }
+}
 </style>
 
 <div class="docx-container">
-    <div class="docx-document">
-        <p><b>To what extent did ‘containment’ and ‘peaceful coexistence’ change the nature of the Cold War?</b></p>
+<div class="docx-document">
+<p><b>To what extent did ‘containment’ and ‘peaceful coexistence’ change the nature of the Cold War?</b></p>
 <p></p>
 <p><span class="docx-highlight" data-comment-id="0">“Containment” and “peaceful coexistence” only marginally changed the nature of the Cold War because the underlying threat of nuclear weapons ultimately ensured “no-go zones” for each party regarding its opponent’s key interests in respective “spheres of influence.</span>” With the European continent firmly divided as a result (despite nominal attempts from the Soviets seeking a thaw), both superpowers were <i>forced</i> to pivot to the Third World.</p>
 <p>The key change in the nature of the Cold War between 1953-68 was the fading of fears of a continental European land war. Everything other change was marginal in comparison. Eisenhower’s “containment” was associated with this, while Kennedy/Johnson’s Third World ventures were <i>because </i>of this.  And “peaceful coexistence” only <i>maintained</i> the game theory equilibrium of nuclear weapons, rather than causing it. Even Khrushchev’s eventual belligerent rhetoric did not change the calculus for the Americans. “Peaceful coexistence” contributed to the Sino-Soviet split, but that was not exploited between 1953-68 to constitute a change in nature.</p>
@@ -146,152 +146,133 @@ layout: single
 <p>McMahon, Robert J., ‘US National Security Policy from Eisenhower to Kennedy’, in Leffler, M, and Westad, O A, <i>The Cambridge History of the Cold War, vol.1</i></p>
 <p>Zubok, Vladislav, and Pleshakov, C, <i>Inside the Kremlin’s Cold War: From Stalin to Khrushchev</i>, 1996</p>
 
-    </div>
-    <div class="docx-sidebar">
-        
-        <div class="docx-comment-card" id="comment-0">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                This is an interesting thesis!
+</div>
+<div class="docx-sidebar">
+<div class="docx-comment-card" id="comment-0">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+This is an interesting thesis!
 For future essays though, I'd recommend starting with a definition of the key concepts, and perhaps by outlining the argument that you are arguing against. In this case, that would be a brief summary of the ways in which 'containment' and 'peaceful coexistence' are commonly seen as having changed the nature of the Cold War, before outlining the reasons why you are unconvinced/your alternative hypothesis.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-1">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                To what extent was this a break from the Stalinist strategy before it?
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-2">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                This conception of containment (we might call it 'strongpoint' containment) is how Kennan understood his own doctrine later in life, and Gaddis believes him. But this rather muddies the original significance of containment, which licensed American intervention everywhere; the popularity of the domino theory (which Kennan also believed in) gave containment a global cast. Kennan was a wildly inconsistent thinker, if a brilliant writer...
+</div>
+</div><div class="docx-comment-card" id="comment-1">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+To what extent was this a break from the Stalinist strategy before it?
+</div>
+</div><div class="docx-comment-card" id="comment-2">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+This conception of containment (we might call it 'strongpoint' containment) is how Kennan understood his own doctrine later in life, and Gaddis believes him. But this rather muddies the original significance of containment, which licensed American intervention everywhere; the popularity of the domino theory (which Kennan also believed in) gave containment a global cast. Kennan was a wildly inconsistent thinker, if a brilliant writer...
 It’s worth reading Walter Lippmann’s contemporary response to Kennan if you haven’t already; see also Anders Stephanson's book on K
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-3">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Are you alluding to the Alliance for Progress?
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-4">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                I'm not really sure what the game theory is adding here – aren't the underlying norms (i.e. the gradual consolidation of a nuclear taboo) the more important thing?
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-5">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                What about his nuclear brinkmanship over the Second Taiwan Straits Crisis? 
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-6">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Wasn't this supposed to be the point of containment – that it was not an attempt to roll back communism in Eastern Europe, but an attempt to shore up liberal capitalism in Western Europe (and then elsewhere)?
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-7">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                This is an important and well-put statement, but I'm not entirely sure how it's answering the question. The Odd Arne Westad answer – that decolonisation reignited the Cold War in the 50s and 60s – would be one way of linking it back to the question (that is, by saying that decolonisation changed the nature of the Cold War more than the doctrines of containment and peaceful coexistence. But you're actually arguing that the Third World wasn't that important.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-8">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                But the world went to the nuclear brink over peripheral headaches like Cuba, no?
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-9">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Right – in contrast to early Bolshevik policies and in contrast to Mao's permanent revolution. 
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-10">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                This is an interesting essay which draws on an impressive range of historical material. Structurally, as I mentioned above, I think the essay might have been improved by starting with the case for the structural changes made by containment and peaceful coexistence, before launching into your own arguments.
+</div>
+</div><div class="docx-comment-card" id="comment-3">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Are you alluding to the Alliance for Progress?
+</div>
+</div><div class="docx-comment-card" id="comment-4">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+I'm not really sure what the game theory is adding here – aren't the underlying norms (i.e. the gradual consolidation of a nuclear taboo) the more important thing?
+</div>
+</div><div class="docx-comment-card" id="comment-5">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+What about his nuclear brinkmanship over the Second Taiwan Straits Crisis?
+</div>
+</div><div class="docx-comment-card" id="comment-6">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Wasn't this supposed to be the point of containment – that it was not an attempt to roll back communism in Eastern Europe, but an attempt to shore up liberal capitalism in Western Europe (and then elsewhere)?
+</div>
+</div><div class="docx-comment-card" id="comment-7">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+This is an important and well-put statement, but I'm not entirely sure how it's answering the question. The Odd Arne Westad answer – that decolonisation reignited the Cold War in the 50s and 60s – would be one way of linking it back to the question (that is, by saying that decolonisation changed the nature of the Cold War more than the doctrines of containment and peaceful coexistence. But you're actually arguing that the Third World wasn't that important.
+</div>
+</div><div class="docx-comment-card" id="comment-8">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+But the world went to the nuclear brink over peripheral headaches like Cuba, no?
+</div>
+</div><div class="docx-comment-card" id="comment-9">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Right – in contrast to early Bolshevik policies and in contrast to Mao's permanent revolution.
+</div>
+</div><div class="docx-comment-card" id="comment-10">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+This is an interesting essay which draws on an impressive range of historical material. Structurally, as I mentioned above, I think the essay might have been improved by starting with the case for the structural changes made by containment and peaceful coexistence, before launching into your own arguments.
 Your points about the significance of nuclear weapons and the balance of power are well-taken. I'm not sure if I would say that containment and peaceful coexistence merely "filled in the gaps", however – couldn't we flip this script and say that the American nuclear umbrella over Europe, for instance, itself constituted one of the main strategies of containment?  
 Another way of answering this question might be to say that the classical Cold War was constituted by the strategies of containment and peaceful coexistence respectively – that they did not change the nature of the Cold War because they had defined it all along.
-            </div>
-        </div>
-        
-    </div>
+</div>
+</div>
+</div>
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const highlights = document.querySelectorAll('.docx-highlight');
-        const cards = document.querySelectorAll('.docx-comment-card');
+document.addEventListener('DOMContentLoaded', () => {
+    const highlights = document.querySelectorAll('.docx-highlight');
+    const cards = document.querySelectorAll('.docx-comment-card');
 
-        function toggleComment(commentId) {
-            const wasActive = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`).classList.contains('active');
-            
-            // Remove active class from all
-            highlights.forEach(h => h.classList.remove('active'));
-            cards.forEach(c => c.classList.remove('active'));
+    function toggleComment(commentId) {
+        const docxHighlight = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`);
+        if (!docxHighlight) return;
+        
+        const wasActive = docxHighlight.classList.contains('active');
+        
+        // Remove active class from all
+        highlights.forEach(h => h.classList.remove('active'));
+        cards.forEach(c => c.classList.remove('active'));
 
-            if (!wasActive) {
-                // Add active to targeted
-                const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
-                const targetCard = document.getElementById(`comment-${commentId}`);
+        if (!wasActive) {
+            // Add active to targeted
+            const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
+            const targetCard = document.getElementById(`comment-${commentId}`);
 
-                targetHighlights.forEach(h => h.classList.add('active'));
-                if (targetCard) {
-                    targetCard.classList.add('active');
-                }
+            targetHighlights.forEach(h => h.classList.add('active'));
+            if (targetCard) {
+                targetCard.classList.add('active');
             }
         }
+    }
 
-        highlights.forEach(highlight => {
-            highlight.addEventListener('click', (e) => {
-                e.preventDefault();
-                const cId = highlight.getAttribute('data-comment-id');
-                toggleComment(cId);
-            });
-        });
-        
-        cards.forEach(card => {
-            card.addEventListener('click', () => {
-                const cId = card.id.replace('comment-', '');
-                toggleComment(cId);
-            });
+    highlights.forEach(highlight => {
+        highlight.addEventListener('click', (e) => {
+            e.preventDefault();
+            const cId = highlight.getAttribute('data-comment-id');
+            toggleComment(cId);
         });
     });
+    
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const cId = card.id.replace('comment-', '');
+            toggleComment(cId);
+        });
+    });
+});
 </script>

@@ -5,104 +5,104 @@ layout: single
 ---
 
 <style>
+.docx-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.docx-document {
+    flex: 2;
+    font-family: inherit;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+.docx-document p {
+    margin-bottom: 1rem;
+}
+
+.docx-sidebar {
+    flex: 1;
+    position: sticky;
+    top: 2rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.docx-highlight {
+    background-color: transparent;
+    border-bottom: 2px solid #500bff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 0 2px;
+}
+
+.docx-highlight:hover, .docx-highlight.active {
+    background-color: rgba(80, 11, 255, 0.15);
+}
+
+.docx-comment-card {
+    background-color: #FEFEFA;
+    border: 1px solid #7c7c7c;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.docx-comment-card.active {
+    opacity: 1;
+    border-color: #500bff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.docx-comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #7c7c7c;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.2rem;
+}
+
+.docx-comment-author {
+    font-weight: bold;
+    color: #000;
+    font-style: normal;
+}
+
+.docx-comment-body {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    font-family: inherit;
+}
+
+@media (max-width: 768px) {
     .docx-container {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        margin-top: 2rem;
-        align-items: flex-start;
+        flex-direction: column;
     }
-
-    .docx-document {
-        flex: 2;
-        font-family: inherit;
-        font-size: 1.1rem;
-        line-height: 1.6rem;
-        text-align: justify;
-    }
-    
-    .docx-document p {
-        margin-bottom: 1rem;
-    }
-
     .docx-sidebar {
-        flex: 1;
-        position: sticky;
-        top: 2rem;
-        max-height: 80vh;
-        overflow-y: auto;
-        padding-right: 1rem;
+        position: static;
+        max-height: none;
+        border-top: 2px solid #7c7c7c;
+        padding-top: 2rem;
+        margin-top: 2rem;
     }
-
-    .docx-highlight {
-        background-color: transparent;
-        border-bottom: 2px solid #500bff;
-        cursor: pointer;
-        transition: background-color 0.2s ease;
-        padding: 0 2px;
-    }
-
-    .docx-highlight:hover, .docx-highlight.active {
-        background-color: rgba(80, 11, 255, 0.15);
-    }
-
-    .docx-comment-card {
-        background-color: #FEFEFA;
-        border: 1px solid #7c7c7c;
-        border-radius: 4px;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        opacity: 0.6;
-        transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
-        cursor: pointer;
-    }
-
-    .docx-comment-card.active {
-        opacity: 1;
-        border-color: #500bff;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .docx-comment-header {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 0.5rem;
-        font-size: 0.9rem;
-        font-style: italic;
-        color: #7c7c7c;
-        border-bottom: 1px solid #e0e0e0;
-        padding-bottom: 0.2rem;
-    }
-
-    .docx-comment-author {
-        font-weight: bold;
-        color: #000;
-        font-style: normal;
-    }
-
-    .docx-comment-body {
-        font-size: 0.95rem;
-        line-height: 1.4rem;
-        font-family: inherit;
-    }
-    
-    @media (max-width: 768px) {
-        .docx-container {
-            flex-direction: column;
-        }
-        .docx-sidebar {
-            position: static;
-            max-height: none;
-            border-top: 2px solid #7c7c7c;
-            padding-top: 2rem;
-            margin-top: 2rem;
-        }
-    }
+}
 </style>
 
 <div class="docx-container">
-    <div class="docx-document">
-        <p><b>Why was there no Japanese challenge to US political hegemony 1952-1991?</b></p>
+<div class="docx-document">
+<p><b>Why was there no Japanese challenge to US political hegemony 1952-1991?</b></p>
 <p></p>
 <p>The simplest answer is that Japan was both unable and more importantly, <i>unwilling</i> to challenge the US political hegemony because of the substantial benefits derived from it: first from the <i>sui generis </i>relationship with the United States, and then broadly from the emerging global economy. Japan was constrained by several factors preventing it from achieving global hegemony, such as its psychology of restraint, pacifism, and lack of legitimacy.</p>
 <p></p>
@@ -166,223 +166,188 @@ layout: single
 <p>Yahuda, Michael B. <i>The International Politics of the Asia-Pacific</i> (London: RoutledgeCurzon,</p>
 <p>2004) </p>
 
-    </div>
-    <div class="docx-sidebar">
-        
-        <div class="docx-comment-card" id="comment-0">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good introduction. In some ways it's an odd question – almost too easy to answer. In cases like this, it's especially important to outline why one might think that there could have been a Japanese challenge to political hegemony – why, in other words, it's a puzzle that needs explaining at all.
+</div>
+<div class="docx-sidebar">
+<div class="docx-comment-card" id="comment-0">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good introduction. In some ways it's an odd question – almost too easy to answer. In cases like this, it's especially important to outline why one might think that there could have been a Japanese challenge to political hegemony – why, in other words, it's a puzzle that needs explaining at all.
 This is a difficult task, but I think there's a couple of ways that one could go about it. One way would be to point out that there are two ways of reading a potential 'challenge' – a strong version (in which Japan would make its own bid for global hegemony) and a slightly weaker version (in which Japan contested American hegemony over Japan). Indeed, one might argue that there was some Japanese contestation of the latter – above all, the massive Anpo protests of 1960 and the ongoing struggle over Okinawa. The puzzle would then become: why didn't the challenge in civil society/on the streets manifest as a challenge to the LDP's electoral dominance? (Of course, your answer probably wouldn't change much – Japan was benefitting economically etc. etc.)
 That Japan represented a serious threat to US hegemony globally is much more difficult to believe, but many Americans did believe this in the 1980s. That they did perhaps says more about a failure to understand dollar hegemony and the nature of American hegemony under Bretton Woods II than it does about Japan.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-1">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Right – I'm not sure anyone would have expected a Japanese push for hegemony as an occupied country! 
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-2">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Like other 'semi-civilized' countries that had extraterritoriality imposed upon them, Japan was forced to modernise its state along western lines (codifying and centralising its legal system, for instance) in order to gain territorial sovereignty. It did so faster than any other state, removing extraterritoriality by 1899, but its political system became much more western in the process.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-3">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Hmm – how deeply rooted is this 'reverence'? What about the Russo-Japanese War – widely celebrated in the colonized world – or the pan-Asian, anti-Western imperialism of the Greater East Asia Co-Prosperity Sphere?
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-4">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                But again, if this was deeply rooted in Japanese psychology, how could we explain their imperialist bid before the war? 
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-5">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Indeed, Yoshida was able to play on the threat of this domestic, socialist, and potentially neutralist opposition in order to win concessions from the Americans.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-6">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Above all, by leaving the yen undervalued relative to the dollar until the collapse of Bretton Woods I. Japan could not have afforded to break with the US in Bretton Woods II, meanwhile, because by then the US was an indispensable export market.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-7">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                There's definitely some truth to this, but I would note that the question of Japanese rearmament was one of the thorniest aspects of US-Japanese relations, particularly during the Korean and Vietnam Wars.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-8">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-9">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Right – there's something interesting about the way that popular discontent was filtered out by the LDP.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-10">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Right. Japan also wanted to trade with Communist China, Yoshida arguing that "Japan’s capitalist penetration of the China market would help reorient the PRC and hasten a split between Moscow and Beijing" (Guthrie-Shimuzu)
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-11">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Above all, of course, by referring to the pacifist clause in the constitution that the Americans had forced on them, before the Truman administration  reversed course and tried to get Japan to rearm. Paradoxically the LDP was able to defy these demands by pointing to this constitution...
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-12">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Well, I'm not sure I would say that – the Japanese purchase of American debt was pretty crucial, for instance, to the American resurgence under Reagan.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-13">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-14">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Excellent details. But why am I getting the impression that Japan was able to defy American demands quite easily? 
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-15">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Well, you could also give a liberal explanation that focussed on the continued material existence of their complex interdependence.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-16">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Not at this time, anyway.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-17">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Right
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-18">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good point. This is a very well-researched and comprehensive essay – well done. It covers so many bases that I think the essay might have benefitted from a concluding paragraph in which you weighed up the relationship between and relative importance of all these different factors, though the ultimately beneficial nature of the relationship with the US, of course, stands out.
-I don't have too much to add, except to return to my comment at the beginning that the question is almost so easy to answer that it demands complication. I made a few suggestions above, but another way you might go about this (and I think there were plenty of suggestions along these lines in the content of your essay) is to say that the Japanese did defy the US quite frequently, even if they did not challenge the broad contours of the alliance. Indeed, one of the ways in which they defied the Americans was by subordinating themselves to that security alliance so completely – by constantly dragging their feet on rearmament! There may have been no challenge to US hegemony at a government level, in other words, but Japan exercised plenty of agency – not least in refusing to remilitarise as a 'normal' great power would. 
-            </div>
-        </div>
-        
-    </div>
+</div>
+</div><div class="docx-comment-card" id="comment-1">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Right – I'm not sure anyone would have expected a Japanese push for hegemony as an occupied country!
+</div>
+</div><div class="docx-comment-card" id="comment-2">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Like other 'semi-civilized' countries that had extraterritoriality imposed upon them, Japan was forced to modernise its state along western lines (codifying and centralising its legal system, for instance) in order to gain territorial sovereignty. It did so faster than any other state, removing extraterritoriality by 1899, but its political system became much more western in the process.
+</div>
+</div><div class="docx-comment-card" id="comment-3">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Hmm – how deeply rooted is this 'reverence'? What about the Russo-Japanese War – widely celebrated in the colonized world – or the pan-Asian, anti-Western imperialism of the Greater East Asia Co-Prosperity Sphere?
+</div>
+</div><div class="docx-comment-card" id="comment-4">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+But again, if this was deeply rooted in Japanese psychology, how could we explain their imperialist bid before the war?
+</div>
+</div><div class="docx-comment-card" id="comment-5">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Indeed, Yoshida was able to play on the threat of this domestic, socialist, and potentially neutralist opposition in order to win concessions from the Americans.
+</div>
+</div><div class="docx-comment-card" id="comment-6">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Above all, by leaving the yen undervalued relative to the dollar until the collapse of Bretton Woods I. Japan could not have afforded to break with the US in Bretton Woods II, meanwhile, because by then the US was an indispensable export market.
+</div>
+</div><div class="docx-comment-card" id="comment-7">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+There's definitely some truth to this, but I would note that the question of Japanese rearmament was one of the thorniest aspects of US-Japanese relations, particularly during the Korean and Vietnam Wars.
+</div>
+</div><div class="docx-comment-card" id="comment-8">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good
+</div>
+</div><div class="docx-comment-card" id="comment-9">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Right – there's something interesting about the way that popular discontent was filtered out by the LDP.
+</div>
+</div><div class="docx-comment-card" id="comment-10">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Right. Japan also wanted to trade with Communist China, Yoshida arguing that "Japan’s capitalist penetration of the China market would help reorient the PRC and hasten a split between Moscow and Beijing" (Guthrie-Shimuzu)
+</div>
+</div><div class="docx-comment-card" id="comment-11">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Above all, of course, by referring to the pacifist clause in the constitution that the Americans had forced on them, before the Truman administration  reversed course and tried to get Japan to rearm. Paradoxically the LDP was able to defy these demands by pointing to this constitution...
+</div>
+</div><div class="docx-comment-card" id="comment-12">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Well, I'm not sure I would say that – the Japanese purchase of American debt was pretty crucial, for instance, to the American resurgence under Reagan.
+</div>
+</div><div class="docx-comment-card" id="comment-13">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good
+</div>
+</div><div class="docx-comment-card" id="comment-14">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Excellent details. But why am I getting the impression that Japan was able to defy American demands quite easily?
+</div>
+</div><div class="docx-comment-card" id="comment-15">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Well, you could also give a liberal explanation that focussed on the continued material existence of their complex interdependence.
+</div>
+</div><div class="docx-comment-card" id="comment-16">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Not at this time, anyway.
+</div>
+</div><div class="docx-comment-card" id="comment-17">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Right
+</div>
+</div><div class="docx-comment-card" id="comment-18">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good point. This is a very well-researched and comprehensive essay – well done. It covers so many bases that I think the essay might have benefitted from a concluding paragraph in which you weighed up the relationship between and relative importance of all these different factors, though the ultimately beneficial nature of the relationship with the US, of course, stands out.
+I don't have too much to add, except to return to my comment at the beginning that the question is almost so easy to answer that it demands complication. I made a few suggestions above, but another way you might go about this (and I think there were plenty of suggestions along these lines in the content of your essay) is to say that the Japanese did defy the US quite frequently, even if they did not challenge the broad contours of the alliance. Indeed, one of the ways in which they defied the Americans was by subordinating themselves to that security alliance so completely – by constantly dragging their feet on rearmament! There may have been no challenge to US hegemony at a government level, in other words, but Japan exercised plenty of agency – not least in refusing to remilitarise as a 'normal' great power would.
+</div>
+</div>
+</div>
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const highlights = document.querySelectorAll('.docx-highlight');
-        const cards = document.querySelectorAll('.docx-comment-card');
+document.addEventListener('DOMContentLoaded', () => {
+    const highlights = document.querySelectorAll('.docx-highlight');
+    const cards = document.querySelectorAll('.docx-comment-card');
 
-        function toggleComment(commentId) {
-            const wasActive = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`).classList.contains('active');
-            
-            // Remove active class from all
-            highlights.forEach(h => h.classList.remove('active'));
-            cards.forEach(c => c.classList.remove('active'));
+    function toggleComment(commentId) {
+        const docxHighlight = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`);
+        if (!docxHighlight) return;
+        
+        const wasActive = docxHighlight.classList.contains('active');
+        
+        // Remove active class from all
+        highlights.forEach(h => h.classList.remove('active'));
+        cards.forEach(c => c.classList.remove('active'));
 
-            if (!wasActive) {
-                // Add active to targeted
-                const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
-                const targetCard = document.getElementById(`comment-${commentId}`);
+        if (!wasActive) {
+            // Add active to targeted
+            const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
+            const targetCard = document.getElementById(`comment-${commentId}`);
 
-                targetHighlights.forEach(h => h.classList.add('active'));
-                if (targetCard) {
-                    targetCard.classList.add('active');
-                }
+            targetHighlights.forEach(h => h.classList.add('active'));
+            if (targetCard) {
+                targetCard.classList.add('active');
             }
         }
+    }
 
-        highlights.forEach(highlight => {
-            highlight.addEventListener('click', (e) => {
-                e.preventDefault();
-                const cId = highlight.getAttribute('data-comment-id');
-                toggleComment(cId);
-            });
-        });
-        
-        cards.forEach(card => {
-            card.addEventListener('click', () => {
-                const cId = card.id.replace('comment-', '');
-                toggleComment(cId);
-            });
+    highlights.forEach(highlight => {
+        highlight.addEventListener('click', (e) => {
+            e.preventDefault();
+            const cId = highlight.getAttribute('data-comment-id');
+            toggleComment(cId);
         });
     });
+    
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const cId = card.id.replace('comment-', '');
+            toggleComment(cId);
+        });
+    });
+});
 </script>

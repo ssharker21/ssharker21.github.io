@@ -5,104 +5,104 @@ layout: single
 ---
 
 <style>
+.docx-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.docx-document {
+    flex: 2;
+    font-family: inherit;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+.docx-document p {
+    margin-bottom: 1rem;
+}
+
+.docx-sidebar {
+    flex: 1;
+    position: sticky;
+    top: 2rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.docx-highlight {
+    background-color: transparent;
+    border-bottom: 2px solid #500bff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 0 2px;
+}
+
+.docx-highlight:hover, .docx-highlight.active {
+    background-color: rgba(80, 11, 255, 0.15);
+}
+
+.docx-comment-card {
+    background-color: #FEFEFA;
+    border: 1px solid #7c7c7c;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.docx-comment-card.active {
+    opacity: 1;
+    border-color: #500bff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.docx-comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #7c7c7c;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.2rem;
+}
+
+.docx-comment-author {
+    font-weight: bold;
+    color: #000;
+    font-style: normal;
+}
+
+.docx-comment-body {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    font-family: inherit;
+}
+
+@media (max-width: 768px) {
     .docx-container {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        margin-top: 2rem;
-        align-items: flex-start;
+        flex-direction: column;
     }
-
-    .docx-document {
-        flex: 2;
-        font-family: inherit;
-        font-size: 1.1rem;
-        line-height: 1.6rem;
-        text-align: justify;
-    }
-    
-    .docx-document p {
-        margin-bottom: 1rem;
-    }
-
     .docx-sidebar {
-        flex: 1;
-        position: sticky;
-        top: 2rem;
-        max-height: 80vh;
-        overflow-y: auto;
-        padding-right: 1rem;
+        position: static;
+        max-height: none;
+        border-top: 2px solid #7c7c7c;
+        padding-top: 2rem;
+        margin-top: 2rem;
     }
-
-    .docx-highlight {
-        background-color: transparent;
-        border-bottom: 2px solid #500bff;
-        cursor: pointer;
-        transition: background-color 0.2s ease;
-        padding: 0 2px;
-    }
-
-    .docx-highlight:hover, .docx-highlight.active {
-        background-color: rgba(80, 11, 255, 0.15);
-    }
-
-    .docx-comment-card {
-        background-color: #FEFEFA;
-        border: 1px solid #7c7c7c;
-        border-radius: 4px;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        opacity: 0.6;
-        transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
-        cursor: pointer;
-    }
-
-    .docx-comment-card.active {
-        opacity: 1;
-        border-color: #500bff;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .docx-comment-header {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 0.5rem;
-        font-size: 0.9rem;
-        font-style: italic;
-        color: #7c7c7c;
-        border-bottom: 1px solid #e0e0e0;
-        padding-bottom: 0.2rem;
-    }
-
-    .docx-comment-author {
-        font-weight: bold;
-        color: #000;
-        font-style: normal;
-    }
-
-    .docx-comment-body {
-        font-size: 0.95rem;
-        line-height: 1.4rem;
-        font-family: inherit;
-    }
-    
-    @media (max-width: 768px) {
-        .docx-container {
-            flex-direction: column;
-        }
-        .docx-sidebar {
-            position: static;
-            max-height: none;
-            border-top: 2px solid #7c7c7c;
-            padding-top: 2rem;
-            margin-top: 2rem;
-        }
-    }
+}
 </style>
 
 <div class="docx-container">
-    <div class="docx-document">
-        <p><b>Détente was both promoted and undermined by domestic political considerations.’ Discuss.</b></p>
+<div class="docx-document">
+<p><b>Détente was both promoted and undermined by domestic political considerations.’ Discuss.</b></p>
 <p></p>
 <p>Domestic political considerations undoubtedly promoted and undermined détente, in part. In this essay, I answer “to what extent?” To do so, I appraise a list of potential causes of détente’s rise and fall.</p>
 <p></p>
@@ -154,208 +154,177 @@ layout: single
 <p>Westad, O A, ‘The Road to Kabul’, in Westad, O A, <i>The Fall of Détente: Soviet-American Relations in the Carter Years</i>, 1997</p>
 <p>Zubok, Vladislav, <i>A Failed Empire: The Soviet Union in the Cold War from Stalin to Gorbachev</i>, 2007</p>
 
-    </div>
-    <div class="docx-sidebar">
-        
-        <div class="docx-comment-card" id="comment-0">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                But it doesn't fall flat as an explanation for the American motivation for détente, and the Soviets did come to the table after Nixon went to China.
+</div>
+<div class="docx-sidebar">
+<div class="docx-comment-card" id="comment-0">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+But it doesn't fall flat as an explanation for the American motivation for détente, and the Soviets did come to the table after Nixon went to China.
 Kissinger and Nixon were actually misled about Moscow's capacity to influence Hanoi. It resulted in the promotion of détente, in any case.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-1">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good, but I don't fully understand why you consider Soviet engagement in détente as more significant – if anything, the Soviets had been open to détente (understood as the normalisation of superpower relations) for some time.
+</div>
+</div><div class="docx-comment-card" id="comment-1">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good, but I don't fully understand why you consider Soviet engagement in détente as more significant – if anything, the Soviets had been open to détente (understood as the normalisation of superpower relations) for some time.
 In general, I would recommend that you use your first paragraph to introduce the structure of your essay, briefly covering how your argument is going to proceed. It can often help to write this after having written the rest of the essay.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-2">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good. Worth noting that De Gaulle also reached out to Eastern European states like Romania (which he visited in 1968) in an attempt to promote a European détente separate from the two-bloc system; this understanding of détente could not be more different from the Soviet understanding, which was about the ratification of that system.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-3">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Excellent summary. Again, though, when we look underneath détente we find very different national motivations: Ostpolitik was ultimately a different way of arriving at the reunification of Germany. The recognition of the status quo and the existence of the GDR was intended to nurture the interdependency that would eventually topple that system; this was obviously incompatible with the Soviet/Eastern Bloc understanding of détente.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-4">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Brezhnev certainly represented a calmer figure than Khrushchev, without the latter's tendency towards geopolitical gambles and brinksmanship. But the philosophy of peaceful coexistence had been around, on the Soviet side, for a while – as part of their socialisation into the international system, we might say, the Soviets had come to crave recognition of their equal superpower status.  
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-5">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Right – exactly. But wasn't this a long-term shift, and doesn't it suggest that Brezhnev's personality was less important than this long-term shift in Soviet preferences?
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-6">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Excellent
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-7">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Indeed. Anders Stephanson interestingly suggests that nuclear bombs and nuclear strategy itself served as an important "ideology killer" – nuclear strategists from the mid-1950s presupposed a kind of rational calculation of costs and benefits on both sides; there was a tacit recognition of sameness here.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-8">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Very good, and the invocation of human rights in basket III simultaneously became a weapon for neoconservatives and Soviet bloc dissidents to contest Soviet legitimacy all over again. We might say, then, that the Helsinki Final Act represents the culmination of détente as well as the beginning of the end. 
+</div>
+</div><div class="docx-comment-card" id="comment-2">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good. Worth noting that De Gaulle also reached out to Eastern European states like Romania (which he visited in 1968) in an attempt to promote a European détente separate from the two-bloc system; this understanding of détente could not be more different from the Soviet understanding, which was about the ratification of that system.
+</div>
+</div><div class="docx-comment-card" id="comment-3">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Excellent summary. Again, though, when we look underneath détente we find very different national motivations: Ostpolitik was ultimately a different way of arriving at the reunification of Germany. The recognition of the status quo and the existence of the GDR was intended to nurture the interdependency that would eventually topple that system; this was obviously incompatible with the Soviet/Eastern Bloc understanding of détente.
+</div>
+</div><div class="docx-comment-card" id="comment-4">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Brezhnev certainly represented a calmer figure than Khrushchev, without the latter's tendency towards geopolitical gambles and brinksmanship. But the philosophy of peaceful coexistence had been around, on the Soviet side, for a while – as part of their socialisation into the international system, we might say, the Soviets had come to crave recognition of their equal superpower status.
+</div>
+</div><div class="docx-comment-card" id="comment-5">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Right – exactly. But wasn't this a long-term shift, and doesn't it suggest that Brezhnev's personality was less important than this long-term shift in Soviet preferences?
+</div>
+</div><div class="docx-comment-card" id="comment-6">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Excellent
+</div>
+</div><div class="docx-comment-card" id="comment-7">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Indeed. Anders Stephanson interestingly suggests that nuclear bombs and nuclear strategy itself served as an important "ideology killer" – nuclear strategists from the mid-1950s presupposed a kind of rational calculation of costs and benefits on both sides; there was a tacit recognition of sameness here.
+</div>
+</div><div class="docx-comment-card" id="comment-8">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Very good, and the invocation of human rights in basket III simultaneously became a weapon for neoconservatives and Soviet bloc dissidents to contest Soviet legitimacy all over again. We might say, then, that the Helsinki Final Act represents the culmination of détente as well as the beginning of the end. 
 Helsinki also brings superpower détente and European détente together, and shows how varied, if not incompatible, the different parties of détente were in their motivations. See this excerpt from Andrew Preston (https://www.lrb.co.uk/the-paper/v41/n12/andrew-preston/heresy-from-lesser-voices):
 "From the beginning, the Americans showed little serious interest in the CSCE, agreeing to participate mainly in order to further the emerging détente with Moscow. Henry Kissinger could have played a starring role if he’d wanted to, but he worried that the Western Europeans’ obsession with human rights and freedom of movement would interfere with superpower détente, especially the delicate negotiations over nuclear arms control. He was happy to facilitate the Soviets’ objective of greater stability – that was his aim too – and he even worked behind the scenes with Soviet diplomats to counteract some of the efforts made by America’s Western partners. ‘Our allies are getting totally obnoxious,’ he complained when they pressed for further Soviet concessions on the free exchange of information. The Western Europeans and Canadians saw things differently. They didn’t want to stabilise the Cold War so much as transcend it..."
 Like détente more generally, then, we might say that different actors saw what they wanted to see in Helsinki – that the rapprochement depended on this ambiguity, and unravelled when these different understandings of the rapprochement were exposed.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-9">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                I agree – Nixon's ouster was hugely important – but then why don't you give Nixon more credit for the beginning of détente?
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-10">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Excellent paragraph!
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-11">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Good
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-12">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                What do you make of arguments about the heterogeneity of Soviet bureaucracy? I’m thinking of Westad's argument in the Global Cold War that from the early 1970s on there was “a kind of division of power, in which Foreign Minister Gromyko’s supremacy as the main interpreter of Brezhnev’s détente policies was kept intact, but where an increasing amount of policy initiatives outside the immediate détente framework were left to the CC departments and the KGB.” This would be a slightly different way of explaining the Soviets’ more daring policies in the Third World.
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-13">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Yes – massively important
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-14">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Very good
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-15">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                Not Angola or the Ogaden War?
-            </div>
-        </div>
-        
-        <div class="docx-comment-card" id="comment-16">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">Samuel Holcroft</span>
-            </div>
-            <div class="docx-comment-body">
-                This is your best essay yet, with some really crisp exposition of complex events. The characterisation of the Soviet story is deep and persuasive. I'm  only left unsure as to why you minimise the role of Nixon and Kissinger and the change in American foreign policy – you dispense with this quite quickly at the beginning, but I would argue that this was at least as important as the Soviet and European motivations for détente.
+</div>
+</div><div class="docx-comment-card" id="comment-9">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+I agree – Nixon's ouster was hugely important – but then why don't you give Nixon more credit for the beginning of détente?
+</div>
+</div><div class="docx-comment-card" id="comment-10">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Excellent paragraph!
+</div>
+</div><div class="docx-comment-card" id="comment-11">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Good
+</div>
+</div><div class="docx-comment-card" id="comment-12">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+What do you make of arguments about the heterogeneity of Soviet bureaucracy? I’m thinking of Westad's argument in the Global Cold War that from the early 1970s on there was “a kind of division of power, in which Foreign Minister Gromyko’s supremacy as the main interpreter of Brezhnev’s détente policies was kept intact, but where an increasing amount of policy initiatives outside the immediate détente framework were left to the CC departments and the KGB.” This would be a slightly different way of explaining the Soviets’ more daring policies in the Third World.
+</div>
+</div><div class="docx-comment-card" id="comment-13">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Yes – massively important
+</div>
+</div><div class="docx-comment-card" id="comment-14">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Very good
+</div>
+</div><div class="docx-comment-card" id="comment-15">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+Not Angola or the Ogaden War?
+</div>
+</div><div class="docx-comment-card" id="comment-16">
+<div class="docx-comment-header">
+<span class="docx-comment-author">Samuel Holcroft</span>
+</div>
+<div class="docx-comment-body">
+This is your best essay yet, with some really crisp exposition of complex events. The characterisation of the Soviet story is deep and persuasive. I'm  only left unsure as to why you minimise the role of Nixon and Kissinger and the change in American foreign policy – you dispense with this quite quickly at the beginning, but I would argue that this was at least as important as the Soviet and European motivations for détente.
 Finally, see my comments above on the polyvalence of détente. If the European détente lasted longer than superpower détente – as you hint at one point – should we even speak of it as one process, or were there two (or more) détentes?
-            </div>
-        </div>
-        
-    </div>
+</div>
+</div>
+</div>
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const highlights = document.querySelectorAll('.docx-highlight');
-        const cards = document.querySelectorAll('.docx-comment-card');
+document.addEventListener('DOMContentLoaded', () => {
+    const highlights = document.querySelectorAll('.docx-highlight');
+    const cards = document.querySelectorAll('.docx-comment-card');
 
-        function toggleComment(commentId) {
-            const wasActive = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`).classList.contains('active');
-            
-            // Remove active class from all
-            highlights.forEach(h => h.classList.remove('active'));
-            cards.forEach(c => c.classList.remove('active'));
+    function toggleComment(commentId) {
+        const docxHighlight = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`);
+        if (!docxHighlight) return;
+        
+        const wasActive = docxHighlight.classList.contains('active');
+        
+        // Remove active class from all
+        highlights.forEach(h => h.classList.remove('active'));
+        cards.forEach(c => c.classList.remove('active'));
 
-            if (!wasActive) {
-                // Add active to targeted
-                const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
-                const targetCard = document.getElementById(`comment-${commentId}`);
+        if (!wasActive) {
+            // Add active to targeted
+            const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
+            const targetCard = document.getElementById(`comment-${commentId}`);
 
-                targetHighlights.forEach(h => h.classList.add('active'));
-                if (targetCard) {
-                    targetCard.classList.add('active');
-                }
+            targetHighlights.forEach(h => h.classList.add('active'));
+            if (targetCard) {
+                targetCard.classList.add('active');
             }
         }
+    }
 
-        highlights.forEach(highlight => {
-            highlight.addEventListener('click', (e) => {
-                e.preventDefault();
-                const cId = highlight.getAttribute('data-comment-id');
-                toggleComment(cId);
-            });
-        });
-        
-        cards.forEach(card => {
-            card.addEventListener('click', () => {
-                const cId = card.id.replace('comment-', '');
-                toggleComment(cId);
-            });
+    highlights.forEach(highlight => {
+        highlight.addEventListener('click', (e) => {
+            e.preventDefault();
+            const cId = highlight.getAttribute('data-comment-id');
+            toggleComment(cId);
         });
     });
+    
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const cId = card.id.replace('comment-', '');
+            toggleComment(cId);
+        });
+    });
+});
 </script>

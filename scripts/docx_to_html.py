@@ -82,172 +82,180 @@ def parse_document(docx_zip):
     return ''.join(html_parts)
 
 def generate_html(title, document_html, comments_dict):
+    import textwrap
     comments_html = []
     for c_id, comment in comments_dict.items():
-        date_str = comment['date'][:10] if comment['date'] else ''
-        comments_html.append(f'''
-        <div class="docx-comment-card" id="comment-{c_id}">
-            <div class="docx-comment-header">
-                <span class="docx-comment-author">{comment['author']}</span>
-            </div>
-            <div class="docx-comment-body">
-                {comment['text']}
-            </div>
-        </div>
-        ''')
+        # Ensure the comment text is also safely dedented if needed
+        safe_text = str(comment['text']).strip()
+        comments_html.append(textwrap.dedent(f'''
+<div class="docx-comment-card" id="comment-{c_id}">
+<div class="docx-comment-header">
+<span class="docx-comment-author">{comment['author']}</span>
+</div>
+<div class="docx-comment-body">
+{safe_text}
+</div>
+</div>
+''').strip())
         
-    template = f"""---
+    template = textwrap.dedent(f"""---
 title: "{title}"
 type: page
 layout: single
 ---
 
 <style>
+.docx-container {{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: flex-start;
+}}
+
+.docx-document {{
+    flex: 2;
+    font-family: inherit;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: justify;
+}}
+
+.docx-document p {{
+    margin-bottom: 1rem;
+}}
+
+.docx-sidebar {{
+    flex: 1;
+    position: sticky;
+    top: 2rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 1rem;
+}}
+
+.docx-highlight {{
+    background-color: transparent;
+    border-bottom: 2px solid #500bff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 0 2px;
+}}
+
+.docx-highlight:hover, .docx-highlight.active {{
+    background-color: rgba(80, 11, 255, 0.15);
+}}
+
+.docx-comment-card {{
+    background-color: #FEFEFA;
+    border: 1px solid #7c7c7c;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
+    cursor: pointer;
+}}
+
+.docx-comment-card.active {{
+    opacity: 1;
+    border-color: #500bff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}}
+
+.docx-comment-header {{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #7c7c7c;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.2rem;
+}}
+
+.docx-comment-author {{
+    font-weight: bold;
+    color: #000;
+    font-style: normal;
+}}
+
+.docx-comment-body {{
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    font-family: inherit;
+}}
+
+@media (max-width: 768px) {{
     .docx-container {{
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        margin-top: 2rem;
-        align-items: flex-start;
+        flex-direction: column;
     }}
-
-    .docx-document {{
-        flex: 2;
-        font-family: inherit;
-        font-size: 1.1rem;
-        line-height: 1.6rem;
-        text-align: justify;
-    }}
-    
-    .docx-document p {{
-        margin-bottom: 1rem;
-    }}
-
     .docx-sidebar {{
-        flex: 1;
-        position: sticky;
-        top: 2rem;
-        max-height: 80vh;
-        overflow-y: auto;
-        padding-right: 1rem;
+        position: static;
+        max-height: none;
+        border-top: 2px solid #7c7c7c;
+        padding-top: 2rem;
+        margin-top: 2rem;
     }}
-
-    .docx-highlight {{
-        background-color: transparent;
-        border-bottom: 2px solid #500bff;
-        cursor: pointer;
-        transition: background-color 0.2s ease;
-        padding: 0 2px;
-    }}
-
-    .docx-highlight:hover, .docx-highlight.active {{
-        background-color: rgba(80, 11, 255, 0.15);
-    }}
-
-    .docx-comment-card {{
-        background-color: #FEFEFA;
-        border: 1px solid #7c7c7c;
-        border-radius: 4px;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        opacity: 0.6;
-        transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
-        cursor: pointer;
-    }}
-
-    .docx-comment-card.active {{
-        opacity: 1;
-        border-color: #500bff;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }}
-
-    .docx-comment-header {{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 0.5rem;
-        font-size: 0.9rem;
-        font-style: italic;
-        color: #7c7c7c;
-        border-bottom: 1px solid #e0e0e0;
-        padding-bottom: 0.2rem;
-    }}
-
-    .docx-comment-author {{
-        font-weight: bold;
-        color: #000;
-        font-style: normal;
-    }}
-
-    .docx-comment-body {{
-        font-size: 0.95rem;
-        line-height: 1.4rem;
-        font-family: inherit;
-    }}
-    
-    @media (max-width: 768px) {{
-        .docx-container {{
-            flex-direction: column;
-        }}
-        .docx-sidebar {{
-            position: static;
-            max-height: none;
-            border-top: 2px solid #7c7c7c;
-            padding-top: 2rem;
-            margin-top: 2rem;
-        }}
-    }}
+}}
 </style>
 
 <div class="docx-container">
-    <div class="docx-document">
-        {document_html}
-    </div>
-    <div class="docx-sidebar">
-        {''.join(comments_html)}
-    </div>
+<div class="docx-document">
+{document_html}
 </div>
-
+<div class="docx-sidebar">
+{''.join(comments_html)}
+</div>
+</div>
+""")
+    # Append script part without textwrap dedent just in case it messes up {} braces
+    script = """
 <script>
-    document.addEventListener('DOMContentLoaded', () => {{
-        const highlights = document.querySelectorAll('.docx-highlight');
-        const cards = document.querySelectorAll('.docx-comment-card');
+document.addEventListener('DOMContentLoaded', () => {
+    const highlights = document.querySelectorAll('.docx-highlight');
+    const cards = document.querySelectorAll('.docx-comment-card');
 
-        function toggleComment(commentId) {{
-            const wasActive = document.querySelector(`.docx-highlight[data-comment-id="${{commentId}}"]`).classList.contains('active');
-            
-            // Remove active class from all
-            highlights.forEach(h => h.classList.remove('active'));
-            cards.forEach(c => c.classList.remove('active'));
-
-            if (!wasActive) {{
-                // Add active to targeted
-                const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${{commentId}}"]`);
-                const targetCard = document.getElementById(`comment-${{commentId}}`);
-
-                targetHighlights.forEach(h => h.classList.add('active'));
-                if (targetCard) {{
-                    targetCard.classList.add('active');
-                }}
-            }}
-        }}
-
-        highlights.forEach(highlight => {{
-            highlight.addEventListener('click', (e) => {{
-                e.preventDefault();
-                const cId = highlight.getAttribute('data-comment-id');
-                toggleComment(cId);
-            }});
-        }});
+    function toggleComment(commentId) {
+        const docxHighlight = document.querySelector(`.docx-highlight[data-comment-id="${commentId}"]`);
+        if (!docxHighlight) return;
         
-        cards.forEach(card => {{
-            card.addEventListener('click', () => {{
-                const cId = card.id.replace('comment-', '');
-                toggleComment(cId);
-            }});
-        }});
-    }});
+        const wasActive = docxHighlight.classList.contains('active');
+        
+        // Remove active class from all
+        highlights.forEach(h => h.classList.remove('active'));
+        cards.forEach(c => c.classList.remove('active'));
+
+        if (!wasActive) {
+            // Add active to targeted
+            const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${commentId}"]`);
+            const targetCard = document.getElementById(`comment-${commentId}`);
+
+            targetHighlights.forEach(h => h.classList.add('active'));
+            if (targetCard) {
+                targetCard.classList.add('active');
+            }
+        }
+    }
+
+    highlights.forEach(highlight => {
+        highlight.addEventListener('click', (e) => {
+            e.preventDefault();
+            const cId = highlight.getAttribute('data-comment-id');
+            toggleComment(cId);
+        });
+    });
+    
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const cId = card.id.replace('comment-', '');
+            toggleComment(cId);
+        });
+    });
+});
 </script>
 """
+    return template + script
     return template
 
 def convert(title, input_docx, output_md):
