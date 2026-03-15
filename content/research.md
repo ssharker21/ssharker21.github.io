@@ -9,31 +9,31 @@ title: Research
 <div class="card-right">
 <h3>Cold War International Relations</h3>
 <details>
-<summary>Click the dropdown to view my five interactive tutorial essays on Cold War International Relations. They feature an interactive reading experience for tutor comments.</summary>
+<summary>Click the dropdown to view five ~2500-word tutorial essays, under the supervision of Departmental Lecturer Samuel Holcroft.</summary>
 <br>
 
 #### Week 2
-"Why did the Cold War stay 'cold' between the Superpowers?"<br>
+"To what extent did ‘containment’ and ‘peaceful coexistence’ change the nature of the Cold War?"<br>
 _Read the interactive essay [here](/papers/cw_week2/)._
 <br>
 
 #### Week 3
-"How far did mutual misperception contribute to the outbreak of the Korean War?"<br>
+"Détente was both promoted and undermined by domestic political considerations.’ Discuss."<br>
 _Read the interactive essay [here](/papers/cw_week3/)._
 <br>
 
 #### Week 4
-"Assess the consequences of the Cuban Missile Crisis for the Cold War."<br>
+"What factors led to the end of the Cold War?"<br>
 _Read the interactive essay [here](/papers/cw_week4/)._
 <br>
 
 #### Week 5
-"Why were the Superpower agreements of the 1970s so fragile?"<br>
+"Where should one look for the roots of Chinese foreign policy, 1949-91?"<br>
 _Read the interactive essay [here](/papers/cw_week5/)._
 <br>
 
 #### Week 6
-"Why did the Cold War end when it did, and exactly how did the East succumb?"<br>
+"Why was there no Japanese challenge to US political hegemony 1952-1991?"<br>
 _Read the interactive essay [here](/papers/cw_week6/)._
 <br>
 
