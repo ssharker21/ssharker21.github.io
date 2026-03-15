@@ -5,21 +5,27 @@ layout: single
 ---
 
 <style>
+/* Override default theme width to allow the document and sidebar to breathe */
+body {
+    max-width: 1000px !important;
+}
+
 .docx-container {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 2rem;
     align-items: flex-start;
 }
 
 .docx-document {
-    flex: 2;
+    flex: 2.2;
     font-family: inherit;
     font-size: 1.1rem;
     line-height: 1.6rem;
     text-align: justify;
 }
+
 
 .docx-document p {
     margin-bottom: 1rem;
