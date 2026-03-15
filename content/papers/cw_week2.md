@@ -262,6 +262,9 @@ document.addEventListener('DOMContentLoaded', () => {
             targetHighlights.forEach(h => h.classList.add('active'));
             if (targetCard) {
                 targetCard.classList.add('active');
+                
+                // Smoothly scroll the sidebar to the card without jumping the whole page
+                targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }
         }
     }
