@@ -81,7 +81,7 @@ def parse_document(docx_zip):
             
     return ''.join(html_parts)
 
-def generate_html(document_html, comments_dict):
+def generate_html(title, document_html, comments_dict):
     comments_html = []
     for c_id, comment in comments_dict.items():
         date_str = comment['date'][:10] if comment['date'] else ''
@@ -89,7 +89,6 @@ def generate_html(document_html, comments_dict):
         <div class="docx-comment-card" id="comment-{c_id}">
             <div class="docx-comment-header">
                 <span class="docx-comment-author">{comment['author']}</span>
-                <span class="docx-comment-date">{date_str}</span>
             </div>
             <div class="docx-comment-body">
                 {comment['text']}
@@ -97,159 +96,130 @@ def generate_html(document_html, comments_dict):
         </div>
         ''')
         
-    template = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Document</title>
-    <style>
-        :root {{
-            --bg-color: #ffffff;
-            --text-color: #333333;
-            --sidebar-bg: #f9f9f9;
-            --card-bg: #ffffff;
-            --card-border: #e0e0e0;
-            --highlight-bg: rgba(255, 213, 0, 0.4);
-            --highlight-active: rgba(255, 213, 0, 0.8);
-            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }}
-        
-        @media (prefers-color-scheme: dark) {{
-            :root {{
-                --bg-color: #121212;
-                --text-color: #e0e0e0;
-                --sidebar-bg: #1e1e1e;
-                --card-bg: #2d2d2d;
-                --card-border: #444444;
-                --highlight-bg: rgba(255, 213, 0, 0.3);
-                --highlight-active: rgba(255, 213, 0, 0.6);
-            }}
-        }}
+    template = f"""---
+title: "{title}"
+type: page
+layout: single
+---
 
-        body {{
-            margin: 0;
-            padding: 0;
-            font-family: var(--font-family);
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-        }}
+<style>
+    .docx-container {{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 2rem;
+        align-items: flex-start;
+    }}
 
+    .docx-document {{
+        flex: 2;
+        font-family: inherit;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        text-align: justify;
+    }}
+    
+    .docx-document p {{
+        margin-bottom: 1rem;
+    }}
+
+    .docx-sidebar {{
+        flex: 1;
+        position: sticky;
+        top: 2rem;
+        max-height: 80vh;
+        overflow-y: auto;
+        padding-right: 1rem;
+    }}
+
+    .docx-highlight {{
+        background-color: transparent;
+        border-bottom: 2px solid #500bff;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        padding: 0 2px;
+    }}
+
+    .docx-highlight:hover, .docx-highlight.active {{
+        background-color: rgba(80, 11, 255, 0.15);
+    }}
+
+    .docx-comment-card {{
+        background-color: #FEFEFA;
+        border: 1px solid #7c7c7c;
+        border-radius: 4px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        opacity: 0.6;
+        transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
+        cursor: pointer;
+    }}
+
+    .docx-comment-card.active {{
+        opacity: 1;
+        border-color: #500bff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }}
+
+    .docx-comment-header {{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+        font-style: italic;
+        color: #7c7c7c;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 0.2rem;
+    }}
+
+    .docx-comment-author {{
+        font-weight: bold;
+        color: #000;
+        font-style: normal;
+    }}
+
+    .docx-comment-body {{
+        font-size: 0.95rem;
+        line-height: 1.4rem;
+        font-family: inherit;
+    }}
+    
+    @media (max-width: 768px) {{
         .docx-container {{
-            display: flex;
-            max-width: 1200px;
-            margin: 0 auto;
-            height: 100vh;
-            overflow: hidden;
+            flex-direction: column;
         }}
-
-        .docx-document {{
-            flex: 2;
-            padding: 2rem 4rem;
-            overflow-y: auto;
-            font-size: 1.1rem;
-        }}
-        
-        .docx-document p {{
-            margin-bottom: 1.2rem;
-            text-align: justify;
-        }}
-
         .docx-sidebar {{
-            flex: 1;
-            background-color: var(--sidebar-bg);
-            padding: 2rem;
-            overflow-y: auto;
-            border-left: 1px solid var(--card-border);
+            position: static;
+            max-height: none;
+            border-top: 2px solid #7c7c7c;
+            padding-top: 2rem;
+            margin-top: 2rem;
         }}
+    }}
+</style>
 
-        .docx-highlight {{
-            background-color: var(--highlight-bg);
-            border-bottom: 2px solid #ffd500;
-            cursor: pointer;
-            transition: background-color 0.2s ease;
-            padding: 0 2px;
-            border-radius: 2px;
-        }}
-
-        .docx-highlight:hover, .docx-highlight.active {{
-            background-color: var(--highlight-active);
-        }}
-
-        .docx-comment-card {{
-            background-color: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 8px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-            opacity: 0.7;
-        }}
-
-        .docx-comment-card.active {{
-            opacity: 1;
-            border-color: #ffd500;
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-            transform: scale(1.02);
-        }}
-
-        .docx-comment-header {{
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
-            color: #888;
-        }}
-
-        .docx-comment-author {{
-            font-weight: 600;
-            color: var(--text-color);
-        }}
-
-        .docx-comment-body {{
-            font-size: 0.95rem;
-        }}
-        
-        /* Mobile responsive */
-        @media (max-width: 768px) {{
-            .docx-container {{
-                flex-direction: column;
-                height: auto;
-                overflow: visible;
-            }}
-            .docx-document {{
-                padding: 1rem;
-            }}
-            .docx-sidebar {{
-                border-left: none;
-                border-top: 1px solid var(--card-border);
-            }}
-        }}
-    </style>
-</head>
-<body>
-
-    <div class="docx-container">
-        <div class="docx-document">
-            {document_html}
-        </div>
-        <div class="docx-sidebar">
-            {''.join(comments_html)}
-        </div>
+<div class="docx-container">
+    <div class="docx-document">
+        {document_html}
     </div>
+    <div class="docx-sidebar">
+        {''.join(comments_html)}
+    </div>
+</div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {{
-            const highlights = document.querySelectorAll('.docx-highlight');
-            const cards = document.querySelectorAll('.docx-comment-card');
+<script>
+    document.addEventListener('DOMContentLoaded', () => {{
+        const highlights = document.querySelectorAll('.docx-highlight');
+        const cards = document.querySelectorAll('.docx-comment-card');
 
-            function activateComment(commentId) {{
-                // Remove active class from all
-                highlights.forEach(h => h.classList.remove('active'));
-                cards.forEach(c => c.classList.remove('active'));
+        function toggleComment(commentId) {{
+            const wasActive = document.querySelector(`.docx-highlight[data-comment-id="${{commentId}}"]`).classList.contains('active');
+            
+            // Remove active class from all
+            highlights.forEach(h => h.classList.remove('active'));
+            cards.forEach(c => c.classList.remove('active'));
 
+            if (!wasActive) {{
                 // Add active to targeted
                 const targetHighlights = document.querySelectorAll(`.docx-highlight[data-comment-id="${{commentId}}"]`);
                 const targetCard = document.getElementById(`comment-${{commentId}}`);
@@ -257,57 +227,45 @@ def generate_html(document_html, comments_dict):
                 targetHighlights.forEach(h => h.classList.add('active'));
                 if (targetCard) {{
                     targetCard.classList.add('active');
-                    targetCard.scrollIntoView({{ behavior: 'smooth', block: 'nearest' }});
                 }}
             }}
+        }}
 
-            highlights.forEach(highlight => {{
-                highlight.addEventListener('mouseenter', () => {{
-                    const cId = highlight.getAttribute('data-comment-id');
-                    activateComment(cId);
-                }});
-                
-                // Add click for mobile users
-                highlight.addEventListener('click', () => {{
-                    const cId = highlight.getAttribute('data-comment-id');
-                    activateComment(cId);
-                }});
-            }});
-            
-            cards.forEach(card => {{
-                card.addEventListener('mouseenter', () => {{
-                    const cId = card.id.replace('comment-', '');
-                    activateComment(cId);
-                    
-                    // scroll document to the highlight
-                    const docHighlight = document.querySelector(`.docx-highlight[data-comment-id="${{cId}}"]`);
-                    if (docHighlight) {{
-                        docHighlight.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
-                    }}
-                }});
+        highlights.forEach(highlight => {{
+            highlight.addEventListener('click', (e) => {{
+                e.preventDefault();
+                const cId = highlight.getAttribute('data-comment-id');
+                toggleComment(cId);
             }});
         }});
-    </script>
-</body>
-</html>"""
+        
+        cards.forEach(card => {{
+            card.addEventListener('click', () => {{
+                const cId = card.id.replace('comment-', '');
+                toggleComment(cId);
+            }});
+        }});
+    }});
+</script>
+"""
     return template
 
-def convert(input_docx, output_html):
-    print(f"Converting {{input_docx}} to {{output_html}}...")
+def convert(title, input_docx, output_md):
+    print(f"Converting {{input_docx}} to {{output_md}}...")
     with zipfile.ZipFile(input_docx, 'r') as docx_zip:
         comments = extract_comments(docx_zip)
         document_html = parse_document(docx_zip)
         
-    final_html = generate_html(document_html, comments)
+    final_html = generate_html(title, document_html, comments)
     
-    with open(output_html, 'w', encoding='utf-8') as f:
+    with open(output_md, 'w', encoding='utf-8') as f:
         f.write(final_html)
         
-    print("Successfully generated HTML!")
+    print("Successfully generated Markdown page!")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python docx_to_html.py <input.docx> <output.html>")
+    if len(sys.argv) != 4:
+        print("Usage: python docx_to_html.py <Title> <input.docx> <output.md>")
         sys.exit(1)
         
-    convert(sys.argv[1], sys.argv[2])
+    convert(sys.argv[1], sys.argv[2], sys.argv[3])

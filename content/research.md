@@ -6,37 +6,32 @@ title: Research
 <div class="card-right" style="flex: 1; padding: 20px;">
 <h3>Cold War International Relations</h3>
 <details>
-<summary>Click the dropdown to view my interactive tutorial essays on Cold War International Relations. Hover over highlighted text to read the comments.</summary>
+<summary>Click the dropdown to view my five interactive tutorial essays on Cold War International Relations. They feature an interactive reading experience for tutor comments.</summary>
 <br>
 
 #### Week 2
-
-_Available as an interactive document below._
-<iframe loading="lazy" src="/gallery/cold_war_ir/week_2_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+"Why did the Cold War stay 'cold' between the Superpowers?"<br>
+_Read the interactive essay [here](/papers/cw_week2/)._
 <br>
 
 #### Week 3
-
-_Available as an interactive document below._
-<iframe loading="lazy" src="/gallery/cold_war_ir/week_3_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+"How far did mutual misperception contribute to the outbreak of the Korean War?"<br>
+_Read the interactive essay [here](/papers/cw_week3/)._
 <br>
 
 #### Week 4
-
-_Available as an interactive document below._
-<iframe loading="lazy" src="/gallery/cold_war_ir/week_4_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+"Assess the consequences of the Cuban Missile Crisis for the Cold War."<br>
+_Read the interactive essay [here](/papers/cw_week4/)._
 <br>
 
 #### Week 5
-
-_Available as an interactive document below._
-<iframe loading="lazy" src="/gallery/cold_war_ir/week_5_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+"Why were the Superpower agreements of the 1970s so fragile?"<br>
+_Read the interactive essay [here](/papers/cw_week5/)._
 <br>
 
 #### Week 6
-
-_Available as an interactive document below._
-<iframe loading="lazy" src="/gallery/cold_war_ir/week_6_interactive.html" width="100%" height="600" style="border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></iframe>
+"Why did the Cold War end when it did, and exactly how did the East succumb?"<br>
+_Read the interactive essay [here](/papers/cw_week6/)._
 <br>
 
 </details>
