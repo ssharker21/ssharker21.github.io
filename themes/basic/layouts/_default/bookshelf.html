@@ -49,7 +49,7 @@
                     <div class="book-rating">
                         {{ $rating := int .my_rating }}
                         {{ range seq $rating }}★{{ end }}
-                        {{ range seq (sub 5 $rating) }}☆{{ end }}
+                        {{ range seq (sub 5 $rating) }}<span class="empty-star">★</span>{{ end }}
                     </div>
                     {{ if .review }}
                     <div class="book-review">
@@ -172,6 +172,10 @@
     .book-rating {
         color: #f4c542;
         margin-bottom: 10px;
+    }
+
+    .empty-star {
+        opacity: 0.3;
     }
 
     .book-review {
